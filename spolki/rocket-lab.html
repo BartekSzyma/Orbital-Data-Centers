@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rocket Lab (RKLB) - Orbital Data Centers</title>
+<link rel="stylesheet" href="../static/style.css">
+<script>window.SITE_ROOT="../";</script>
+</head>
+<body>
+<button id="menu-toggle" aria-label="Menu">&#9776;</button>
+<nav id="sidebar"><a class="nav-home" href="../index.html">Orbital Data Centers</a>
+<div class="nav-search"><input id="searchbox" type="search" placeholder="Szukaj... (/)" autocomplete="off"><div id="search-results"></div></div>
+<a class="nav-graf" href="../graf.html">Graf sieci powiązań</a>
+<div class="nav-sec"><span class="nav-h">Sekcje</span><ol><li><a href="../01-wprowadzenie-definicje-i-architektury.html">Wprowadzenie, definicje i architektury</a></li><li><a href="../02-weryfikacja-tez-sceptycznego-artykulu.html">Weryfikacja tez sceptycznego artykułu</a></li><li><a href="../03-fizyka-orbitalna-orbity-i-operacje.html">Fizyka orbitalna, orbity i operacje</a></li><li><a href="../04-energetyka-kosmiczna-i-fotowoltaika-orbitalna.html">Energetyka kosmiczna i fotowoltaika orbitalna</a></li><li><a href="../05-chlodzenie-i-radiacyjne-odprowadzanie-ciepla.html">Chłodzenie i radiacyjne odprowadzanie ciepła</a></li><li><a href="../06-promieniowanie-i-elektronika-rad-hard-vs-cots.html">Promieniowanie i elektronika rad-hard vs COTS</a></li><li><a href="../07-lacznosc-optyczne-isl-downlink-i-latencja.html">Łączność: optyczne ISL, downlink i latencja</a></li><li><a href="../08-niezawodnosc-serwisowanie-i-cykl-zycia-sprzetu.html">Niezawodność, serwisowanie i cykl życia sprzętu</a></li><li><a href="../09-ekonomika-i-koszty-calkowite-tco.html">Ekonomika i koszty całkowite (TCO)</a></li><li><a href="../10-gracze-i-projekty.html">Gracze i projekty</a></li><li><a href="../11-regulacje-prawo-kosmiczne-debris-i-itu.html">Regulacje, prawo kosmiczne, debris i ITU</a></li><li><a href="../12-naziemny-bottleneck-energetyczny-i-sieciowy.html">Naziemny bottleneck energetyczny i sieciowy</a></li><li><a href="../13-sentyment-spoleczny-i-moratoria-na-centra-danych.html">Sentyment społeczny i moratoria na centra danych</a></li><li><a href="../14-zrownowazony-rozwoj-i-srodowisko.html">Zrównoważony rozwój i środowisko</a></li><li><a href="../15-bezpieczenstwo-geopolityka-i-realizm-10-letni.html">Bezpieczeństwo, geopolityka i realizm 10-letni</a></li></ol></div>
+<div class="nav-sec"><span class="nav-h">Spółki - omówienie pełne</span><ul><li><a href="astroscale.html">Astroscale (186A)</a></li><li><a href="bloom-energy.html">Bloom Energy (BE)</a></li><li><a href="constellation-energy.html">Constellation Energy (CEG)</a></li><li><a href="ge-vernova.html">GE Vernova (GEV)</a></li><li><a href="mda-space.html">MDA Space (MDA)</a></li><li><a href="mynaric.html">Mynaric (MYNA)</a></li><li><a href="oklo.html">Oklo (OKLO)</a></li><li><a href="redwire.html">Redwire (RDW)</a></li><li><a class="active" href="rocket-lab.html">Rocket Lab (RKLB)</a></li><li><a href="siemens-energy.html">Siemens Energy (ENR)</a></li><li><a href="talen-energy.html">Talen Energy (TLN)</a></li><li><a href="vertiv.html">Vertiv (VRT)</a></li><li><a href="voyager-technologies.html">Voyager Technologies (VOYG)</a></li></ul></div>
+<div class="nav-sec"><span class="nav-h">Spółki - omówienie skrótowe</span><ul><li><a href="amd.html">Advanced Micro Devices (AMD)</a></li><li><a href="airbus.html">Airbus (AIR)</a></li><li><a href="alphabet.html">Alphabet (GOOGL)</a></li><li><a href="bae-systems.html">BAE Systems (BA)</a></li><li><a href="eaton.html">Eaton (ETN)</a></li><li><a href="l3harris.html">L3Harris (LHX)</a></li><li><a href="lockheed-martin.html">Lockheed Martin (LMT)</a></li><li><a href="microchip.html">Microchip Technology (MCHP)</a></li><li><a href="nvidia.html">NVIDIA (NVDA)</a></li><li><a href="northrop-grumman.html">Northrop Grumman (NOC)</a></li><li><a href="planet-labs.html">Planet Labs (PL)</a></li><li><a href="rtx.html">RTX (RTX)</a></li><li><a href="schneider-electric.html">Schneider Electric (SU)</a></li></ul></div>
+<div class="nav-sec"><span class="nav-h">Indeksy</span><ul><li><a href="_slownik.html">Słownik</a></li><li><a href="_widok-gpw-eu.html">Spółki z ekspozycją na giełdy europejskie</a></li></ul></div></nav>
+<main>
+<article class="page" data-group="spolka">
+<div class="crumbs"><span class="badge badge-spolka">Spółka</span></div>
+<div class="content"><h1 id="rocket-lab-rklb">Rocket Lab (RKLB)</h1>
+<h2 id="w-kontekscie-fizyka-orbitalna-orbity-i-operacje">W kontekscie: Fizyka orbitalna, orbity i operacje</h2>
+<p><strong>Czym jest spółka w tym kontekście.</strong> Rocket Lab to wertykalnie zintegrowana firma kosmiczna z dwoma segmentami: <strong>Launch Services</strong> (starty rakiet) oraz <strong>Space Systems</strong> (satelity, podzespoły, optyka, oprogramowanie, panele słoneczne). To właśnie Space Systems czyni z niej istotnego gracza dla tematu orbitalnych centrów danych: jeśli ktoś chce postawić na orbicie konstelację modułów obliczeniowych, potrzebuje <a href="_slownik.html#bus-satelitarny" class="wikilink">busa satelitarnego</a> (platformy, która utrzymuje moduł przy życiu - zasila, chłodzi, orientuje i podtrzymuje łączność) oraz całego zestawu podzespołów do sterowania położeniem. Rocket Lab dostarcza jedno i drugie z własnej produkcji.</p>
+<p><strong>Co konkretnie buduje.</strong> Spółka oferuje rodzinę platform: Photon (200-300 kg, <a href="_slownik.html#leo" class="wikilink">LEO</a>), Pioneer (payload do 120 kg, misje re-entry i dynamic operations), Explorer (duża delta-V, głęboki kosmos - użyty w misji ESCAPADE na Marsa), Lightning (~3 kW, żywotność &gt;12 lat na LEO, baza kontraktów obronnych) oraz Flatellite - nową platformę zaprojektowaną wprost pod duże konstelacje LEO, ogłoszoną w 2025 r. (🔵 Rocket Lab 10-K 2025; product pages, dostęp 16.06.2026). Architektura Flatellite (płaski, sztaplowalny satelita pod masową produkcję i gęste upakowanie w fairingu) jest dokładnie tym kierunkiem, który rozwija wątek <a href="../03-fizyka-orbitalna-orbity-i-operacje.html#montaż-on-orbit-in-space-assembly-vs-wynoszenie-gotowych-modułów-ograniczenie-fairingu" class="wikilink">Montaż on-orbit / in-space assembly vs wynoszenie gotowych modułów, ograniczenie fairingu</a> oraz <a href="../03-fizyka-orbitalna-orbity-i-operacje.html#skalowanie-mocy-do-mw-gw-liczba-modułów-na-1-mw-gęstość-upakowania" class="wikilink">Skalowanie mocy do MW-GW: liczba modułów na 1 MW, gęstość upakowania</a>.</p>
+<p><strong>ADCS i podzespoły sterowania położeniem.</strong> Po przejęciu Sinclair Interplanetary Rocket Lab produkuje komponenty <a href="_slownik.html#adcs" class="wikilink">ADCS</a> (Attitude Determination and Control System - układ wyznaczania i kontroli orientacji satelity): <a href="_slownik.html#koło-reakcyjne" class="wikilink">koła reakcyjne</a> (reaction wheels - obracają satelitą bez zużycia paliwa, wykorzystując zachowanie momentu pędu) oraz <a href="_slownik.html#star-tracker" class="wikilink">star trackery</a> (kamery rozpoznające układ gwiazd, które dają satelicie precyzyjną orientację). Dla orbitalnego centrum danych precyzyjne ADCS jest warunkiem brzegowym: panele muszą stale celować w Słońce, radiatory w zimną przestrzeń, a anteny/łącza optyczne w punkty odbioru. Bez sprawnego utrzymania orientacji nie ma ani zasilania, ani chłodzenia, ani <a href="_slownik.html#downlink" class="wikilink">downlinku</a>. To łączy się z wątkiem <a href="../03-fizyka-orbitalna-orbity-i-operacje.html#formation-flying-utrzymanie-szyku-konstelacji" class="wikilink">Formation flying / utrzymanie szyku konstelacji</a> - przy gęstych konstelacjach utrzymanie szyku zależy od jakości ADCS i <a href="_slownik.html#station-keeping" class="wikilink">station-keepingu</a>.</p>
+<blockquote>
+<p><strong>Dla inwestora:</strong> ekspozycja Rocket Lab na orbitalne centra danych jest dziś przede wszystkim ekspozycją na produkcję komponentów i platform, a nie na samą operację obliczeniową. Spółka sprzedaje "łopaty w gorączce złota" - busy, ADCS, panele - niezależnie od tego, który operator wygra wyścig o orbitalny compute.</p>
+</blockquote>
+<h2 id="materiały-spółki">Materiały spółki</h2>
+<blockquote>
+<p>Grafiki z materiałów spółki / IR (prawa właściciela, użycie redakcyjne). Pełny rejestr: <code>Spolki/assets/_licencje.json</code>.</p>
+</blockquote>
+<p><img alt="" src="assets/rocket-lab-1-photo-2025-02-27-02-23-27.jpeg"><br>
+<em>![Silicon solar arrays](. Źródło: ml.globenewswire.com; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.</em></p>
+<p><img alt="" src="assets/rocket-lab-2-1125-cw-news-rocketlabs-explorer.jpg"><br>
+<em>![Explorer / ESCAPADE](. Źródło: d2n4wb9orp1vta.cloudfront.net; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.</em></p>
+<p><img alt="" src="assets/rocket-lab-3-Rocket-Lab-Flatellite-web.png"><br>
+<em>![Flatellite](. Źródło: www.spacevoyaging.com; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.</em></p>
+<h2 id="w-kontekscie-energetyka-kosmiczna-i-fotowoltaika-orbitalna">W kontekscie: Energetyka kosmiczna i fotowoltaika orbitalna</h2>
+<p><strong>Najmocniejszy punkt zaczepienia o temat raportu.</strong> 26 lutego 2026 r. Rocket Lab ogłosiło wprowadzenie zaawansowanych krzemowych paneli słonecznych przeznaczonych wprost do zasilania gigawatowych, orbitalnych centrów danych (🔵 Rocket Lab PR, 26.02.2026). To nie jest poboczny komunikat: spółka deklaruje, że posiada największą zainstalowaną produkcyjnie zdolność wytwarzania paneli kosmicznych typu <a href="_slownik.html#gaas" class="wikilink">GaAs</a>/Ge w USA i jest jedynym w pełni wertykalnie zintegrowanym dostawcą energii kosmicznej (🔵 Rocket Lab PR, 26.02.2026). Dziedzictwo tej linii to przejęcie SolAero.</p>
+<p><strong>Dlaczego dwie technologie ogniw.</strong> Tradycyjne ogniwa kosmiczne to struktury <a href="_slownik.html#multi-junction" class="wikilink">wielozłączowe</a> na bazie <a href="_slownik.html#gaas" class="wikilink">arsenku galu</a> (GaAs) i germanu - bardzo sprawne (rozwija to wątek <a href="../04-energetyka-kosmiczna-i-fotowoltaika-orbitalna.html#sprawność-ogniw-kosmicznych-vs-krzem-naziemny" class="wikilink">Sprawność ogniw kosmicznych vs krzem naziemny</a>), ale uzależniające od krytycznych minerałów o ograniczonej podaży i ryzyku geopolitycznym. Argument Rocket Lab za krzemem: tańszy, lżejszy, modułowy i łatwiejszy do masowej produkcji - czyli właśnie te cechy, które są potrzebne, gdy trzeba zasilić nie jeden satelita, lecz orbitalne centrum danych liczone w setkach MW lub GW (🔵 Rocket Lab PR, 26.02.2026). Spółka oferuje też panele hybrydowe, łączące ogniwa wysokosprawne z krzemowymi. To bezpośrednio adresuje <a href="../04-energetyka-kosmiczna-i-fotowoltaika-orbitalna.html#gęstość-masowa-w-kg-masa-m2-i-przeliczenie-200-mw" class="wikilink">Gęstość masowa: W/kg, masa/m2 i przeliczenie &quot;200 MW&quot;</a> oraz <a href="../04-energetyka-kosmiczna-i-fotowoltaika-orbitalna.html#power-beaming-i-energia-jako-usługa-kto-walczy-o-ten-rynek" class="wikilink">Power beaming i &quot;energia jako usługa&quot;: kto walczy o ten rynek</a>.</p>
+<p><strong>Powiązanie z fizyką ogniw - twarde sprawności BOL.</strong> Dla ogniw wielozłączowych GaAs/Ge linii SolAero spółka ujawnia konkretne sprawności <a href="_slownik.html#bol" class="wikilink">BOL</a> (Begin of Life - sprawność na początku życia, przed degradacją radiacyjną): IMM-β (5-junction InGaP/GaAs, inverted metamorphic) <strong>33,3% BOL</strong>, IMM-α <strong>32,0% BOL</strong>, ZTJ-Ω (triple-junction, optymalizowane LEO) <strong>30,2% BOL</strong>, Z4J (quad-junction, podłoże Ge) <strong>30,0% BOL</strong> (🔵 Rocket Lab PR 08.03.2022; 🔵/🟠 SolAero/PV Magazine). W 2026 r. spółka deklaruje, że najnowsze ogniwa i CIC osiągają sprawność "do 34%" (🔵 Rocket Lab Solar Solutions product page, 2026). Dla porównania - to klucz do oceny przewagi krzemu vs GaAs w warunkach orbitalnych, patrz <a href="../04-energetyka-kosmiczna-i-fotowoltaika-orbitalna.html#degradacja-pv-od-promieniowania-bol-vs-eol" class="wikilink">Degradacja PV od promieniowania: BOL vs EOL</a>. Natomiast sprawność BOL i parametr W/kg <strong>nowych krzemowych paneli</strong> ogłoszonych 26.02.2026 pozostają <strong>NIE UJAWNIONE</strong> (komunikat jest jakościowy: "low cost per watt", "mass-manufacturable, lightweight", bez twardych liczb) (🔵 Rocket Lab PR, 26.02.2026). Sam parametr W/kg standardowych paneli Rocket Lab/SolAero także jest <strong>NIE UJAWNIONY</strong> w specyfikacjach spółki; jako proxy technologiczne: panel ExoTerra z ogniwami SolAero ZTJ osiąga ~140 W/kg na małych satelitach, a array deep-space NASA EESP z ogniwami SolAero IMM ok. 9,52 W/kg na poziomie całego array z mechanizmami (🟠 ExoTerra brochure; 🟠 NASA NTRS - oba to proxy, nie produkty Rocket Lab). Rocket Lab nie buduje też klasycznego <a href="_slownik.html#rosa" class="wikilink">ROSA</a> (Roll-Out Solar Array) jako produktu flagowego - to technologia Redwire; pozycjonowanie obu graczy różni się architekturą rozkładania paneli.</p>
+<blockquote>
+<p><strong>Dla inwestora:</strong> to jest najczystsza ekspozycja Rocket Lab na orbitalne centra danych - spółka chce być dostawcą energii dla tej infrastruktury. Mechanizm wartości: każdy 1 GW mocy elektrycznej dla ładunku obliczeniowego wymaga co najmniej 1 GW mocy paneli, a po stratach i degradacji prawdopodobnie więcej, a Rocket Lab pozycjonuje się jako jedyny zintegrowany dostawca w USA z dwiema komplementarnymi technologiami ogniw, co zabezpiecza łańcuch dostaw przed ryzykiem minerałów krytycznych.</p>
+</blockquote>
+<h2 id="w-kontekscie-niezawodność-serwisowanie-i-cykl-życia-sprzętu">W kontekscie: Niezawodność, serwisowanie i cykl życia sprzętu</h2>
+<p><strong>Heritage jako waluta niezawodności.</strong> Rocket Lab buduje przewagę na udokumentowanym dziedzictwie lotnym (flight heritage) ponad 1700 misji komponentów wyniesionych w przestrzeń (🔵/🟠 Rocket Lab; F1 sekcja 5). W kontekście orbitalnego centrum danych to istotne, bo sprzęt na orbicie jest praktycznie nieserwisowalny - nie ma <a href="_slownik.html#mev" class="wikilink">MEV</a>-a dla pojedynczej karty obliczeniowej i nie ma hot-swapu. To rozwija wątek <a href="../08-niezawodnosc-serwisowanie-i-cykl-zycia-sprzetu.html#brak-napraw-in-situ-a-robotyczna-obsługa-northrop-grumman-mev-i-następcy" class="wikilink">Brak napraw in-situ a robotyczna obsługa (Northrop Grumman MEV i następcy)</a> oraz <a href="../08-niezawodnosc-serwisowanie-i-cykl-zycia-sprzetu.html#redundancja-n-1-degradacja-kontrolowana-brak-hot-swap-zarządzanie-awariami-nodów" class="wikilink">Redundancja N+1, degradacja kontrolowana, brak hot-swap; zarządzanie awariami nodów</a>. Komponent z heritage liczonym w setkach lotów to mniejsze ryzyko "frozen hardware" - sprzętu zamrożonego na orbicie bez możliwości naprawy.</p>
+<p><strong>Platforma Lightning jako wzorzec żywotności.</strong> Lightning ma deklarowaną żywotność <strong>&gt;12 lat na LEO</strong> (🔵 Rocket Lab 10-K 2025) - to długo jak na satelitę, ale jednocześnie obnaża fundamentalny problem orbitalnego compute: cykl odświeżania GPU na Ziemi to ~3-5 lat, a platforma żyje &gt;12 lat. Starzenie technologiczne biegnie szybciej niż żywotność platformy - przy cyklu odświeżania GPU ~3-5 lat i żywotności &gt;12 lat sprzęt obliczeniowy przejdzie ok. 2-4 cykle odświeżania, zanim platforma wyjdzie z użycia. To napięcie ekonomiczne rozwija wątek <a href="../08-niezawodnosc-serwisowanie-i-cykl-zycia-sprzetu.html#starzenie-technologiczne-prawo-moore-a-szybsze-niż-żywotność-platformy-problem-ekonomiczny" class="wikilink">Starzenie technologiczne (prawo Moore&#x27;a) szybsze niż żywotność platformy - problem ekonomiczny</a>.</p>
+<p><strong>Rozszerzenie o robotykę.</strong> Rocket Lab ogłosiło przejęcie Motiv Space Systems 7 maja 2026 r. (definitive agreement), a transakcję zamknięto 26 maja 2026 r., rozszerzając możliwości manipulatorów (ramion robotycznych) kosmicznych (🔵 Rocket Lab Q1 2026 Earnings Release, 07.05.2026; Rocket Lab PR, 26.05.2026). To kierunek w stronę robotycznej obsługi orbitalnej - wymiany modułów, montażu - co bezpośrednio dotyka <a href="../08-niezawodnosc-serwisowanie-i-cykl-zycia-sprzetu.html#deorbitacja-i-wymiana-całych-modułów-a-upgrade" class="wikilink">Deorbitacja i wymiana całych modułów a upgrade</a>. Konkretne SLA czy parametry uptime klasy data center (99,99%) dla platform Rocket Lab: <strong>NIE UJAWNIONE</strong> w F1 - to nie jest dziś produkt sprzedawany z gwarancją dostępności jak naziemne DC.</p>
+<blockquote>
+<p><strong>Dla inwestora:</strong> wartość Rocket Lab w wymiarze niezawodności to heritage i wertykalna kontrola jakości, nie gwarancje SLA. Mechanizm: prime contractorzy (SDA, MDA) płacą premię za komponenty o udokumentowanej niezawodności, bo awaria na orbicie jest niemożliwa do naprawy i kosztuje cały payload.</p>
+</blockquote>
+<h2 id="w-kontekscie-ekonomika-i-koszty-całkowite-tco">W kontekscie: Ekonomika i koszty całkowite (TCO)</h2>
+<p><strong>Rola w równaniu kosztu wyniesienia.</strong> Koszt postawienia orbitalnego centrum danych zaczyna się od kosztu wyniesienia masy na orbitę - to rozwija wątek <a href="../09-ekonomika-i-koszty-calkowite-tco.html#aktualny-koszt-wyniesienia-ile-naprawdę-kosztuje-kilogram-na-orbicie" class="wikilink">Aktualny koszt wyniesienia: ile naprawdę kosztuje kilogram na orbicie</a>. Rocket Lab ma w tym dwie role. Electron to mała rakieta nośna (payload ~300 kg do LEO), według spółki najczęściej startująca orbitalna mała rakieta na świecie, z <strong>21 misjami (Electron + HASTE) w 2025 r. - rekord roczny, w górę z 16 w 2024 r.</strong> (🔵 Rocket Lab Q4 2025 Earnings Release, 26.02.2026). Electron nie jest jednak narzędziem do budowy gigawatowego compute - jego ładunek jest za mały. Tę rolę ma przejąć Neutron.</p>
+<p><strong>Neutron - warunek brzegowy ekonomiki.</strong> Neutron to rakieta średnia (medium-lift), pozycjonowana jako konkurent Falcona 9, przeznaczona do konstelacji i misji narodowych. Pierwszy lot został opóźniony do <strong>Q4 2026</strong> po awarii testu zbiornika stopnia pierwszego (🔵 F1 sekcja 2). Bez Neutrona Rocket Lab nie ma własnego nośnika do masowego, taniego wynoszenia dużych konstelacji - a zdolność do tanich, częstych startów jest jedną z kluczowych zmiennych weryfikujących tezę, czy orbitalne centrum danych jest "co najmniej 2x droższe niż naziemne", co rozwija wątek <a href="../09-ekonomika-i-koszty-calkowite-tco.html#weryfikacja-tezy-orbitalne-co-najmniej-2x-droższe-niż-naziemne" class="wikilink">Weryfikacja tezy &quot;orbitalne co najmniej 2x droższe niż naziemne&quot;</a> oraz <a href="../09-ekonomika-i-koszty-calkowite-tco.html#krzywa-kosztu-vs-skala-i-learning-curve" class="wikilink">Krzywa kosztu vs skala i learning curve</a>.</p>
+<p><strong>Ceny za kg i koszt startu - twarde szacunki (źródła wtórne).</strong> Spółka nie publikuje cennika, ale dane rynkowe pozwalają oszacować rząd wielkości. Electron: rynkowa cena startu <strong>~7,5 mln USD</strong> za ~300 kg do LEO, co przekłada się na <strong>~25 000 USD/kg</strong> (🟠 Orbital Radar 22.05.2026; 🟠 Space Nexus 18.02.2026). W Q1 2026 średni przychód na start Electron wyniósł ~9,3 mln USD (vs 7,1 mln USD w Q1 2025), a szacowany koszt startu ~5,4 mln USD (vs 5,7 mln USD w Q1 2025) (🟠 The Tech Marketer, 08.05.2026). Neutron ma mieć docelową cenę startu <strong>50-55 mln USD</strong> przy ~13 000 kg do LEO w trybie ekspendowalnym (<strong>~3 850-4 230 USD/kg</strong>) i ~8 000 kg w trybie reusable (~6 250-6 900 USD/kg) (🟠 Interesting Engineering 27.08.2024; 🟠 Space Nexus 2026). Dla porównania Falcon 9: ~67 mln USD za start przy ~22 800 kg do LEO, czyli <strong>~2 700-3 000 USD/kg</strong> (🟠 Space Nexus/Orbital Radar 2026); deklarowanym celem Rocket Lab jest, by Neutron "matchował" Falcona 9 na poziomie kosztu/kg (🟠 cytat Adama Spice'a). To centralna zmienna modelu TCO orbitalnego DC (patrz <a href="../09-ekonomika-i-koszty-calkowite-tco.html#masa-per-mw-capex-i-opex-z-czego-składa-się-rachunek" class="wikilink">Masa per MW, CAPEX i OPEX: z czego składa się rachunek</a>). To, co F1 dostarcza twardo, to dynamika marży: marża brutto GAAP rośnie z 26,6% (FY2024) przez 34,4% (FY2025) do 38,2% (Q1 2026), a marża non-GAAP do ~44% (🔵 Rocket Lab IR, Q1 2026 z 07.05.2026). Wertykalna integracja (produkcja podzespołów we własnym łańcuchu) może być jednym z mechanizmów tej poprawy marży i obniżenia kosztu jednostkowego, obok miksu kontraktów i efektu skali.</p>
+<pre class="mermaid">xychart-beta
+    title &quot;Szacowany koszt wyniesienia (USD/kg do LEO)&quot;
+    x-axis [&quot;Electron&quot;, &quot;Neutron (exp.)&quot;, &quot;Falcon 9&quot;]
+    y-axis &quot;USD/kg&quot; 0 --&gt; 26000
+    bar [25000, 4040, 2850]</pre>
+<p><em>Rys. - Electron jako mała rakieta ma wysoki koszt/kg; Neutron ma zbliżyć Rocket Lab do poziomu Falcona 9 (wartości środkowe z widełek). Dane: 🟠 Orbital Radar / Space Nexus / Interesting Engineering (2024-2026) - szacunki wtórne, nie cennik IR.</em></p>
+<blockquote>
+<p><strong>Dla inwestora:</strong> dla tematu TCO Rocket Lab jest jednocześnie dostawcą rakiety (strona kosztu wyniesienia) i komponentów (strona kosztu satelity). Ryzyko mechanizmu: opóźnienie Neutrona (już przesunięty na Q4 2026) odsuwa moment, w którym Rocket Lab może realnie obniżać koszt wynoszenia dużych konstelacji i konkurować z SpaceX o ten segment.</p>
+</blockquote>
+<h2 id="w-kontekscie-gracze-i-projekty">W kontekscie: Gracze i projekty</h2>
+<p><strong>Wyróżniająca pozycja: notowany operator regularnych startów z pionową integracją Space Systems.</strong> Wśród pure-play spółek kosmicznych omawianych w raporcie Rocket Lab jest podmiotem publicznie notowanym (po <a href="_slownik.html#de-spac" class="wikilink">de-SPAC</a>), który łączy operacyjny, regularny program startowy (Electron) z głęboko zintegrowanym segmentem produkcji satelitów i komponentów. To odróżnia ją od SpaceX (prywatna) i od czystych producentów komponentów. W mapie graczy z <a href="../10-gracze-i-projekty.html#spacex-od-starlink-as-compute-przez-wniosek-o-1-mln-satelitów-po-pionową-integrację-terafab-xai-s-1" class="wikilink">SpaceX - od Starlink-as-compute przez wniosek o 1 mln satelitów po pionową integrację (TeraFab, xAI, S-1)</a> Rocket Lab jest najbliższym notowanym odpowiednikiem modelu pionowo zintegrowanego.</p>
+<p><strong>Pozycja merchant supplier.</strong> Rocket Lab pozycjonuje się jako preferowany dostawca podzespołów także dla konkurencyjnych prime contractorów - przy kontrakcie SDA Tracking Layer Tranche 3 spółka wskazuje, że oprócz wartości głównej (816 mln USD) może uzyskać dodatkowe zamówienia jako dostawca komponentów dla innych wykonawców programu, podnosząc całkowity "capture" do ok. 1 mld USD (🔵 Rocket Lab PR, 19.12.2025). Ten model dostawcy-dla-wszystkich daje ekspozycję na rynek niezależnie od tego, który operator orbitalnego compute wygra - co łączy się z <a href="../10-gracze-i-projekty.html#mniejsi-i-sąsiedni-gracze-cloud-oem-stack-geo-księżyc-europa" class="wikilink">Mniejsi i sąsiedni gracze - cloud-OEM stack, GEO, Księżyc, Europa</a>.</p>
+<p><strong>Akwizycje jako budowa stacku.</strong> Rdzeń strategii to ciąg przejęć budujących pionową integrację: SolAero (panele słoneczne - największa linia w USA), Sinclair Interplanetary (ADCS), Planetary Systems Corporation (systemy separacji), Geost i Optical Support (optyka, sensory IR), Mynaric (łącza optyczne / <a href="_slownik.html#oisl" class="wikilink">OISL</a>), Motiv (manipulatory). To różni Rocket Lab od mniejszych graczy startupowych - zamiast jednej technologii ma cały łańcuch.</p>
+<blockquote>
+<p><strong>Dla inwestora:</strong> wśród notowanych pure-play spółek kosmicznych omawianych w raporcie Rocket Lab oferuje jedną z najszerszych ekspozycji na orbitalną infrastrukturę przez pionową integrację. Mechanizm ryzyka: ta sama szerokość oznacza ciągłe zapotrzebowanie na kapitał (akwizycje + Neutron) przy wciąż ujemnym wyniku netto, więc pozycja zależy od dalszego dostępu do finansowania.</p>
+</blockquote>
+<h2 id="ekspozycja-na-temat-w-liczbach">Ekspozycja na temat w liczbach</h2>
+<p><strong>Skala i dynamika.</strong> Rocket Lab zamknęło <strong>Q1 2026 (zakończony 31.03.2026) przychodem 200,3 mln USD (+63,5% r/r)</strong> (🔵 Rocket Lab Q1 2026 Earnings Release, 07.05.2026). FY2025 to <strong>601,8 mln USD (+38% r/r)</strong>, a FY2024 to 436,2 mln USD (+78% r/r) (🔵 Rocket Lab IR). Backlog na koniec Q1 2026 osiągnął rekordowe <strong>2,20 mld USD (+20,2% k/k, +108% r/r)</strong>, w górę z 1,85 mld USD na koniec FY2025; spółka oczekuje, że <strong>~36% bieżącego backlogu</strong> przekształci się w przychód w ciągu 12 miesięcy (🔵 Rocket Lab Q1 2026 Earnings Release / earnings call, 07.05.2026). Sam wskaźnik <strong>book-to-bill</strong> pozostaje <strong>NIE UJAWNIONY</strong> przez spółkę; proxy z przyrostu backlogu (~350 mln USD) i przychodu Q1 (200,3 mln USD) implikuje ok. 2,7x (🟠 obliczenie na danych pierwotnych).</p>
+<pre class="mermaid">xychart-beta
+    title &quot;Przychody Rocket Lab (mln USD)&quot;
+    x-axis [&quot;FY2024&quot;, &quot;FY2025&quot;, &quot;Q1 2026&quot;]
+    y-axis &quot;mln USD&quot; 0 --&gt; 700
+    bar [436.2, 601.8, 200.3]</pre>
+<p><em>Rys. - Trajektoria przychodów; Q1 2026 to pojedynczy kwartał (200,3 mln USD), nie rok. Dane: 🔵 Rocket Lab IR (Q1 2026 z 07.05.2026; FY2024/FY2025).</em></p>
+<p><strong>Struktura segmentowa - Space Systems to rdzeń.</strong> W Q1 2026 Space Systems dał <strong>136,7 mln USD (~68% przychodu)</strong>, a Launch Services <strong>63,7 mln USD (~32%)</strong> (🔵 Rocket Lab 10-Q Q1 2026); wartości segmentowe są zaokrąglone i sumują się do ~200,4 mln USD wobec łącznego przychodu 200,3 mln USD. To odwraca intuicję, że Rocket Lab to "firma rakietowa": rdzeniem jest produkcja satelitów i komponentów, czyli dokładnie to, co zasila temat orbitalnych centrów danych.</p>
+<pre class="mermaid">pie title Struktura przychodu Q1 2026 (% przychodu, 200,3 mln USD)
+    &quot;Space Systems (136,7 mln USD)&quot; : 68
+    &quot;Launch Services (63,7 mln USD)&quot; : 32</pre>
+<p><em>Rys. - Space Systems jest dominującym segmentem; Launch to ~jedna trzecia. Dane: 🔵 Rocket Lab 10-Q Q1 2026.</em></p>
+<p><strong>Ile z tego to wprost orbitalne centra danych? NIE UJAWNIONE.</strong> Rocket Lab nie rozbija przychodu ani backlogu na ekspozycję "orbital data center". Proxy: linia paneli słonecznych (SolAero) i platformy konstelacyjne (Flatellite, Lightning) to części Space Systems, ale spółka nie podaje ich osobnego udziału. Sam komunikat o krzemowych panelach pod gigawatowe orbitalne DC (26.02.2026) jest dziś deklaracją produktową, nie zaksięgowanym strumieniem przychodu. To długoterminowy, opcjonalny kierunek, który może zwiększyć popyt na produkty spółki (🔵 F1 sekcja 7).</p>
+<p><strong>Backlog wg segmentów (Q1 2026):</strong> Space Systems ~1,30 mld USD (~58,5%), Launch Services ~0,92 mld USD (~41,5%) (🔵 Rocket Lab 10-Q Q1 2026 / earnings call); suma wartości zaokrąglonych (~2,22 mld USD) różni się od podawanego łącznego backlogu 2,20 mld USD wskutek zaokrągleń. Mimo dynamiki spółka wciąż notuje stratę netto GAAP: 45,0 mln USD w Q1 2026 (EPS -0,07 USD) (🔵 Rocket Lab Q1 2026 Earnings Release, 07.05.2026) oraz ~198,2 mln USD za FY2025 (🟠 dane wtórne), z powodu intensywnych inwestycji w Neutron i akwizycje.</p>
+<p><strong>Płynność i przepływy Q1 2026.</strong> Operacyjny cash flow GAAP wyniósł -50,3 mln USD, capex 27,1 mln USD, więc non-GAAP free cash flow to <strong>-77,4 mln USD</strong> (🔵 Rocket Lab Q1 2026 Earnings Release). Na koniec Q1 2026 gotówka i jej ekwiwalenty to <strong>1 205,5 mln USD</strong>, papiery wartościowe (bieżące + długoterminowe) <strong>271,3 mln USD</strong>, restricted cash 5,5 mln USD; spółka deklaruje całkowitą płynność <strong>ponad 2,0 mld USD</strong> (gotówka, papiery, restricted cash oraz dostępne instrumenty z konwertowalnych obligacji i ATM) (🔵 Rocket Lab Q1 2026 Earnings Release / earnings call, 07.05.2026). Konkretny <strong>runway</strong> (liczba kwartałów przy bieżącym burn) pozostaje <strong>NIE UJAWNIONY</strong>; proxy z prostego dzielenia (cash + restricted 1 211 mln USD / non-GAAP FCF -77,4 mln USD/kw.) daje ok. 15-16 kwartałów (🟠 obliczenie na danych pierwotnych).</p>
+<blockquote>
+<p><strong>Dla inwestora:</strong> ekspozycja na orbitalne centra danych jest realna, ale rozproszona wewnątrz Space Systems i niewyodrębniona liczbowo. Twarde jest co innego: ~68% przychodu pochodzi z produkcji satelitów i komponentów, więc to ten segment, nie starty, jest dziś silnikiem wzrostu i nośnikiem opcji "orbital compute".</p>
+</blockquote>
+<h2 id="kluczowe-umowy-wdrozenia-co-znacza">Kluczowe umowy/wdrozenia - co znacza</h2>
+<p>Portfel kontraktów Rocket Lab jest silnie obronno-rządowy, co ma dwie strony: stabilność wieloletnich programów i jednoczesna koncentracja na kilku zleceniodawcach.</p>
+<table>
+<thead>
+<tr>
+<th>Kontrakt</th>
+<th>Wartość / zakres</th>
+<th>Klient / program</th>
+<th>Co znaczy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SDA Tracking Layer Tranche 3</td>
+<td><strong>816 mln USD</strong> (806 mln + opcje ~10,5 mln)</td>
+<td>U.S. Space Development Agency</td>
+<td>18 satelitów na platformie Lightning z sensorami Phoenix/StarLite; największy pojedynczy kontrakt spółki; pierwsze satelity nie wcześniej niż 2029 r.; potencjalny "capture" do ~1 mld USD jako dostawca podzespołów (🔵 PR 19.12.2025; 🟠 Payload Space 22.12.2025)</td>
+</tr>
+<tr>
+<td>SDA Transport Layer Beta Tranche 2</td>
+<td><strong>515 mln USD</strong></td>
+<td>U.S. Space Development Agency</td>
+<td>18 satelitów komunikacyjnych; terminale OISL Mynaric CONDOR Mk3 jako baseline; CDR zakończony 01.2025, pierwszy launch (ILC) planowany na 09.2026 (🔵 Rocket Lab; 🟠 PhotonCap/AInvest 2026)</td>
+</tr>
+<tr>
+<td>MACH-TB 2.0 (HASTE block buy)</td>
+<td><strong>190 mln USD</strong> (20 startów)</td>
+<td>TRMC / Department of War (zespół Kratos, kontrakt główny do 1,45 mld USD)</td>
+<td>20-startowy block buy HASTE ogłoszony 03.2026; HASTE to obecnie prawie 1/3 backlogu launchowego (🔵 Rocket Lab earnings call Q1 2026; 🟠 Kratos PR 06.01.2025)</td>
+</tr>
+<tr>
+<td>Anduril HASTE</td>
+<td><strong>30 mln USD</strong></td>
+<td>Anduril (finansowanie wewnętrzne)</td>
+<td>3 dedykowane starty HASTE z LC-2 w Virginii, Mach 5+, pierwszy start w ciągu 12 mies.; ogłoszony 07.05.2026 (🔵 Rocket Lab Q1 2026 Earnings Release; 🟠 Airforce Technology 08.05.2026)</td>
+</tr>
+<tr>
+<td>Heimdall GEO</td>
+<td><strong>90 mln USD</strong></td>
+<td>U.S. Space Force Space Systems Command</td>
+<td>2 satelity GEO na platformie Lightning z ładunkiem Heimdall (Space Domain Awareness), projekt + produkcja + 5 lat operacji; ogłoszony 21.05.2026 (🔵 Rocket Lab PR 21.05.2026)</td>
+</tr>
+<tr>
+<td>Globalstar / MDA</td>
+<td><strong>143 mln USD</strong></td>
+<td>Globalstar / MDA</td>
+<td>Produkcja satelitów/komponentów na platformie Lightning (🔵 F1 sekcja 3)</td>
+</tr>
+<tr>
+<td>OneWeb</td>
+<td>panele słoneczne (wartość NIE UJAWNIONA)</td>
+<td>OneWeb / Airbus / Eutelsat</td>
+<td>200 paneli dla 100 satelitów OneWeb LEO (substraty kompozytowe, ogniwa, zespoły PV; produkcja w Albuquerque); wcześniejsza flota &gt;450 shipsetów SolAero (🟠 Satellite Today 12.03.2025)</td>
+</tr>
+<tr>
+<td>Golden Dome / Space Based Interceptor</td>
+<td>wybór wraz z Raytheon (wartość NIE UJAWNIONA)</td>
+<td>U.S. Missile Defense Agency</td>
+<td>Faza wczesna; wykorzystuje kompetencje optyczne Geost (🔵 F1 sekcja 3)</td>
+</tr>
+<tr>
+<td>Motiv Space Systems</td>
+<td>przejęcie (ogłoszone 07.05.2026, zamknięte 26.05.2026)</td>
+<td>-</td>
+<td>Rozszerzenie zdolności manipulatorów kosmicznych (🔵 Rocket Lab Q1 2026 Earnings Release; PR 26.05.2026)</td>
+</tr>
+<tr>
+<td>CHIPS Act</td>
+<td><strong>23,9 mln USD</strong></td>
+<td>U.S. Department of Commerce</td>
+<td>Rozbudowa produkcji półprzewodników w Albuquerque (🔵 F1 sekcja 3)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Interpretacja.</strong> Dwa kontrakty SDA (816 + 515 = 1,33 mld USD) to kwota zbliżona do całego backlogu segmentu Space Systems (~1,30 mld USD) i ok. 60% łącznego backlogu Q1 2026 (2,20 mld USD). Tranche 3 jest explicite oparty na platformie Lightning (🔵 PR 19.12.2025); platforma Transport Layer Beta Tranche 2 nie jest w F1 jednoznacznie wskazana, więc krytyczność Lightning dla bieżących wyników opieramy na potwierdzonym kontrakcie Tranche 3. Umowa z OneWeb na panele słoneczne to bezpośrednie potwierdzenie, że linia SolAero generuje realny popyt konstelacyjny - czyli dokładnie ten typ klienta (duża konstelacja LEO), który byłby też odbiorcą energii dla orbitalnego compute.</p>
+<blockquote>
+<p><strong>Dla inwestora:</strong> portfel jest twardy (rządowy, wieloletni), ale klientowo skoncentrowany. Mechanizm: dwa kontrakty SDA o łącznej wartości 1,33 mld USD pochodzą od jednego typu zleceniodawcy (SDA), a co najmniej Tranche 3 (816 mln USD) jest oparty na platformie Lightning, więc opóźnienie programu lub zmiana priorytetu budżetowego uderza w istotną część backlogu jednocześnie.</p>
+</blockquote>
+<h2 id="pozycja-rynkowa-i-udzialy">Pozycja rynkowa i udzialy</h2>
+<p><strong>Pozycja w startach małych satelitów.</strong> Electron jest, według spółki, najczęściej startującą orbitalną małą rakietą na świecie. W 2025 r. spółka wykonała <strong>21 misji (Electron + HASTE) - rekord roczny, w górę z 16 startów w 2024 r.</strong> (🔵 Rocket Lab Q4 2025 Earnings Release, 26.02.2026). W Q1 2026 spółka wykonała 6 orbitalnych startów Electron (vs 5 w Q1 2025) (🔵 Rocket Lab Q1 2026 Earnings Release). HASTE (suborbitalna platforma testowa dla systemów hipersonicznych) ma według spółki 100% skuteczności misji (bez podanego mianownika - liczby udanych/wszystkich misji ani okresu - w F1) oraz kontrakty m.in. z DIU (🔵 F1 sekcja 2). Sama spółka nie podaje udziału rynkowego procentowo (pozycja opisywana jakościowo - "najczęściej startująca"), ale szacunki analityków wskazują <strong>~10,2% globalnego rynku małych rakiet nośnych (small launch vehicles) w 2024 r.</strong> (🟠 AInvest 22.12.2025 - szacunek wtórny, nie dane IR); inny raport rynkowy przypisuje Rocket Lab największą liczbę dedykowanych małych misji orbitalnych zrealizowanych globalnie w 2025 r. (🟠 Dataintelo).</p>
+<pre class="mermaid">xychart-beta
+    title &quot;Misje Rocket Lab (Electron + HASTE) wedlug roku (szt.)&quot;
+    x-axis [&quot;2024&quot;, &quot;2025&quot;]
+    y-axis &quot;Liczba misji&quot; 0 --&gt; 25
+    bar [16, 21]</pre>
+<p><em>Rys. - Skala operacyjna: 16 startów w 2024 r. i rekordowe 21 misji (Electron + HASTE) w 2025 r. Dane: 🔵 Rocket Lab Q4 2025 Earnings Release, 26.02.2026.</em></p>
+<pre class="mermaid">xychart-beta
+    title &quot;Backlog Rocket Lab (mln USD)&quot;
+    x-axis [&quot;FY2025&quot;, &quot;Q1 2026&quot;]
+    y-axis &quot;mln USD&quot; 0 --&gt; 2400
+    bar [1850, 2200]</pre>
+<p><em>Rys. - Rekordowy backlog 2,20 mld USD na koniec Q1 2026 wobec 1,85 mld USD na koniec FY2025. Dane: 🔵 Rocket Lab 10-Q Q1 2026 i IR.</em></p>
+<p><strong>Pozycja w panelach słonecznych.</strong> Rocket Lab deklaruje największą zainstalowaną produkcyjnie zdolność wytwarzania kosmicznych paneli GaAs/Ge w USA i bycie jedynym w pełni wertykalnie zintegrowanym dostawcą energii kosmicznej (🔵 Rocket Lab PR, 26.02.2026). Sprawności ogniw są ujawnione (33,3% BOL dla IMM-β, do 34% w najnowszej generacji 2026 - patrz sekcja energetyczna), ale liczbowy udział w rynku paneli kosmicznych (% lub MW/rok): <strong>NIE UJAWNIONE</strong>.</p>
+<p><strong>Heritage i szybkość.</strong> Ponad 1700 misji komponentów wyniesionych w przestrzeń oraz tempo dostawy - przykładowo misja ESCAPADE od koncepcji do gotowości startowej w ~3,5 roku (🔵/🟠 F1 sekcja 5). Pozycja preferowanego dostawcy/merchant supplier dla innych prime contractorów jest podawana jako jakościowa przewaga, nie liczbowy udział.</p>
+<blockquote>
+<p><strong>Dla inwestora:</strong> Rocket Lab opisuje swoją pozycję głównie jakościowo ("najczęściej startująca", "największa linia paneli w USA"), bez twardych udziałów procentowych w F1. To sygnał do ostrożności: silna pozycja w niszy małych startów i paneli jest deklarowana przez spółkę, ale niekwantyfikowana udziałami rynkowymi, a wielkość rynku orbitalnych DC pozostaje przyszła, nie bieżąca.</p>
+</blockquote>
+<h2 id="mechanika-konkurencji-na-osiach">Mechanika konkurencji - na osiach</h2>
+<p>Rocket Lab konkuruje równolegle na dwóch rynkach, na różnych osiach.</p>
+<p><strong>Launch Services - oś nośności i ceny.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Konkurent</th>
+<th>Platforma</th>
+<th>Oś konkurencji</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SpaceX</strong></td>
+<td>Falcon 9, Falcon Heavy, Starship</td>
+<td>Lider rynku; reusability, lider kosztowy (Falcon 9 ~2 700-3 000 USD/kg do LEO wg benchmarków wtórnych), ride-share; bezpośredni rywal Neutrona, który celuje w ~3 850-4 230 USD/kg (exp.) (🟠 Space Nexus/Orbital Radar 2026)</td>
+</tr>
+<tr>
+<td><strong>Blue Origin</strong></td>
+<td>New Glenn</td>
+<td>Średnia/ciężka rakieta; rosnąca konkurencja w segmencie narodowym</td>
+</tr>
+<tr>
+<td><strong>Northrop Grumman</strong></td>
+<td>Antares, Pegasus</td>
+<td>Misje rządowe i komercyjne</td>
+</tr>
+<tr>
+<td><strong>Arianespace</strong></td>
+<td>Vega</td>
+<td>Europejska mała rakieta nośna</td>
+</tr>
+<tr>
+<td><strong>Firefly Aerospace</strong></td>
+<td>Alpha</td>
+<td>Mała rakieta nośna - bezpośredni rywal Electrona</td>
+</tr>
+<tr>
+<td><strong>Relativity Space</strong></td>
+<td>Terran R (w rozwoju)</td>
+<td>Druk 3D konstrukcji</td>
+</tr>
+<tr>
+<td><strong>ISAR Aerospace</strong></td>
+<td>Spectrum</td>
+<td>Europejski startup</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Space Systems / komponenty - oś integracji i heritage.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Konkurent</th>
+<th>Obszar konkurencji</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Redwire</strong></td>
+<td>Komponenty satelitarne, platformy, panele (m.in. ROSA)</td>
+</tr>
+<tr>
+<td><strong>Terran Orbital</strong></td>
+<td>Satelity, platformy</td>
+</tr>
+<tr>
+<td><strong>Lockheed Martin / Boeing / Northrop Grumman</strong></td>
+<td>Tradycyjni prime contractorzy w programach narodowych</td>
+</tr>
+<tr>
+<td><strong>L3Harris / Raytheon</strong></td>
+<td>Systemy optyczne, sensory, payloady</td>
+</tr>
+<tr>
+<td><strong>AST SpaceMobile</strong></td>
+<td>Konstelacje (inny model; konkurencja o kapitał inwestycyjny)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Gdzie Rocket Lab wygrywa.</strong> Główne osie przewagi to wertykalna integracja (kontrola łańcucha dostaw od ogniwa po gotowy satelitę), heritage &gt;1700 misji oraz szybkość dostawy (ESCAPADE w ~3,5 roku). Te osie działają najsilniej w segmencie komponentów i mniejszych satelitów. W startach ciężkich Rocket Lab dopiero wchodzi (Neutron, pierwszy lot Q4 2026) i mierzy się z dojrzałym, tańszym SpaceX.</p>
+<p><strong>Gdzie ją podgryzają.</strong> SpaceX wywiera presję cenową na usługi launchowe i komponenty (🔵 F1 sekcja 6, ryzyko 5). W małych startach naciska Firefly. W panelach i komponentach - Redwire. Porównanie kosztu/kg jest dla Rocket Lab niekorzystne na poziomie małej rakiety (Electron ~25 000 USD/kg vs Falcon 9 ~2 700-3 000 USD/kg), a dopiero Neutron ma zbliżyć spółkę do poziomu Falcona 9 (~3 850-4 230 USD/kg exp.; deklarowany cel: zmatchować Falcona 9) (🟠 Orbital Radar/Space Nexus/Interesting Engineering 2024-2026 - szacunki wtórne). Electron i Falcon 9 grają jednak w różnych klasach masy, więc bezpośrednie porównanie cenowe jest miarodajne dopiero dla Neutrona.</p>
+<blockquote>
+<p><strong>Dla inwestora:</strong> Rocket Lab konkuruje przewagą integracji i heritage tam, gdzie liczy się niezawodność i czas (komponenty, programy obronne), a nie tam, gdzie liczy się najniższa cena/kg (ciężkie starty - domena SpaceX). Mechanizm ryzyka: dopóki Neutron nie lata, w segmencie dużych konstelacji Rocket Lab jest dostawcą satelitów, a nie ich tanim przewoźnikiem.</p>
+</blockquote>
+<h2 id="koncentracja-odbiorcow-i-ryzyka-z-mechanizmem">Koncentracja odbiorcow i ryzyka z mechanizmem</h2>
+<p><strong>Koncentracja odbiorców - twarde liczby z 10-K.</strong> Według 10-K 2025 pięciu największych klientów odpowiadało za <strong>ok. 49% przychodów</strong>, a pięciu największych klientów backlogu za <strong>ok. 77% backlogu</strong> (🔵 Rocket Lab 10-K 2025; F1 sekcja 6). To wysoka koncentracja, w dodatku zdominowana przez zleceniodawców rządowych USA (Space Force, SDA, MDA, NASA).</p>
+<pre class="mermaid">pie title Koncentracja backlogu (10-K 2025)
+    &quot;Top 5 klientow backlogu&quot; : 77
+    &quot;Pozostali&quot; : 23</pre>
+<p><em>Rys. - 77% backlogu skupione na pięciu klientach; głównie programy rządowe USA. Dane: 🔵 Rocket Lab 10-K 2025.</em></p>
+<p><strong>Ryzyka z mechanizmem.</strong></p>
+<ul>
+<li><strong>Koncentracja klientów (49% przychodu / 77% backlogu na top 5).</strong> Mechanizm: utrata lub opóźnienie jednego dużego kontraktu (np. SDA) bezpośrednio uderza w przychód i backlog, bo nie ma rozproszenia bazy odbiorców (🔵 10-K 2025).</li>
+<li><strong>Zależność od budżetów rządowych i obronnych.</strong> Mechanizm: duża część kontraktów pochodzi od Space Force, SDA, MDA, NASA - zmiana priorytetów budżetowych lub zamrożenie funduszy opóźnia realizację i odsuwa rozpoznanie przychodu (🔵 F1 sekcja 6).</li>
+<li><strong>Program Neutron.</strong> Mechanizm: opóźnienia (pierwszy lot już przesunięty na Q4 2026 po awarii testu zbiornika) i dodatkowe koszty rozwoju pogarszają wynik i osłabiają zdolność konkurowania o większe kontrakty launchowe - to wprost wpływa na marżę i tempo dojścia do rentowności (🔵 F1 sekcja 2, 6).</li>
+<li><strong>Konkurencja cenowa (SpaceX).</strong> Mechanizm: SpaceX może wymuszać niższe ceny usług launchowych i komponentów, ściskając marżę Rocket Lab dokładnie w segmencie, w którym spółka dopiero buduje pozycję (Neutron) (🔵 F1 sekcja 6).</li>
+<li><strong>Historia strat i głód kapitału.</strong> Mechanizm: strata netto (~198,2 mln USD FY2025) i ujemny free cash flow (~-321,8 mln USD FY2025: -165,5 mln USD operacyjny CF minus 156,3 mln USD capex, 🔵 Rocket Lab 10-K 2025) oznaczają, że dalszy wzrost może wymagać emisji kapitału (rozwodnienie) lub długu. Bufor: gotówka + bieżące papiery wartościowe ~1,02 mld USD (gotówka + wszystkie papiery ~1,10 mld USD) na koniec FY2025, total liabilities/kapitał ~0,35x; dług finansowy netto/kapitał ~0,1x (🔵 Rocket Lab 10-K 2025).</li>
+<li><strong>Łańcuch dostaw GaAs/Ge i minerały krytyczne.</strong> Mechanizm: tradycyjne ogniwa zależą od krytycznych minerałów o ograniczonej podaży i ryzyku geopolitycznym; nowe ogniwa krzemowe mają to zmniejszyć, ale ich skalowanie wymaga czasu (🔵 F1 sekcja 6, ryzyko 6).</li>
+<li><strong>Integracja akwizycji.</strong> Mechanizm: przejęcia (Geost, Optical Support, Mynaric, Motiv) wymagają udanej integracji operacyjnej i kulturowej; nieudana integracja podnosi koszty i opóźnia synergie (🔵 F1 sekcja 6).</li>
+</ul>
+<blockquote>
+<p><strong>Dla inwestora:</strong> dwa ryzyka spinają się w jeden mechanizm - wysoka koncentracja (77% backlogu na 5 klientach rządowych) spotyka się z głodem kapitału (strata + ujemny FCF + capex Neutrona). Dopóki spółka nie osiągnie rentowności, jej zdolność do absorbowania szoku (opóźnienie SDA lub Neutrona) zależy od dostępu do finansowania.</p>
+</blockquote>
+<h2 id="powiązane-spółki">Powiązane spółki</h2>
+<blockquote>
+<p>Inne notowane spółki z raportu dzielące z tą firmą co najmniej jeden wątek tematyczny (wspólny rynek, technologia lub łańcuch wartości).</p>
+</blockquote>
+<ul>
+<li><a href="airbus.html" class="wikilink">Airbus SE (AIR)</a> - PV (Sparkwing), optyka (Tesat), busy, serwis (EU)<br>
+<em>Wspólne wątki: Fizyka orbitalna; Energetyka kosmiczna; Niezawodność i serwisowanie.</em></li>
+<li><a href="lockheed-martin.html" class="wikilink">Lockheed Martin Corporation (LMT)</a> - Busy satelitarne, serwisowanie, ULA (launch)<br>
+<em>Wspólne wątki: Fizyka orbitalna; Niezawodność i serwisowanie; Ekonomika i TCO.</em></li>
+<li><a href="northrop-grumman.html" class="wikilink">Northrop Grumman Corporation (NOC)</a> - Serwis GEO (MEV/MRV), busy, radiatory, ogniwa<br>
+<em>Wspólne wątki: Fizyka orbitalna; Energetyka kosmiczna; Niezawodność i serwisowanie.</em></li>
+<li><a href="redwire.html" class="wikilink">Redwire Corporation (RDW)</a> - Panele ROSA, struktury rozkładane, montaż on-orbit, radiatory Q-Rad<br>
+<em>Wspólne wątki: Fizyka orbitalna; Energetyka kosmiczna; Niezawodność i serwisowanie.</em></li>
+<li><a href="voyager-technologies.html" class="wikilink">Voyager Technologies, Inc. (VOYG)</a> - Stacje kosmiczne (Starlab), systemy kosmiczne i obronne<br>
+<em>Wspólne wątki: Fizyka orbitalna; Niezawodność i serwisowanie; Gracze i projekty.</em></li>
+<li><a href="mda-space.html" class="wikilink">MDA Space Ltd. (MDA)</a> - Robotyka kosmiczna (Canadarm), busy, anteny<br>
+<em>Wspólne wątki: Fizyka orbitalna; Niezawodność i serwisowanie.</em></li>
+<li><a href="alphabet.html" class="wikilink">Alphabet Inc. (GOOGL)</a> - Project Suncatcher (TPU na orbicie)<br>
+<em>Wspólne wątki: Gracze i projekty.</em></li>
+<li><a href="astroscale.html" class="wikilink">Astroscale Holdings Inc. (186A)</a> - Pure-play serwisowanie i usuwanie śmieci (ADR)<br>
+<em>Wspólne wątki: Niezawodność i serwisowanie.</em></li>
+<li><a href="nvidia.html" class="wikilink">NVIDIA Corporation (NVDA)</a> - Akceleratory GPU (COTS) - ładunek obliczeniowy on-orbit<br>
+<em>Wspólne wątki: Gracze i projekty.</em></li>
+<li><a href="planet-labs.html" class="wikilink">Planet Labs PBC (PL)</a> - Partner Google Suncatcher (platformy/obrazowanie)<br>
+<em>Wspólne wątki: Gracze i projekty.</em></li>
+<li><a href="rtx.html" class="wikilink">RTX Corporation (RTX)</a> - ADCS (Blue Canyon), termika (Collins Aerospace)<br>
+<em>Wspólne wątki: Fizyka orbitalna.</em></li>
+</ul>
+<h2 id="slowniczek">Slowniczek</h2>
+<p>Hasła ogólne (orbity, technologie, finanse) są zdefiniowane w pliku <code>_slownik</code>. Poniżej terminy lokalne dla Rocket Lab i odesłania:</p>
+<ul>
+<li><strong>Space Systems</strong> - segment Rocket Lab obejmujący satelity, busy, komponenty (ADCS, panele), optykę i oprogramowanie; ~68% przychodu w Q1 2026.</li>
+<li><strong>Launch Services</strong> - segment startów rakietowych (Electron, HASTE, przyszły Neutron); ~32% przychodu w Q1 2026.</li>
+<li><strong>Electron</strong> - mała rakieta nośna (~300 kg do LEO, cena ~7,5 mln USD/start, ~25 000 USD/kg); 21 misji (Electron + HASTE) w 2025 r., 16 startów w 2024 r., 6 orbitalnych startów w Q1 2026.</li>
+<li><strong>Neutron</strong> - rakieta średnia w rozwoju, rywal Falcona 9; docelowa cena 50-55 mln USD (~3 850-4 230 USD/kg exp., ~13 t do LEO); pierwszy lot oczekiwany Q4 2026.</li>
+<li><strong>HASTE</strong> - suborbitalna platforma testowa dla systemów hipersonicznych.</li>
+<li><strong>Photon / Pioneer / Explorer / Lightning / Flatellite</strong> - rodzina platform satelitarnych Rocket Lab; Flatellite pod duże konstelacje LEO.</li>
+<li><strong>SolAero / Sinclair / Geost / Mynaric / Motiv</strong> - kluczowe akwizycje budujące pionową integrację (panele, ADCS, optyka, łącza optyczne, manipulatory).</li>
+<li><strong>SDA / MDA</strong> - U.S. Space Development Agency / Missile Defense Agency - główni zleceniodawcy rządowi.</li>
+<li>Odesłania do <code>_slownik</code>: <a href="_slownik.html#bus-satelitarny" class="wikilink">bus satelitarny</a>, <a href="_slownik.html#adcs" class="wikilink">ADCS</a>, <a href="_slownik.html#koło-reakcyjne" class="wikilink">koło reakcyjne</a>, <a href="_slownik.html#star-tracker" class="wikilink">star tracker</a>, <a href="_slownik.html#gaas" class="wikilink">GaAs</a>, <a href="_slownik.html#multi-junction" class="wikilink">multi-junction</a>, <a href="_slownik.html#rosa" class="wikilink">ROSA</a>, <a href="_slownik.html#backlog" class="wikilink">backlog</a>, <a href="_slownik.html#hyperscaler" class="wikilink">hyperscaler</a>, <a href="_slownik.html#de-spac" class="wikilink">de-SPAC</a>, <a href="_slownik.html#leo" class="wikilink">LEO</a>, <a href="_slownik.html#oisl" class="wikilink">OISL</a>, <a href="_slownik.html#station-keeping" class="wikilink">station-keeping</a>, <a href="_slownik.html#downlink" class="wikilink">downlink</a>, <a href="_slownik.html#bol" class="wikilink">BOL</a>.</li>
+</ul>
+<h2 id="zrodla">Zrodla</h2>
+<ul>
+<li>🔵 Rocket Lab - Q1 2026 Earnings Release (07.05.2026) - https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-first-quarter-2026-financial-results</li>
+<li>🔵 Rocket Lab - Form 10-Q za Q1 2026 (SEC EDGAR, accession 0001819994-26-000028) - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001819994&amp;type=10-Q</li>
+<li>🔵 Rocket Lab - Q4 2025 Earnings Release / 10-K 2025 (26.02.2026) - https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-reports-fourth-quarter-and-full-year-2025-financial</li>
+<li>🔵 Rocket Lab - Q4 2025 Investor Update (prezentacja PDF) - https://investors.rocketlabcorp.com/static-files/be9441ad-c07f-49c2-ad50-531fd77180ee</li>
+<li>🔵 Rocket Lab - Advanced Silicon Solar Arrays announcement (26.02.2026) - https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-introduces-advanced-silicon-solar-arrays-power-space</li>
+<li>🔵 Rocket Lab - SDA Tracking Layer Tranche 3 (816 mln USD, 19.12.2025) - https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-awarded-816m-prime-contract-build-missile-defense</li>
+<li>🔵 Rocket Lab - ESCAPADE commissioning (26.02.2026) - https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-completes-spacecraft-commissioning-nasas-escapade</li>
+<li>🔵 Rocket Lab - Space Systems components (10-K) - https://investors.rocketlabcorp.com/static-files/68df97e3-5691-4ecb-b62e-60d8ce0bcddc</li>
+<li>🔵 Rocket Lab - silicon solar arrays product page - https://rocketlabcorp.com/space-systems/space-solar-power/</li>
+<li>🔵 Rocket Lab - Neutron / Electron product pages - https://rocketlabcorp.com/launch/</li>
+<li>🔵 Rocket Lab - Heimdall GEO (90 mln USD, 21.05.2026) - https://rocketlabcorp.com/updates/rocket-lab-awarded-90m-contract-to-build-geo-satellites-hosting-space-domain-awareness-payload-for-u-s-space-force/</li>
+<li>🔵 Rocket Lab - kwalifikacja ogniw solarnych (33,3% BOL, 08.03.2022) - https://rocketlabcorp.com/updates/rocket-lab-begins-qualification-of-highest-performing-space-solar-cell-technology/</li>
+<li>🔵 Rocket Lab - Solar Solutions product page (do 34%, 2026) - https://rocketlabcorp.com/space-systems/solar/</li>
+<li>🟠 Payload Space - SDA Tranche 3 Tracking Layer (22.12.2025) - https://payloadspace.com/sda-awards-3-5b-in-tranche-3-tracking-layer-contracts/</li>
+<li>🟠 PhotonCap - 26 Companies in the LEO Satellite Cycle (09.05.2026) - https://photoncap.net/p/investment-map-26-companies-in-the-leo-satellite-cycle</li>
+<li>🟠 AInvest - Strategic Position in 2026 Defense Satellite Launch Boom (11.01.2026) - https://www.ainvest.com/news/rocket-lab-strategic-position-2026-defense-satellite-launch-boom-2601/</li>
+<li>🟠 AInvest - 2025 Launch Record (udzial ~10,2%, 22.12.2025) - https://www.ainvest.com/news/rocket-lab-2025-launch-record-strategic-momentum-cementing-dominance-small-satellite-launch-market-2512/</li>
+<li>🟠 Kratos Defense - MACH-TB 2.0 (do 1,45 mld USD, 06.01.2025) - https://www.kratosdefense.com/newsroom/kratos-receives-1-45b-mach-tb-2-0-contract-award</li>
+<li>🟠 Airforce Technology - Anduril HASTE (08.05.2026) - https://www.airforce-technology.com/news/rocket-lab-anduril-contract/</li>
+<li>🟠 Govly - $30M HASTE Anduril (07.05.2026) - https://app.govly.com/public/signals/96254</li>
+<li>🟠 Satellite Today - OneWeb panele / Mynaric (12.03.2025) - https://www.satellitetoday.com/satshow-2025/2025/03/12/rocket-lab-to-acquire-mynaric-and-supply-power-systems-for-oneweb-extension/</li>
+<li>🟠 Orbital Radar - Rocket Lab launch provider profile (22.05.2026) - https://orbitalradar.com/satellites/operator/rocket-lab</li>
+<li>🟠 Space Nexus - satellite launch cost 2026 (18.02.2026) - https://spacenexus.us/learn/satellite-launch-cost</li>
+<li>🟠 Interesting Engineering - Neutron vs Falcon 9 (27.08.2024) - https://interestingengineering.com/innovation/rocket-lab-neutron-falcon-9-spacex</li>
+<li>🟠 The Tech Marketer - RKLB Earnings Q1 2026 (08.05.2026) - https://thetechmarketer.com/rocket-lab-rklb-earnings-q1-2026/</li>
+<li>🟠 Space Odyssey Hub - Launch Cost Comparison 2026 (15.12.2025) - https://spaceodysseyhub.com/articles/launch-cost-comparison-2025</li>
+<li>🟠 Dataintelo - Small Launch Vehicle Market Report - https://dataintelo.com/report/global-small-launch-vehicle-market</li>
+<li>🟠 ExoTerra - Fold-Out Solar Array brochure (proxy W/kg) - https://exoterracorp.com/wp-content/uploads/2020/08/NEWBrochureSolarArray_PPD1.pdf</li>
+<li>🟠 NASA NTRS - Transformational Solar Array Final Report (proxy SolAero IMM) - https://ntrs.nasa.gov/api/citations/20170010684/downloads/20170010684.pdf</li>
+<li>🟠 Satellite Today - spacecraft bus lineup - https://www.satellitetoday.com/finance/2024/02/28/rocket-lab-grows-revenue-16-in-2023-debuts-spacecraft-bus-lineup/</li>
+<li>🟠 CompositesWorld - ESCAPADE / Explorer - https://www.compositesworld.com/news/rocket-lab-built-twin-composites-intensive-spacecraft-begin-mars-journey</li>
+<li>🟠 Space Voyaging - Flatellite - https://www.spacevoyaging.com/news/2025/03/02/rocket-lab-unveils-flatellite-a-new-spacecraft-for-large-satellite-constellations/</li>
+<li>🟠 The Motley Fool - AST SpaceMobile vs Rocket Lab (maj 2026) - https://www.fool.com/coverage/better-buy/2026/05/26/ast-spacemobile-vs-rocket-lab-which-space-stock-is-a-better-buy-in-2026/</li>
+<li>🟠 AInvest - strategic position analysis - https://www.ainvest.com/news/rocket-lab-strategic-position-space-economy-leveraging-vertical-integration-innovation-long-term-growth-2512/</li>
+<li>🔴 TrendMatrix - RKLB note z cytatem z 10-K - https://trendmatrix.com/stocks/RKLB</li>
+</ul>
+<p><em>Uwaga metodologiczna: dane segmentowe Q1 2026 pochodzą z 10-Q Q1 2026 (PIERWOTNE). Dane roczne i bilansowe częściowo z prezentacji inwestorskich i źródeł wtórnych (oznaczone 🟠). Ceny za kg/start nie są ujawniane przez spółkę (brak cennika IR) - podane wartości to szacunki wtórne (🟠 Orbital Radar / Space Nexus / Interesting Engineering / The Tech Marketer), traktować jako rząd wielkości, nie dane spółki. Udział rynkowy ~10,2% to szacunek analityczny (🟠), nie dane IR.</em></p></div>
+<section class="backlinks"><h2>Linkują tutaj</h2><p class="bl-count">17 powiązanych notatek</p><ul><li><span class="badge badge-moc mini">Mapa raportu</span> <a href="../index.html">Orbitalne / kosmiczne centra danych</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../03-fizyka-orbitalna-orbity-i-operacje.html">Fizyka orbitalna, orbity i operacje</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../04-energetyka-kosmiczna-i-fotowoltaika-orbitalna.html">Energetyka kosmiczna i fotowoltaika orbitalna</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../08-niezawodnosc-serwisowanie-i-cykl-zycia-sprzetu.html">Niezawodność, serwisowanie i cykl życia sprzętu</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../09-ekonomika-i-koszty-calkowite-tco.html">Ekonomika i koszty całkowite (TCO)</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../10-gracze-i-projekty.html">Gracze i projekty</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="airbus.html">Airbus (AIR)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="alphabet.html">Alphabet (GOOGL)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="astroscale.html">Astroscale (186A)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="lockheed-martin.html">Lockheed Martin (LMT)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="mda-space.html">MDA Space (MDA)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="northrop-grumman.html">Northrop Grumman (NOC)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="nvidia.html">NVIDIA (NVDA)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="planet-labs.html">Planet Labs (PL)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="redwire.html">Redwire (RDW)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="rtx.html">RTX (RTX)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="voyager-technologies.html">Voyager Technologies (VOYG)</a></li></ul></section>
+</article>
+<footer>Wygenerowano z vaultu Obsidian - raport tematyczny. Wykresy: Mermaid. Dane i źródła w treści notatek.</footer>
+</main>
+<script src="../static/search-index.js"></script>
+<script src="../static/app.js"></script>
+<script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+mermaid.initialize({startOnLoad:true, theme:"neutral", securityLevel:"loose"});
+</script>
+</body>
+</html>

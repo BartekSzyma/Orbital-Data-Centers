@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NVIDIA (NVDA) - Orbital Data Centers</title>
+<link rel="stylesheet" href="../static/style.css">
+<script>window.SITE_ROOT="../";</script>
+</head>
+<body>
+<button id="menu-toggle" aria-label="Menu">&#9776;</button>
+<nav id="sidebar"><a class="nav-home" href="../index.html">Orbital Data Centers</a>
+<div class="nav-search"><input id="searchbox" type="search" placeholder="Szukaj... (/)" autocomplete="off"><div id="search-results"></div></div>
+<a class="nav-graf" href="../graf.html">Graf sieci powiązań</a>
+<div class="nav-sec"><span class="nav-h">Sekcje</span><ol><li><a href="../01-wprowadzenie-definicje-i-architektury.html">Wprowadzenie, definicje i architektury</a></li><li><a href="../02-weryfikacja-tez-sceptycznego-artykulu.html">Weryfikacja tez sceptycznego artykułu</a></li><li><a href="../03-fizyka-orbitalna-orbity-i-operacje.html">Fizyka orbitalna, orbity i operacje</a></li><li><a href="../04-energetyka-kosmiczna-i-fotowoltaika-orbitalna.html">Energetyka kosmiczna i fotowoltaika orbitalna</a></li><li><a href="../05-chlodzenie-i-radiacyjne-odprowadzanie-ciepla.html">Chłodzenie i radiacyjne odprowadzanie ciepła</a></li><li><a href="../06-promieniowanie-i-elektronika-rad-hard-vs-cots.html">Promieniowanie i elektronika rad-hard vs COTS</a></li><li><a href="../07-lacznosc-optyczne-isl-downlink-i-latencja.html">Łączność: optyczne ISL, downlink i latencja</a></li><li><a href="../08-niezawodnosc-serwisowanie-i-cykl-zycia-sprzetu.html">Niezawodność, serwisowanie i cykl życia sprzętu</a></li><li><a href="../09-ekonomika-i-koszty-calkowite-tco.html">Ekonomika i koszty całkowite (TCO)</a></li><li><a href="../10-gracze-i-projekty.html">Gracze i projekty</a></li><li><a href="../11-regulacje-prawo-kosmiczne-debris-i-itu.html">Regulacje, prawo kosmiczne, debris i ITU</a></li><li><a href="../12-naziemny-bottleneck-energetyczny-i-sieciowy.html">Naziemny bottleneck energetyczny i sieciowy</a></li><li><a href="../13-sentyment-spoleczny-i-moratoria-na-centra-danych.html">Sentyment społeczny i moratoria na centra danych</a></li><li><a href="../14-zrownowazony-rozwoj-i-srodowisko.html">Zrównoważony rozwój i środowisko</a></li><li><a href="../15-bezpieczenstwo-geopolityka-i-realizm-10-letni.html">Bezpieczeństwo, geopolityka i realizm 10-letni</a></li></ol></div>
+<div class="nav-sec"><span class="nav-h">Spółki - omówienie pełne</span><ul><li><a href="astroscale.html">Astroscale (186A)</a></li><li><a href="bloom-energy.html">Bloom Energy (BE)</a></li><li><a href="constellation-energy.html">Constellation Energy (CEG)</a></li><li><a href="ge-vernova.html">GE Vernova (GEV)</a></li><li><a href="mda-space.html">MDA Space (MDA)</a></li><li><a href="mynaric.html">Mynaric (MYNA)</a></li><li><a href="oklo.html">Oklo (OKLO)</a></li><li><a href="redwire.html">Redwire (RDW)</a></li><li><a href="rocket-lab.html">Rocket Lab (RKLB)</a></li><li><a href="siemens-energy.html">Siemens Energy (ENR)</a></li><li><a href="talen-energy.html">Talen Energy (TLN)</a></li><li><a href="vertiv.html">Vertiv (VRT)</a></li><li><a href="voyager-technologies.html">Voyager Technologies (VOYG)</a></li></ul></div>
+<div class="nav-sec"><span class="nav-h">Spółki - omówienie skrótowe</span><ul><li><a href="amd.html">Advanced Micro Devices (AMD)</a></li><li><a href="airbus.html">Airbus (AIR)</a></li><li><a href="alphabet.html">Alphabet (GOOGL)</a></li><li><a href="bae-systems.html">BAE Systems (BA)</a></li><li><a href="eaton.html">Eaton (ETN)</a></li><li><a href="l3harris.html">L3Harris (LHX)</a></li><li><a href="lockheed-martin.html">Lockheed Martin (LMT)</a></li><li><a href="microchip.html">Microchip Technology (MCHP)</a></li><li><a class="active" href="nvidia.html">NVIDIA (NVDA)</a></li><li><a href="northrop-grumman.html">Northrop Grumman (NOC)</a></li><li><a href="planet-labs.html">Planet Labs (PL)</a></li><li><a href="rtx.html">RTX (RTX)</a></li><li><a href="schneider-electric.html">Schneider Electric (SU)</a></li></ul></div>
+<div class="nav-sec"><span class="nav-h">Indeksy</span><ul><li><a href="_slownik.html">Słownik</a></li><li><a href="_widok-gpw-eu.html">Spółki z ekspozycją na giełdy europejskie</a></li></ul></div></nav>
+<main>
+<article class="page" data-group="spolka">
+<div class="crumbs"><span class="badge badge-spolka">Spółka</span></div>
+<div class="content"><h1 id="nvidia-nvda">NVIDIA (NVDA)</h1>
+<h2 id="w-kontekscie-promieniowanie-i-elektronika-rad-hard-vs-cots">W kontekscie: Promieniowanie i elektronika rad-hard vs COTS</h2>
+<p>NVIDIA nie produkuje ani jednego układu odpornego na promieniowanie. Spółka wprost nie oferuje procesorów rad-hard, odpornych na promieniowanie FPGA/MCU ani pamięci klasy space-grade, a jej udział w segmencie "rad-hard electronics" wynosi zero (🔵 NVIDIA Space Computing, 16.03.2026). Mimo to stała się de facto standardem ładunku obliczeniowego na orbicie - operatorzy konstelacji sięgają nie po dedykowaną elektronikę kosmiczną, lecz po komercyjne, dostępne z półki (COTS) akceleratory AI, te same które napędzają naziemne centra danych. Powód jest prozaiczny: rad-hardowy procesor jest o kilka rzędów wielkości słabszy wydajnościowo od współczesnego GPU, a integratorzy chcą przenieść na orbitę ten sam, dojrzały stack CUDA zamiast budować go od zera (🔵 NVIDIA Space Computing, 16.03.2026; 🟠 Kepler Communications, 16.03.2026). To jest właśnie napięcie, które rozwija wątek <a href="../06-promieniowanie-i-elektronika-rad-hard-vs-cots.html#cots-kontra-rad-hard-koszty-opóźnienie-generacyjne-wydajność" class="wikilink">COTS kontra rad-hard: koszty, opóźnienie generacyjne, wydajność</a>.</p>
+<p>Portfolio NVIDIA wykorzystywane on-orbit przez integratorów jest komercyjne, nie zakwalifikowane do kosmosu. Kompaktowy moduł Jetson Orin trafia do satelitów, payloadów i CubeSatów; platforma edge IGX Thor adresuje zastosowania krytyczne (secure boot, bezpieczeństwo funkcjonalne); do przetwarzania na orbicie i na ziemi dochodzą układy klasy data-center pokroju H100 i nowszych Blackwellów oraz zapowiedziany w marcu 2026 moduł Space-1 Vera Rubin do inferencji AI na orbicie - z deklaracją do 25x większej mocy obliczeniowej AI niż H100, ale z dostępnością określoną jedynie jako "później" (🔵 NVIDIA Space Computing, 16.03.2026). Pierwsze realne wdrożenie pokazuje skalę zjawiska: Kepler Communications umieścił 40 modułów Jetson Orin na 10 satelitach (🟠 Kepler Communications, 16.03.2026) - liczba wielkościowo pomijalna przy rocznych przychodach spółki.</p>
+<p>Mechanizm ryzyka technicznego jest tu wprost finansowy. Skoro moduły są COTS, a nie rad-hard, w niskiej orbicie (LEO) narażone są na SEU (pojedyncze przerzuty bitów), TID (skumulowaną dawkę jonizującą) oraz latch-up, a próżnia odbiera konwekcję jako drogę odprowadzania ciepła. To wymusza ekranowanie, redundancję i kwalifikację misyjną, które podnoszą masę, koszt i czas wdrożenia (🔵 NVIDIA Space Computing, 16.03.2026; 🟠 Kepler, 16.03.2026; 🟠 AMD Space). Konsekwencje dla żywotności sprzętu w warunkach skumulowanej dawki rozwija <a href="../06-promieniowanie-i-elektronika-rad-hard-vs-cots.html#żywotność-elektroniki-vs-dawka-skumulowana-i-mtbf" class="wikilink">Żywotność elektroniki vs dawka skumulowana i MTBF</a>, a samo środowisko zagrożeń opisuje <a href="../06-promieniowanie-i-elektronika-rad-hard-vs-cots.html#środowisko-radiacyjne-czym-właściwie-grozi-orbita" class="wikilink">Środowisko radiacyjne: czym właściwie grozi orbita</a>.</p>
+<blockquote>
+<p><strong>Dla inwestora:</strong> NVIDIA wchodzi na orbitę z elektroniką niezaprojektowaną do promieniowania - to nie jest linia rad-hard, lecz transfer komercyjnego stacku AI. Ekspozycja kosmiczna jest dziś marginalna i nie jest osobno raportowana.</p>
+</blockquote>
+<h2 id="materiały-spółki">Materiały spółki</h2>
+<blockquote>
+<p>Grafiki z materiałów spółki / IR (prawa właściciela, użycie redakcyjne). Pełny rejestr: <code>Spolki/assets/_licencje.json</code>.</p>
+</blockquote>
+<p><img alt="" src="assets/nvidia-1-h100-og.jpg"><br>
+<em>H100 Tensor Core GPU (produktowy og-image). Źródło: www.nvidia.com; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.</em></p>
+<p><img alt="" src="assets/nvidia-2-nvidia-jetson-orin-og.jpg"><br>
+<em>Jetson Orin (produktowy og-image). Źródło: www.nvidia.com; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.</em></p>
+<p><img alt="" src="assets/nvidia-3-space-computing.jpg"><br>
+<em>NVIDIA Space Computing / orbital data centers (grafika z komunikatu). Źródło: iprsoftwaremedia.com; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.</em></p>
+<h2 id="w-kontekscie-gracze-i-projekty">W kontekscie: Gracze i projekty</h2>
+<p>W krajobrazie projektów orbitalnego computingu NVIDIA występuje nie jako operator konstelacji, lecz jako dostawca ładunku obliczeniowego, którego sprzęt pojawia się w cudzych projektach. Najwyraźniej widać to u demonstratora StarCloud (dawniej Lumen Orbit), który uruchomił działający na orbicie układ oparty o NVIDIA H100, a roadmapa NVIDIA prowadzi przez Blackwelle (B200) ku modułowi Space-1 Vera Rubin (🔵 NVIDIA Space Computing, 16.03.2026). To pozycjonuje NVIDIA po stronie COTS w sporze architektonicznym z podejściem własnego krzemu - kontekst gracza StarCloud rozwija <a href="../10-gracze-i-projekty.html#starcloud-dawniej-lumen-orbit-działający-demonstrator-z-nvidia-h100" class="wikilink">StarCloud (dawniej Lumen Orbit) - działający demonstrator z NVIDIA H100</a>.</p>
+<p>Kontrapunktem jest Google z Project Suncatcher, który zamiast COTS GPU stawia na własne TPU na orbicie, z partnerstwem Planet Labs i demonstracją zapowiadaną około 2027 roku - to przykład gracza, który omija ekosystem NVIDIA, projektując akcelerator pod własne potrzeby; wątek prowadzi <a href="../10-gracze-i-projekty.html#google-project-suncatcher-tpu-na-orbicie-partner-planet-labs-demo-2027" class="wikilink">Google - Project Suncatcher (TPU na orbicie, partner Planet Labs, demo ~2027)</a>. Po stronie integratorów sprzętu NVIDIA pozostaje natomiast standardem przyjmowanym przez kolejnych operatorów, co widać szerzej w przeglądzie <a href="../10-gracze-i-projekty.html#mniejsi-i-sąsiedni-gracze-cloud-oem-stack-geo-księżyc-europa" class="wikilink">Mniejsi i sąsiedni gracze - cloud-OEM stack, GEO, Księżyc, Europa</a>.</p>
+<blockquote>
+<p><strong>Dla inwestora:</strong> orbitalny computing jest dla NVIDIA opcją wzrostową, nie linią przychodów - spółka dostarcza komponenty do projektów innych podmiotów, a główny rywal architektoniczny (Google TPU) nie kupuje jej GPU.</p>
+</blockquote>
+<h2 id="pozycja-rynkowa">Pozycja rynkowa</h2>
+<p>Skala biznesu NVIDIA pokazuje, jak marginalna jest dziś orbita. W roku obrotowym FY2026 (zakończonym 25.01.2026) spółka wykazała przychód 215,9 mld USD (+65% r/r), zysk netto GAAP 120,1 mld USD i marżę brutto GAAP 71,1% (🔵 NVIDIA Q4 &amp; FY2026 earnings, 25.02.2026). Sam Q4 FY2026 (zakończony 25.01.2026) przyniósł 68,1 mld USD przychodu (+73% r/r) (🔵 NVIDIA, 25.02.2026). Rdzeniem jest platforma Data Center: 193,7 mld USD (+68% r/r), czyli około 90% przychodów (🔵 NVIDIA, 25.02.2026). Pozostałe platformy to Gaming &amp; AI PC 16,0 mld USD, Professional Visualization 3,2 mld USD oraz Automotive &amp; Robotics 2,3 mld USD (🔵 NVIDIA, 25.02.2026).</p>
+<p>Na tym tle sprzedaż "do kosmosu" jest praktycznie nieobserwowalna. NVIDIA nie wydziela przychodów z segmentu orbitalnego - mieszczą się one w Data Center, a konkretne wdrożenia rzędu 40 modułów Jetson Orin u Keplera są wielkościowo pomijalne przy 215,9 mld USD rocznych przychodów (🟠 Kepler, 16.03.2026; 🔵 NVIDIA, 25.02.2026). Udział orbity w sprzedaży należy więc traktować jako około 0% i NIE UJAWNIONE jako osobna pozycja. Przewaga NVIDIA jest natomiast jednoznaczna w warstwie wyżej: dominacja w akceleratorach AI i ekosystem CUDA czynią ją de facto standardem ładunku obliczeniowego, który operatorzy chcą przenieść na orbitę.</p>
+<pre class="mermaid">pie title Przychody NVIDIA wg platform - FY2026 (mld USD)
+    &quot;Data Center&quot; : 193.7
+    &quot;Gaming &amp; AI PC&quot; : 16.0
+    &quot;Professional Visualization&quot; : 3.2
+    &quot;Automotive &amp; Robotics&quot; : 2.3</pre>
+<p><em>Rys. - struktura przychodów NVIDIA wg platform rynkowych, FY2026. Orbita nie jest osobną pozycją (mieści się w Data Center). Dane: 🔵 NVIDIA Q4 &amp; FY2026 earnings, 25.02.2026.</em></p>
+<p>Głównymi rywalami w niszy kosmicznego computingu są AMD/Xilinx z rad-tolerantnymi FPGA i SoC (np. Versal XQR, Kintex UltraScale+), tradycyjnie obecnymi w payloadach satelitarnych (🟠 AMD Space), oraz Hewlett Packard Enterprise z platformą Spaceborne Computer-2 na ISS (🟠 Emergen Research / HPE). Odrębną klasą konkurencji architektonicznej jest Google z własnym TPU (Project Suncatcher), który celuje w to samo zastosowanie z pominięciem GPU NVIDIA.</p>
+<h2 id="ryzyka">Ryzyka</h2>
+<p>Pierwsze ryzyko jest techniczne i wprost wynika z natury COTS. Moduły NVIDIA nie są rad-hard, więc na orbicie narażone są na SEU, TID i latch-up, a brak konwekcji w próżni utrudnia chłodzenie - co wymusza ekranowanie, redundancję i kwalifikację misyjną podnoszące masę, koszt oraz czas wdrożenia (🔵 NVIDIA Space Computing, 16.03.2026; 🟠 AMD Space). Mechanizm finansowy: im więcej osłon i redundancji potrzeba, tym słabsza przewaga kosztowo-wydajnościowa COTS względem dedykowanej elektroniki, a żywotność sprzętu on-orbit pod skumulowaną dawką pozostaje otwartą zmienną.</p>
+<p>Drugie ryzyko to regulacje eksportowe i koncentracja geopolityczna. Zaawansowane akceleratory AI są objęte amerykańskimi ograniczeniami eksportowymi - przypadek H20 do Chin kosztował 4,5 mld USD odpisu w Q1 FY2026 (🔵 NVIDIA Q1 FY2026). Rozszerzenie restrykcji na systemy kosmiczne lub utrata dostępu do zaawansowanych node'ów TSMC mogłyby zablokować dostawy dla konstelacji orbitalnych. Trzecim wymiarem jest konkurencja: AMD/Xilinx po stronie rad-tolerant FPGA oraz Google TPU jako alternatywna architektura akceleratora, która z definicji nie generuje przychodu dla NVIDIA.</p>
+<blockquote>
+<p><strong>Dla inwestora:</strong> ekspozycja orbitalna jest dziś nieistotna dla przychodów, więc materializacja tych ryzyk w niszy kosmicznej nie zmienia wyniku spółki - znaczenie ma jedynie jako wczesny sygnał o adopcji COTS na orbicie i o granicach ekosystemu CUDA wobec własnego krzemu hyperscalerów.</p>
+</blockquote>
+<h2 id="powiązane-spółki">Powiązane spółki</h2>
+<blockquote>
+<p>Inne notowane spółki z raportu dzielące z tą firmą co najmniej jeden wątek tematyczny (wspólny rynek, technologia lub łańcuch wartości).</p>
+</blockquote>
+<ul>
+<li><a href="amd.html" class="wikilink">Advanced Micro Devices, Inc. (AMD)</a> - Rad-tolerant FPGA/SoC (Versal/Xilinx) + GPU<br>
+<em>Wspólne wątki: Promieniowanie i elektronika.</em></li>
+<li><a href="alphabet.html" class="wikilink">Alphabet Inc. (GOOGL)</a> - Project Suncatcher (TPU na orbicie)<br>
+<em>Wspólne wątki: Gracze i projekty.</em></li>
+<li><a href="bae-systems.html" class="wikilink">BAE Systems plc (BA)</a> - Rad-hard procesory (RAD750/RAD5545); optyka (Ball)<br>
+<em>Wspólne wątki: Promieniowanie i elektronika.</em></li>
+<li><a href="microchip.html" class="wikilink">Microchip Technology Incorporated (MCHP)</a> - Rad-hard/rad-tolerant FPGA (RTG4) i mikrokontrolery<br>
+<em>Wspólne wątki: Promieniowanie i elektronika.</em></li>
+<li><a href="planet-labs.html" class="wikilink">Planet Labs PBC (PL)</a> - Partner Google Suncatcher (platformy/obrazowanie)<br>
+<em>Wspólne wątki: Gracze i projekty.</em></li>
+<li><a href="rocket-lab.html" class="wikilink">Rocket Lab Corporation (RKLB)</a> - Launch (Electron/Neutron) + Space Systems: bus, ogniwa SolAero, komponenty<br>
+<em>Wspólne wątki: Gracze i projekty.</em></li>
+<li><a href="voyager-technologies.html" class="wikilink">Voyager Technologies, Inc. (VOYG)</a> - Stacje kosmiczne (Starlab), systemy kosmiczne i obronne<br>
+<em>Wspólne wątki: Gracze i projekty.</em></li>
+</ul>
+<h2 id="zrodla">Zrodla</h2>
+<ol>
+<li>🔵 NVIDIA Q4 &amp; FY2026 earnings (25.02.2026): http://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026</li>
+<li>🔵 NVIDIA 2026 Annual Review (segmenty Compute &amp; Networking / Graphics): https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf</li>
+<li>🔵 NVIDIA Space Computing (16.03.2026): http://nvidianews.nvidia.com/news/space-computing</li>
+<li>🟠 Kepler Communications - wdrożenie 40 Jetson Orin na 10 satelitach (16.03.2026): https://kepler.space/kepler-deploys-first-space-based-scalable-cloud-infrastructure-powered-by-nvidia/</li>
+<li>🟠 AMD Space (rad-hard / rad-tolerant FPGAs): https://www.amd.com/en/solutions/aerospace-and-defense/space.html</li>
+<li>🟠 Space-based edge computing - HPE / Intel (Emergen Research): https://www.emergenresearch.com/industry-report/space-based-edge-computing-market</li>
+<li>🔵 NVIDIA Q1 FY2026 - wpływ ograniczeń eksportowych H20: https://nvidianews.nvidia.com/_gallery/download_pdf/6837703d3d63320fddb3a9ee/</li>
+</ol></div>
+<section class="backlinks"><h2>Linkują tutaj</h2><p class="bl-count">10 powiązanych notatek</p><ul><li><span class="badge badge-moc mini">Mapa raportu</span> <a href="../index.html">Orbitalne / kosmiczne centra danych</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../06-promieniowanie-i-elektronika-rad-hard-vs-cots.html">Promieniowanie i elektronika rad-hard vs COTS</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../10-gracze-i-projekty.html">Gracze i projekty</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="alphabet.html">Alphabet (GOOGL)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="amd.html">Advanced Micro Devices (AMD)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="bae-systems.html">BAE Systems (BA)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="microchip.html">Microchip Technology (MCHP)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="planet-labs.html">Planet Labs (PL)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="rocket-lab.html">Rocket Lab (RKLB)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="voyager-technologies.html">Voyager Technologies (VOYG)</a></li></ul></section>
+</article>
+<footer>Wygenerowano z vaultu Obsidian - raport tematyczny. Wykresy: Mermaid. Dane i źródła w treści notatek.</footer>
+</main>
+<script src="../static/search-index.js"></script>
+<script src="../static/app.js"></script>
+<script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+mermaid.initialize({startOnLoad:true, theme:"neutral", securityLevel:"loose"});
+</script>
+</body>
+</html>

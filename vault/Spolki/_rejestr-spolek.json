@@ -1,0 +1,246 @@
+{
+  "alias": {
+    "rocket lab corporation": "rocket-lab",
+    "rocket-lab": "rocket-lab",
+    "rklb": "rocket-lab",
+    "redwire corporation": "redwire",
+    "rdw": "redwire",
+    "redwire": "redwire",
+    "voyager-technologies": "voyager-technologies",
+    "voyg": "voyager-technologies",
+    "voyager technologies, inc.": "voyager-technologies",
+    "emcore": "emcore",
+    "emkr": "emcore",
+    "emcore corporation": "emcore",
+    "mda space ltd.": "mda-space",
+    "mda": "mda-space",
+    "mda-space": "mda-space",
+    "astroscale": "astroscale",
+    "186a": "astroscale",
+    "astroscale holdings inc.": "astroscale",
+    "mynaric": "mynaric",
+    "myna": "mynaric",
+    "mynaric ag": "mynaric",
+    "bloom-energy": "bloom-energy",
+    "bloom energy corporation": "bloom-energy",
+    "be": "bloom-energy",
+    "gev": "ge-vernova",
+    "ge vernova inc.": "ge-vernova",
+    "ge-vernova": "ge-vernova",
+    "vertiv holdings co": "vertiv",
+    "vertiv": "vertiv",
+    "vrt": "vertiv",
+    "constellation energy corporation": "constellation-energy",
+    "constellation-energy": "constellation-energy",
+    "ceg": "constellation-energy",
+    "oklo": "oklo",
+    "oklo inc.": "oklo",
+    "tln": "talen-energy",
+    "talen-energy": "talen-energy",
+    "talen energy corporation": "talen-energy",
+    "siemens energy ag": "siemens-energy",
+    "enr": "siemens-energy",
+    "siemens-energy": "siemens-energy",
+    "nvidia corporation": "nvidia",
+    "nvidia": "nvidia",
+    "nvda": "nvidia",
+    "amd": "amd",
+    "advanced micro devices, inc.": "amd",
+    "microchip technology incorporated": "microchip",
+    "mchp": "microchip",
+    "microchip": "microchip",
+    "bae-systems": "bae-systems",
+    "bae systems plc": "bae-systems",
+    "ba": "bae-systems",
+    "noc": "northrop-grumman",
+    "northrop grumman corporation": "northrop-grumman",
+    "northrop-grumman": "northrop-grumman",
+    "air": "airbus",
+    "airbus": "airbus",
+    "airbus se": "airbus",
+    "rtx": "rtx",
+    "rtx corporation": "rtx",
+    "lockheed martin corporation": "lockheed-martin",
+    "lockheed-martin": "lockheed-martin",
+    "lmt": "lockheed-martin",
+    "l3harris technologies, inc.": "l3harris",
+    "lhx": "l3harris",
+    "l3harris": "l3harris",
+    "eaton corporation plc": "eaton",
+    "eaton": "eaton",
+    "etn": "eaton",
+    "schneider-electric": "schneider-electric",
+    "schneider electric se": "schneider-electric",
+    "su": "schneider-electric",
+    "alphabet inc.": "alphabet",
+    "googl": "alphabet",
+    "alphabet": "alphabet",
+    "planet-labs": "planet-labs",
+    "pl": "planet-labs",
+    "planet labs pbc": "planet-labs"
+  },
+  "meta": {
+    "rocket-lab": {
+      "nazwa_kanoniczna": "Rocket Lab Corporation",
+      "ticker": "RKLB",
+      "glowny_listing": "XNAS",
+      "isin": ""
+    },
+    "redwire": {
+      "nazwa_kanoniczna": "Redwire Corporation",
+      "ticker": "RDW",
+      "glowny_listing": "XNYS",
+      "isin": ""
+    },
+    "voyager-technologies": {
+      "nazwa_kanoniczna": "Voyager Technologies, Inc.",
+      "ticker": "VOYG",
+      "glowny_listing": "XNYS",
+      "isin": ""
+    },
+    "emcore": {
+      "nazwa_kanoniczna": "EMCORE Corporation",
+      "ticker": "EMKR",
+      "glowny_listing": "XNAS",
+      "isin": ""
+    },
+    "mda-space": {
+      "nazwa_kanoniczna": "MDA Space Ltd.",
+      "ticker": "MDA",
+      "glowny_listing": "XTSE",
+      "isin": ""
+    },
+    "astroscale": {
+      "nazwa_kanoniczna": "Astroscale Holdings Inc.",
+      "ticker": "186A",
+      "glowny_listing": "XTKS",
+      "isin": ""
+    },
+    "mynaric": {
+      "nazwa_kanoniczna": "Mynaric AG",
+      "ticker": "MYNA",
+      "glowny_listing": "XNAS",
+      "isin": ""
+    },
+    "bloom-energy": {
+      "nazwa_kanoniczna": "Bloom Energy Corporation",
+      "ticker": "BE",
+      "glowny_listing": "XNYS",
+      "isin": ""
+    },
+    "ge-vernova": {
+      "nazwa_kanoniczna": "GE Vernova Inc.",
+      "ticker": "GEV",
+      "glowny_listing": "XNYS",
+      "isin": ""
+    },
+    "vertiv": {
+      "nazwa_kanoniczna": "Vertiv Holdings Co",
+      "ticker": "VRT",
+      "glowny_listing": "XNYS",
+      "isin": ""
+    },
+    "constellation-energy": {
+      "nazwa_kanoniczna": "Constellation Energy Corporation",
+      "ticker": "CEG",
+      "glowny_listing": "XNAS",
+      "isin": ""
+    },
+    "oklo": {
+      "nazwa_kanoniczna": "Oklo Inc.",
+      "ticker": "OKLO",
+      "glowny_listing": "XNYS",
+      "isin": ""
+    },
+    "talen-energy": {
+      "nazwa_kanoniczna": "Talen Energy Corporation",
+      "ticker": "TLN",
+      "glowny_listing": "XNAS",
+      "isin": ""
+    },
+    "siemens-energy": {
+      "nazwa_kanoniczna": "Siemens Energy AG",
+      "ticker": "ENR",
+      "glowny_listing": "XETR",
+      "isin": ""
+    },
+    "nvidia": {
+      "nazwa_kanoniczna": "NVIDIA Corporation",
+      "ticker": "NVDA",
+      "glowny_listing": "XNAS",
+      "isin": ""
+    },
+    "amd": {
+      "nazwa_kanoniczna": "Advanced Micro Devices, Inc.",
+      "ticker": "AMD",
+      "glowny_listing": "XNAS",
+      "isin": ""
+    },
+    "microchip": {
+      "nazwa_kanoniczna": "Microchip Technology Incorporated",
+      "ticker": "MCHP",
+      "glowny_listing": "XNAS",
+      "isin": ""
+    },
+    "bae-systems": {
+      "nazwa_kanoniczna": "BAE Systems plc",
+      "ticker": "BA",
+      "glowny_listing": "XLON",
+      "isin": ""
+    },
+    "northrop-grumman": {
+      "nazwa_kanoniczna": "Northrop Grumman Corporation",
+      "ticker": "NOC",
+      "glowny_listing": "XNYS",
+      "isin": ""
+    },
+    "airbus": {
+      "nazwa_kanoniczna": "Airbus SE",
+      "ticker": "AIR",
+      "glowny_listing": "XPAR",
+      "isin": ""
+    },
+    "rtx": {
+      "nazwa_kanoniczna": "RTX Corporation",
+      "ticker": "RTX",
+      "glowny_listing": "XNYS",
+      "isin": ""
+    },
+    "lockheed-martin": {
+      "nazwa_kanoniczna": "Lockheed Martin Corporation",
+      "ticker": "LMT",
+      "glowny_listing": "XNYS",
+      "isin": ""
+    },
+    "l3harris": {
+      "nazwa_kanoniczna": "L3Harris Technologies, Inc.",
+      "ticker": "LHX",
+      "glowny_listing": "XNYS",
+      "isin": ""
+    },
+    "eaton": {
+      "nazwa_kanoniczna": "Eaton Corporation plc",
+      "ticker": "ETN",
+      "glowny_listing": "XNYS",
+      "isin": ""
+    },
+    "schneider-electric": {
+      "nazwa_kanoniczna": "Schneider Electric SE",
+      "ticker": "SU",
+      "glowny_listing": "XPAR",
+      "isin": ""
+    },
+    "alphabet": {
+      "nazwa_kanoniczna": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "glowny_listing": "XNAS",
+      "isin": ""
+    },
+    "planet-labs": {
+      "nazwa_kanoniczna": "Planet Labs PBC",
+      "ticker": "PL",
+      "glowny_listing": "XNYS",
+      "isin": ""
+    }
+  }
+}

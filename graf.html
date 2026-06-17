@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Graf sieci powiązań - Orbital Data Centers</title>
+<link rel="stylesheet" href="static/style.css">
+<script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+</head><body>
+<button id="menu-toggle" aria-label="Menu">&#9776;</button>
+<nav id="sidebar"><a class="nav-home" href="index.html">Orbital Data Centers</a>
+<div class="nav-search"><input id="searchbox" type="search" placeholder="Szukaj... (/)" autocomplete="off"><div id="search-results"></div></div>
+<a class="nav-graf" href="graf.html">Graf sieci powiązań</a>
+<div class="nav-sec"><span class="nav-h">Sekcje</span><ol><li><a href="01-wprowadzenie-definicje-i-architektury.html">Wprowadzenie, definicje i architektury</a></li><li><a href="02-weryfikacja-tez-sceptycznego-artykulu.html">Weryfikacja tez sceptycznego artykułu</a></li><li><a href="03-fizyka-orbitalna-orbity-i-operacje.html">Fizyka orbitalna, orbity i operacje</a></li><li><a href="04-energetyka-kosmiczna-i-fotowoltaika-orbitalna.html">Energetyka kosmiczna i fotowoltaika orbitalna</a></li><li><a href="05-chlodzenie-i-radiacyjne-odprowadzanie-ciepla.html">Chłodzenie i radiacyjne odprowadzanie ciepła</a></li><li><a href="06-promieniowanie-i-elektronika-rad-hard-vs-cots.html">Promieniowanie i elektronika rad-hard vs COTS</a></li><li><a href="07-lacznosc-optyczne-isl-downlink-i-latencja.html">Łączność: optyczne ISL, downlink i latencja</a></li><li><a href="08-niezawodnosc-serwisowanie-i-cykl-zycia-sprzetu.html">Niezawodność, serwisowanie i cykl życia sprzętu</a></li><li><a href="09-ekonomika-i-koszty-calkowite-tco.html">Ekonomika i koszty całkowite (TCO)</a></li><li><a href="10-gracze-i-projekty.html">Gracze i projekty</a></li><li><a href="11-regulacje-prawo-kosmiczne-debris-i-itu.html">Regulacje, prawo kosmiczne, debris i ITU</a></li><li><a href="12-naziemny-bottleneck-energetyczny-i-sieciowy.html">Naziemny bottleneck energetyczny i sieciowy</a></li><li><a href="13-sentyment-spoleczny-i-moratoria-na-centra-danych.html">Sentyment społeczny i moratoria na centra danych</a></li><li><a href="14-zrownowazony-rozwoj-i-srodowisko.html">Zrównoważony rozwój i środowisko</a></li><li><a href="15-bezpieczenstwo-geopolityka-i-realizm-10-letni.html">Bezpieczeństwo, geopolityka i realizm 10-letni</a></li></ol></div>
+<div class="nav-sec"><span class="nav-h">Spółki - omówienie pełne</span><ul><li><a href="spolki/astroscale.html">Astroscale (186A)</a></li><li><a href="spolki/bloom-energy.html">Bloom Energy (BE)</a></li><li><a href="spolki/constellation-energy.html">Constellation Energy (CEG)</a></li><li><a href="spolki/ge-vernova.html">GE Vernova (GEV)</a></li><li><a href="spolki/mda-space.html">MDA Space (MDA)</a></li><li><a href="spolki/mynaric.html">Mynaric (MYNA)</a></li><li><a href="spolki/oklo.html">Oklo (OKLO)</a></li><li><a href="spolki/redwire.html">Redwire (RDW)</a></li><li><a href="spolki/rocket-lab.html">Rocket Lab (RKLB)</a></li><li><a href="spolki/siemens-energy.html">Siemens Energy (ENR)</a></li><li><a href="spolki/talen-energy.html">Talen Energy (TLN)</a></li><li><a href="spolki/vertiv.html">Vertiv (VRT)</a></li><li><a href="spolki/voyager-technologies.html">Voyager Technologies (VOYG)</a></li></ul></div>
+<div class="nav-sec"><span class="nav-h">Spółki - omówienie skrótowe</span><ul><li><a href="spolki/amd.html">Advanced Micro Devices (AMD)</a></li><li><a href="spolki/airbus.html">Airbus (AIR)</a></li><li><a href="spolki/alphabet.html">Alphabet (GOOGL)</a></li><li><a href="spolki/bae-systems.html">BAE Systems (BA)</a></li><li><a href="spolki/eaton.html">Eaton (ETN)</a></li><li><a href="spolki/l3harris.html">L3Harris (LHX)</a></li><li><a href="spolki/lockheed-martin.html">Lockheed Martin (LMT)</a></li><li><a href="spolki/microchip.html">Microchip Technology (MCHP)</a></li><li><a href="spolki/nvidia.html">NVIDIA (NVDA)</a></li><li><a href="spolki/northrop-grumman.html">Northrop Grumman (NOC)</a></li><li><a href="spolki/planet-labs.html">Planet Labs (PL)</a></li><li><a href="spolki/rtx.html">RTX (RTX)</a></li><li><a href="spolki/schneider-electric.html">Schneider Electric (SU)</a></li></ul></div>
+<div class="nav-sec"><span class="nav-h">Indeksy</span><ul><li><a href="spolki/_slownik.html">Słownik</a></li><li><a href="spolki/_widok-gpw-eu.html">Spółki z ekspozycją na giełdy europejskie</a></li></ul></div></nav>
+<main>
+<article class="page" data-group="graf">
+<div class="crumbs"><span class="badge badge-moc">Graf</span></div>
+<div class="content">
+<h1>Graf sieci powiązań</h1>
+<p>Interaktywna mapa wszystkich notatek i powiązań między nimi. Kolor węzła oznacza typ
+(<span class="g-moc">mapa</span>, <span class="g-temat">sekcja</span>,
+<span class="g-spolka">spółka</span>, <span class="g-indeks">indeks</span>); rozmiar - liczbę powiązań.
+Kliknij węzeł, aby otworzyć notatkę. Przeciągaj, przewijaj, aby przybliżyć.</p>
+<div class="graf-legend">
+<span class="badge badge-moc">Mapa raportu</span>
+<span class="badge badge-temat">Sekcje (15)</span>
+<span class="badge badge-spolka">Spółki (26)</span>
+<span class="badge badge-indeks">Indeksy</span>
+</div>
+<div id="net"></div>
+</div>
+</article>
+</main>
+<script src="static/graph-data.js"></script>
+<script src="static/app.js"></script>
+<script src="static/graf.js"></script>
+</body></html>

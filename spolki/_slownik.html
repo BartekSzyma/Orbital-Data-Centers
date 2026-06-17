@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Słownik - Orbital Data Centers</title>
+<link rel="stylesheet" href="../static/style.css">
+<script>window.SITE_ROOT="../";</script>
+</head>
+<body>
+<button id="menu-toggle" aria-label="Menu">&#9776;</button>
+<nav id="sidebar"><a class="nav-home" href="../index.html">Orbital Data Centers</a>
+<div class="nav-search"><input id="searchbox" type="search" placeholder="Szukaj... (/)" autocomplete="off"><div id="search-results"></div></div>
+<a class="nav-graf" href="../graf.html">Graf sieci powiązań</a>
+<div class="nav-sec"><span class="nav-h">Sekcje</span><ol><li><a href="../01-wprowadzenie-definicje-i-architektury.html">Wprowadzenie, definicje i architektury</a></li><li><a href="../02-weryfikacja-tez-sceptycznego-artykulu.html">Weryfikacja tez sceptycznego artykułu</a></li><li><a href="../03-fizyka-orbitalna-orbity-i-operacje.html">Fizyka orbitalna, orbity i operacje</a></li><li><a href="../04-energetyka-kosmiczna-i-fotowoltaika-orbitalna.html">Energetyka kosmiczna i fotowoltaika orbitalna</a></li><li><a href="../05-chlodzenie-i-radiacyjne-odprowadzanie-ciepla.html">Chłodzenie i radiacyjne odprowadzanie ciepła</a></li><li><a href="../06-promieniowanie-i-elektronika-rad-hard-vs-cots.html">Promieniowanie i elektronika rad-hard vs COTS</a></li><li><a href="../07-lacznosc-optyczne-isl-downlink-i-latencja.html">Łączność: optyczne ISL, downlink i latencja</a></li><li><a href="../08-niezawodnosc-serwisowanie-i-cykl-zycia-sprzetu.html">Niezawodność, serwisowanie i cykl życia sprzętu</a></li><li><a href="../09-ekonomika-i-koszty-calkowite-tco.html">Ekonomika i koszty całkowite (TCO)</a></li><li><a href="../10-gracze-i-projekty.html">Gracze i projekty</a></li><li><a href="../11-regulacje-prawo-kosmiczne-debris-i-itu.html">Regulacje, prawo kosmiczne, debris i ITU</a></li><li><a href="../12-naziemny-bottleneck-energetyczny-i-sieciowy.html">Naziemny bottleneck energetyczny i sieciowy</a></li><li><a href="../13-sentyment-spoleczny-i-moratoria-na-centra-danych.html">Sentyment społeczny i moratoria na centra danych</a></li><li><a href="../14-zrownowazony-rozwoj-i-srodowisko.html">Zrównoważony rozwój i środowisko</a></li><li><a href="../15-bezpieczenstwo-geopolityka-i-realizm-10-letni.html">Bezpieczeństwo, geopolityka i realizm 10-letni</a></li></ol></div>
+<div class="nav-sec"><span class="nav-h">Spółki - omówienie pełne</span><ul><li><a href="astroscale.html">Astroscale (186A)</a></li><li><a href="bloom-energy.html">Bloom Energy (BE)</a></li><li><a href="constellation-energy.html">Constellation Energy (CEG)</a></li><li><a href="ge-vernova.html">GE Vernova (GEV)</a></li><li><a href="mda-space.html">MDA Space (MDA)</a></li><li><a href="mynaric.html">Mynaric (MYNA)</a></li><li><a href="oklo.html">Oklo (OKLO)</a></li><li><a href="redwire.html">Redwire (RDW)</a></li><li><a href="rocket-lab.html">Rocket Lab (RKLB)</a></li><li><a href="siemens-energy.html">Siemens Energy (ENR)</a></li><li><a href="talen-energy.html">Talen Energy (TLN)</a></li><li><a href="vertiv.html">Vertiv (VRT)</a></li><li><a href="voyager-technologies.html">Voyager Technologies (VOYG)</a></li></ul></div>
+<div class="nav-sec"><span class="nav-h">Spółki - omówienie skrótowe</span><ul><li><a href="amd.html">Advanced Micro Devices (AMD)</a></li><li><a href="airbus.html">Airbus (AIR)</a></li><li><a href="alphabet.html">Alphabet (GOOGL)</a></li><li><a href="bae-systems.html">BAE Systems (BA)</a></li><li><a href="eaton.html">Eaton (ETN)</a></li><li><a href="l3harris.html">L3Harris (LHX)</a></li><li><a href="lockheed-martin.html">Lockheed Martin (LMT)</a></li><li><a href="microchip.html">Microchip Technology (MCHP)</a></li><li><a href="nvidia.html">NVIDIA (NVDA)</a></li><li><a href="northrop-grumman.html">Northrop Grumman (NOC)</a></li><li><a href="planet-labs.html">Planet Labs (PL)</a></li><li><a href="rtx.html">RTX (RTX)</a></li><li><a href="schneider-electric.html">Schneider Electric (SU)</a></li></ul></div>
+<div class="nav-sec"><span class="nav-h">Indeksy</span><ul><li><a class="active" href="_slownik.html">Słownik</a></li><li><a href="_widok-gpw-eu.html">Spółki z ekspozycją na giełdy europejskie</a></li></ul></div></nav>
+<main>
+<article class="page" data-group="indeks">
+<div class="crumbs"><span class="badge badge-indeks">Indeks</span></div>
+<div class="content"><h1 id="słownik">Słownik</h1>
+<p>Centralny słownik warstwy spółek. Każdy nagłówek <code>## &lt;termin&gt;</code> jest celem linków <code>&lt;a href="_slownik.html#termin" class="wikilink"&gt;&amp;lt;termin&amp;gt;&lt;/a&gt;</code> z notatek spółek - rdzeniowy plugin Page Preview pokazuje definicję po najechaniu kursorem (efekt dymka).</p>
+<h2 id="backlog">backlog</h2>
+<p>Wartość zakontraktowanych, jeszcze niezrealizowanych zamówień. "Backlog zarządczy" bywa szerszy (uwzględnia opcje i umowy ramowe) niż formalne RPO.</p>
+<h2 id="rpo">RPO</h2>
+<p>Remaining Performance Obligations - formalne, wyegzekwowalne zobowiązania z podpisanych umów; węższa i twardsza miara niż backlog zarządczy.</p>
+<h2 id="gaap">GAAP</h2>
+<p>Amerykański standard rachunkowości (US GAAP); "surowe" liczby raportowane do SEC.</p>
+<h2 id="non-gaap">non-GAAP</h2>
+<p>Miary "po korektach" zarządu (np. z wyłączeniem zdarzeń jednorazowych); zwykle korzystniejsze niż surowy GAAP.</p>
+<h2 id="related-party">related party</h2>
+<p>Podmiot powiązany - kontrahent niebędący w pełni niezależny (np. spółka, w której emitent ma udział); transakcje raportuje się osobno, bo nie są w pełni rynkowe.</p>
+<h2 id="ppa">PPA</h2>
+<p>Power Purchase Agreement - długoterminowa umowa na zakup energii po ustalonej cenie; podstawa finansowania projektów energetycznych dla data center.</p>
+<h2 id="msa">MSA</h2>
+<p>Master Supply/Services Agreement - umowa ramowa ustalająca warunki i pułap, ale zwykle bez wiążącego zobowiązania do odbioru całego wolumenu; wiążące są dopiero zamówienia (PO).</p>
+<h2 id="mou">MOU</h2>
+<p>Memorandum of Understanding / list intencyjny (LOI) - niewiążąca deklaracja współpracy; sygnał kierunku, nie twardy przychód.</p>
+<h2 id="capex">capex</h2>
+<p>Nakłady inwestycyjne (capital expenditures) na środki trwałe; w energetyce często wyrażane jako USD/kW mocy.</p>
+<h2 id="time-to-power">time-to-power</h2>
+<p>Czas od decyzji o zakupie mocy do jej realnego dostarczenia; kluczowa "waluta" w wyścigu o moc dla AI.</p>
+<h2 id="hyperscaler">hyperscaler</h2>
+<p>Giganci chmury (Microsoft, Google, Amazon, Oracle) budujący własne centra danych w skali setek MW.</p>
+<h2 id="neo-cloud">neo-cloud</h2>
+<p>Wyspecjalizowani operatorzy infrastruktury GPU (np. CoreWeave, Nebius) wynajmujący moc obliczeniową dla AI.</p>
+<h2 id="tco">TCO</h2>
+<p>Total Cost of Ownership - całkowity koszt posiadania (capex + opex + serwis + wymiana) w całym cyklu życia, nie tylko cena zakupu.</p>
+<h2 id="leo">LEO</h2>
+<p>Low Earth Orbit - niska orbita okołoziemska (~300-650 km); relatywnie łagodne środowisko radiacyjne i niska latencja.</p>
+<h2 id="geo">GEO</h2>
+<p>Geostationary Orbit - orbita geostacjonarna (~36 000 km); satelita "wisi" nad jednym punktem, ale dawka radiacyjna i latencja są wysokie.</p>
+<h2 id="sso">SSO</h2>
+<p>Sun-Synchronous Orbit - orbita heliosynchroniczna; szczególny jej wariant "dawn-dusk" (terminatorowy) daje niemal ciągłe nasłonecznienie.</p>
+<h2 id="adcs">ADCS</h2>
+<p>Attitude Determination and Control System - układ wyznaczania i kontroli położenia satelity (koła reakcyjne, star trackery, magnetorquery).</p>
+<h2 id="koło-reakcyjne">koło reakcyjne</h2>
+<p>Wirujące koło zmieniające orientację satelity dzięki zachowaniu momentu pędu; podstawowy element ADCS.</p>
+<h2 id="star-tracker">star tracker</h2>
+<p>Czujnik gwiazdowy - kamera rozpoznająca układ gwiazd i precyzyjnie wyznaczająca orientację satelity.</p>
+<h2 id="bus-satelitarny">bus satelitarny</h2>
+<p>Platforma satelity (zasilanie, sterowanie, łączność, struktura), na której montuje się ładunek użyteczny (payload).</p>
+<h2 id="in-space-assembly">in-space assembly</h2>
+<p>Montaż konstrukcji na orbicie z modułów (zamiast wynoszenia gotowego obiektu), omijający ograniczenie średnicy owiewki rakiety (fairing).</p>
+<h2 id="rosa">ROSA</h2>
+<p>Roll-Out Solar Array - rolowana, lekka macierz słoneczna rozwijana na orbicie; wariant iROSA zasila ISS.</p>
+<h2 id="gaas">GaAs</h2>
+<p>Arsenek galu - półprzewodnik kosmicznych ogniw wielozłączowych (multi-junction) o sprawności znacznie wyższej niż krzem naziemny.</p>
+<h2 id="multi-junction">multi-junction</h2>
+<p>Ogniwo wielozłączowe - kilka warstw półprzewodnika łapiących różne zakresy widma; standard fotowoltaiki kosmicznej (~30%+ sprawności).</p>
+<h2 id="bol">BOL</h2>
+<p>Begin of Life - sprawność/moc na początku misji; spada do EOL (End of Life) wskutek degradacji radiacyjnej.</p>
+<h2 id="rad-hard">rad-hard</h2>
+<p>Elektronika utwardzona radiacyjnie na poziomie krzemu - droga i o kilka generacji w tyle, ale odporna na promieniowanie.</p>
+<h2 id="cots">COTS</h2>
+<p>Commercial Off-The-Shelf - tania, najnowsza elektronika komercyjna "z półki", bez fabrycznej ochrony radiacyjnej.</p>
+<h2 id="tid">TID</h2>
+<p>Total Ionizing Dose - skumulowana dawka jonizująca powodująca powolne "starzenie" tranzystorów; mierzona w radach/grejach.</p>
+<h2 id="see">SEE</h2>
+<p>Single-Event Effects - nagłe efekty uderzenia pojedynczej cząstki: SEU (odwracalny błąd bitu), SEL (zwarcie mogące spalić układ), SET (impuls).</p>
+<h2 id="fpga">FPGA</h2>
+<p>Reprogramowalny układ logiczny; w wersjach rad-tolerant (np. AMD Versal, Microchip RTG4) popularny w kosmosie.</p>
+<h2 id="tmr">TMR</h2>
+<p>Triple Modular Redundancy - potrójne powielenie układu z głosowaniem większościowym; kosztuje ponad 3x powierzchni i mocy.</p>
+<h2 id="ecc">ECC</h2>
+<p>Error-Correcting Code - kod korekcyjny pamięci wykrywający i naprawiający błędy bitowe (np. od SEU).</p>
+<h2 id="oisl">OISL</h2>
+<p>Optical Inter-Satellite Link - optyczne (laserowe) łącze międzysatelitarne; wysoka przepustowość (do setek Gbps) bez zajmowania pasma radiowego.</p>
+<h2 id="downlink">downlink</h2>
+<p>Łącze satelita-Ziemia (przesył danych w dół); wąskie gardło zależne od stacji naziemnych i pogody (optyka) lub pasma (RF).</p>
+<h2 id="heat-pipe">heat pipe</h2>
+<p>Rurka cieplna - pasywny element przenoszący ciepło dzięki parowaniu i skraplaniu czynnika; podstawa termiki satelitów.</p>
+<h2 id="radiator">radiator</h2>
+<p>Powierzchnia oddająca ciepło przez promieniowanie podczerwone; w próżni jedyny sposób odprowadzania ciepła, stąd ogromne pole na 1 MW.</p>
+<h2 id="pętla-dwufazowa">pętla dwufazowa</h2>
+<p>Układ chłodzenia, w którym czynnik krąży zmieniając fazę (ciecz-para), przenosząc duże moce cieplne przy małym przepływie.</p>
+<h2 id="liquid-cooling">liquid cooling</h2>
+<p>Chłodzenie cieczowe serwerów (np. direct-to-chip, immersja); konieczne przy gęstych obciążeniach AI, których powietrze nie schłodzi.</p>
+<h2 id="mev">MEV</h2>
+<p>Mission Extension Vehicle - statek dokujący do satelity GEO i przejmujący jego sterowanie/napęd, przedłużając misję o lata.</p>
+<h2 id="life-extension">life extension</h2>
+<p>Przedłużanie misji satelity (tankowanie, przejęcie napędu, naprawa) zamiast jego wymiany; rdzeń serwisowania orbitalnego.</p>
+<h2 id="adr">ADR</h2>
+<p>Active Debris Removal - aktywne usuwanie śmieci kosmicznych (przechwycenie i deorbitacja nieczynnego obiektu).</p>
+<h2 id="station-keeping">station-keeping</h2>
+<p>Utrzymywanie satelity na zadanej orbicie mimo zaburzeń (drag, ciśnienie słoneczne); zużywa paliwo i budżet delta-V.</p>
+<h2 id="delta-v">delta-V</h2>
+<p>Budżet zmiany prędkości dostępny dzięki paliwu; określa, ile manewrów (korekta orbity, unikanie kolizji, deorbitacja) satelita wykona.</p>
+<h2 id="deorbitacja">deorbitacja</h2>
+<p>Sprowadzenie satelity z orbity na koniec życia (EOL), zwykle przez spalenie w atmosferze; reguła FCC wymaga tego w 5 lat.</p>
+<h2 id="sofc">SOFC</h2>
+<p>Solid Oxide Fuel Cell - ogniwo paliwowe ze stałym, ceramicznym elektrolitem tlenkowym; produkuje prąd ciągle z paliwa, nie magazynuje.</p>
+<h2 id="smr">SMR</h2>
+<p>Small Modular Reactor - mały reaktor modułowy (zwykle 15-300 MW) produkowany seryjnie; rozważany jako baseload dla data center.</p>
+<h2 id="baseload">baseload</h2>
+<p>Moc podstawowa - źródło dostarczające energię ciągle, niezależnie od pory dnia i pogody (jądro, gaz, ogniwa paliwowe).</p>
+<h2 id="ccgt">CCGT</h2>
+<p>Combined Cycle Gas Turbine - turbina gazowa z odzyskiem ciepła w obiegu parowym; sprawność ~60%, ale skala elektrowni i długi czas budowy.</p>
+<h2 id="bess">BESS</h2>
+<p>Battery Energy Storage System - magazyn energii w bateriach; reaguje błyskawicznie, ale tylko oddaje zmagazynowaną energię.</p>
+<h2 id="ups">UPS</h2>
+<p>Uninterruptible Power Supply - zasilanie bezprzerwowe podtrzymujące pracę przy zaniku sieci do czasu uruchomienia źródła zapasowego.</p>
+<h2 id="precision-cooling">precision cooling</h2>
+<p>Precyzyjne chłodzenie sali serwerowej (kontrola temperatury i wilgotności); rynek, w którym liderem jest Vertiv (marka Liebert).</p>
+<h2 id="grid-interconnection">grid interconnection</h2>
+<p>Przyłączenie do sieci elektroenergetycznej; w USA kolejka i budowa trwają 5-10 lat, co jest głównym wąskim gardłem dla mocy DC.</p>
+<h2 id="warrant">warrant</h2>
+<p>Prawo objęcia akcji po ustalonej cenie w przyszłości; dla obejmującego to opcja, dla spółki źródło potencjalnego rozwodnienia.</p>
+<h2 id="de-spac">de-SPAC</h2>
+<p>Wejście na giełdę przez fuzję ze spółką-wydmuszką (SPAC) zamiast klasycznego IPO; częste wśród młodych spółek kosmicznych.</p>
+<h2 id="switchgear">switchgear</h2>
+<p>Rozdzielnica - aparatura łączeniowa i zabezpieczająca rozdzielająca i chroniąca obwody zasilania; w data center wąskie gardło o długim czasie dostawy.</p>
+<h2 id="sda">SDA</h2>
+<p>Space Development Agency - agencja Departamentu Obrony USA budująca warstwową konstelację wojskową (Transport/Tracking Layer); duży odbiorca terminali laserowych.</p>
+<h2 id="lcoe">LCOE</h2>
+<p>Levelized Cost of Energy - uśredniony koszt wytworzenia 1 MWh w całym cyklu życia źródła; pozwala porównać technologie generacji.</p>
+<h2 id="offtake">offtake</h2>
+<p>Umowa odbioru (offtake) - zobowiązanie nabywcy do kupna ustalonego wolumenu produkcji (energii, mocy), zabezpieczające przychód projektu.</p>
+<h2 id="book-to-bill">book-to-bill</h2>
+<p>Stosunek wartości nowych zamówień do zafakturowanych przychodów w danym okresie; wartość powyżej 1 oznacza, że backlog rośnie szybciej, niż firma fakturuje.</p>
+<h2 id="ibdm">IBDM</h2>
+<p>International Berthing and Docking Mechanism - uniwersalny mechanizm dokowania/cumowania statków do stacji; produkt Redwire wykorzystywany m.in. w europejskich i komercyjnych programach orbitalnych.</p></div>
+<section class="backlinks"><h2>Linkują tutaj</h2><p class="bl-count">25 powiązanych notatek</p><ul><li><span class="badge badge-moc mini">Mapa raportu</span> <a href="../index.html">Orbitalne / kosmiczne centra danych</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../03-fizyka-orbitalna-orbity-i-operacje.html">Fizyka orbitalna, orbity i operacje</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../04-energetyka-kosmiczna-i-fotowoltaika-orbitalna.html">Energetyka kosmiczna i fotowoltaika orbitalna</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../05-chlodzenie-i-radiacyjne-odprowadzanie-ciepla.html">Chłodzenie i radiacyjne odprowadzanie ciepła</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../06-promieniowanie-i-elektronika-rad-hard-vs-cots.html">Promieniowanie i elektronika rad-hard vs COTS</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../07-lacznosc-optyczne-isl-downlink-i-latencja.html">Łączność: optyczne ISL, downlink i latencja</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../08-niezawodnosc-serwisowanie-i-cykl-zycia-sprzetu.html">Niezawodność, serwisowanie i cykl życia sprzętu</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../09-ekonomika-i-koszty-calkowite-tco.html">Ekonomika i koszty całkowite (TCO)</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../10-gracze-i-projekty.html">Gracze i projekty</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../12-naziemny-bottleneck-energetyczny-i-sieciowy.html">Naziemny bottleneck energetyczny i sieciowy</a></li><li><span class="badge badge-temat mini">Sekcja</span> <a href="../15-bezpieczenstwo-geopolityka-i-realizm-10-letni.html">Bezpieczeństwo, geopolityka i realizm 10-letni</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="astroscale.html">Astroscale (186A)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="bloom-energy.html">Bloom Energy (BE)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="constellation-energy.html">Constellation Energy (CEG)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="ge-vernova.html">GE Vernova (GEV)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="mda-space.html">MDA Space (MDA)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="microchip.html">Microchip Technology (MCHP)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="mynaric.html">Mynaric (MYNA)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="oklo.html">Oklo (OKLO)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="redwire.html">Redwire (RDW)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="rocket-lab.html">Rocket Lab (RKLB)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="siemens-energy.html">Siemens Energy (ENR)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="talen-energy.html">Talen Energy (TLN)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="vertiv.html">Vertiv (VRT)</a></li><li><span class="badge badge-spolka mini">Spółka</span> <a href="voyager-technologies.html">Voyager Technologies (VOYG)</a></li></ul></section>
+</article>
+<footer>Wygenerowano z vaultu Obsidian - raport tematyczny. Wykresy: Mermaid. Dane i źródła w treści notatek.</footer>
+</main>
+<script src="../static/search-index.js"></script>
+<script src="../static/app.js"></script>
+<script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+mermaid.initialize({startOnLoad:true, theme:"neutral", securityLevel:"loose"});
+</script>
+</body>
+</html>
