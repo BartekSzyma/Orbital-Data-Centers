@@ -333,12 +333,15 @@ copytree(os.path.join(VAULT, "_static_src"), os.path.join(SITE, "_static_src"))
 
 # -------------------- graf --------------------
 GROUP_COLOR = {"moc": "#e6447a", "temat": "#2f81f7", "spolka": "#3fb950", "indeks": "#a371f7"}
+# graf jest nieskierowany (bez strzalek) - scal wzajemne linki A->B i B->A w jedna krawedz,
+# by nie rysowac podwojnych linii miedzy tymi samymi notatkami (backlinki zostaja kierunkowe)
+uedges = {tuple(sorted((s, d))) for (s, d) in edges}
 nodes = []
 for k, p in pages.items():
-    deg = len([1 for (s, d) in edges if s == k or d == k])
+    deg = len([1 for (s, d) in uedges if s == k or d == k])
     nodes.append({"id": k, "label": p["title"], "group": p["group"],
                   "url": p["out"], "val": deg})
-edges_j = [{"from": s, "to": d} for (s, d) in sorted(edges)]
+edges_j = [{"from": s, "to": d} for (s, d) in sorted(uedges)]
 graph_js = "window.GRAPH=" + json.dumps({"nodes": nodes, "edges": edges_j}, ensure_ascii=False) + ";"
 open(os.path.join(SITE, "static", "graph-data.js"), "w", encoding="utf-8").write(graph_js)
 
