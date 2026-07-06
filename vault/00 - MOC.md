@@ -4,7 +4,7 @@
 
 ## O raporcie
 
-Każda liczba niesie źródło i poziom wiarygodności: 🔵 pierwotne, 🟠 wtórne, 🔴 słabe. Pojęcia techniczne mają dymki (najedź kursorem) i słowniczki; dane zilustrowano własnymi wykresami z twardych liczb oraz figurami z paperów i materiałów graczy.
+Pojęcia techniczne mają dymki (najedź kursorem) i słowniczki; dane zilustrowano własnymi wykresami z twardych liczb oraz figurami z paperów i materiałów graczy.
 
 ## Najważniejsze ustalenia
 

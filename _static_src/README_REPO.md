@@ -2,7 +2,7 @@
 
 Statyczna wersja HTML pogłębionego raportu o **orbitalnych (kosmicznych) centrach danych** (Orbital Data Centers, ODC), wygenerowana z vaultu Obsidian. Strona jest hostowana na GitHub Pages.
 
-> Punktem wyjścia był polski artykuł sceptyczny "Centra przetwarzania danych na orbicie nie mają sensu", którego tezy raport krytycznie weryfikuje. Każda liczba niesie źródło i poziom wiarygodności: 🔵 pierwotne, 🟠 wtórne, 🔴 słabe.
+> Punktem wyjścia był polski artykuł sceptyczny "Centra przetwarzania danych na orbicie nie mają sensu", którego tezy raport krytycznie weryfikuje.
 
 ## Co tu jest
 
