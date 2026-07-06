@@ -217,30 +217,5 @@ Terminy techniczne użyte w notatce linkowano do wspólnego słownika vaultu ([[
 <!-- spolki:slownik:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Redwire - wyniki Q4/FY2025 (przychód, marże, backlog, kontrakty) - https://ir.redwirespace.com/news-events/press-releases/detail/217/redwire-corporation-reports-fourth-quarter-and-full-year
-- 🔵 Redwire - wyniki Q1 2026 (rekordowy backlog, marża, ELSA, Andromeda IDIQ) - https://www.morningstar.com/news/business-wire/20260506664539/redwire-corporation-reports-first-quarter-2026-financial-results-achieves-record-contract-backlog-with-significant-gross-margin-improvement
-- 🔵 Redwire - 10-K 2025 (segmenty, struktura, dług) - SEC EDGAR
-- 🔵 NASA STMD - Roll-Out Solar Arrays / iROSA na ISS (sześć paneli, ponad 250 kW, ponad 30%) - https://www.nasa.gov/directorates/stmd/impact-story-roll-out-solar-arrays/
-- 🔵 Redwire press release 13.01.2025 - dostawa czwartej pary iROSA (osiem wyprodukowanych skrzydeł) - https://ir.redwirespace.com/news-events/press-releases/detail/152/redwire-successfully-delivers-fourth-pair-of-roll-out-solar
-- 🔵 Redwire newsroom - iROSA / technologia ROSA - https://redwirespace.com/newsroom/redwires-innovative-solar-array-technology-powering-the-future-of-space-exploration/
-- 🔵 Redwire newsroom - ROSA dla DART - https://redwirespace.com/newsroom/redwire-providing-navigation-and-power-technology-for-nasas-first-planetary-defense-mission/
-- 🔵 NASA - OSAM-2 / Archinaut One - https://www.nasa.gov/mission/on-orbit-servicing-assembly-and-manufacturing-2-osam-2/
-- 🔵 Transkrypt earnings call Q1 2025 (PROBA-3 formation flying) - https://www.insidermonkey.com/blog/redwire-corporation-nyserdw-q1-2025-earnings-call-transcript-1531911/
-- 🔵 Redwire - 10-Q Q1 2026 (Edge Autonomy wkład, pro forma, koncentracja klientów, backlog funded) - https://www.companiesmarketcap.com/nzd/redwire/sec-reports-10q/0001819810-26-000063/
-- 🔵 Redwire - 10-Q Q2 2025 (udział kontraktów rządowych USA) - https://ir.redwirespace.com/sec-filings/quarterly-reports/content/0001819810-25-000215/0001819810-25-000215.pdf
-- 🔵 Redwire - 10-K 2024 (koncentracja klientów ~10% i ~35%) - https://ir.redwirespace.com/sec-filings/annual-reports/content/0001819810-25-000063/0001819810-25-000063.pdf
-- 🔵 Redwire press release Q1 2025 (pro forma Edge Autonomy) - https://ir.redwirespace.com/news-events/press-releases/detail/172/redwire-corporation-reports-first-quarter-2025-financial
-- 🔵 Transkrypt earnings call Q1 2026 (Adjusted EBITDA, Andromeda) - https://www.fool.com/earnings/call-transcripts/2026/05/08/redwire-rdw-q1-2026-earnings-call-transcript/
-- 🔵 NASA via Aviation Week - status instalacji iROSA 2026 (6 zainstalowanych, 7-8 oczekują) - https://aviationweek.com/space/space-exploration/nasa-preparing-kick-final-space-station-power-upgrade
-- 🔵 Redwire press release 28.06.2023 - moc skrzydeł iROSA (>20 kW na skrzydło) - https://ir.redwirespace.com/news-events/press-releases/detail/88/redwire-announces-follow-on-contract-to-develop-additional
-- 🔵 Redwire press release 04.06.2025 - Mason NASA Tipping Point 12,9 mln USD (odrębny od Q-Rad) - https://ir.redwirespace.com/news-events/press-releases/detail/176/redwire-receives-nasa-approval-to-advance-cutting-edge
-- 🟠 Axiom Space press release 25.09.2025 - kontrakt ROSA, 100% skuteczności on-orbit - https://www.axiomspace.com/release/redwire-awarded-contract-to-provide-roll-out-solar-arrays-for-axiom-space
-- 🟠 HTF Market Intelligence - rynek aerospace solar array (CAGR 12,5%) - https://www.htfmarketintelligence.com/report/global-aerospace-solar-array-market
-- 🟠 Precedence Research - in-space manufacturing service market - https://www.precedenceresearch.com/databook/in-space-manufacturing-service-market
-- 🟠 Future Market Insights - in-space manufacturing market - https://www.futuremarketinsights.com/reports/in-space-manufacturing-market
-- 🟠 Fast Company / NASA - Gateway PPE ROSA 60 kW - https://www.fastcompany.com/91448551/redwire-roll-out-array-lunar-gateway-solar-power
-- 🟠 RS Inc. - Q-Rad / DARPA Otter 44 mln USD - https://www.rsinc.com/redwire-lands-44-million-darpa-award-to-build-air-breathing-satellite.php
-- 🟠 ISS National Lab - NASA biotech / PIL-BOX - https://issnationallab.org/spotlight/september-2025/
 <!-- spolki:zrodla:end -->

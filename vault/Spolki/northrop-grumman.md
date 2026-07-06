@@ -113,12 +113,5 @@ Czwarte ryzyko to zależność modelu serwisowego od rynku GEO: MEV/MRV/MEP są 
 <!-- network:peers:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Northrop Grumman 10-K 2024 (CapEdge) - sprzedaż, segmenty, backlog, koncentracja klienta, portfel busów/PV/chłodzenia.
-- 🔵 Q1/2025 earnings call transcript (Investing.com / Yahoo Finance, 22.04.2025) - sprzedaż Q1/2025, spadek Space Systems, charge B-21.
-- 🔵 Northrop Grumman press releases NG-20/NG-21; SpaceLogistics / UNOOSA presentation - MEV-1, MEV-2, MRV, MEP.
-- 🔵 NASA ST8/NGU; materiały produktowe NOC - UltraFlex/MegaFlex/NGU, loop heat pipe radiators, ogniwa.
-- 🟠 ResearchIntelo In-Orbit Satellite Servicing Report - szacunek przychodów z serwisu in-orbit.
-- 🟠 Dataintelo Orbital Data Center Market Report; DC Market Insights; SpaceNews; eoPortal; Payload Space (MRV) - pozycja rynkowa, konkurencja, nowa fala.
 <!-- spolki:zrodla:end -->

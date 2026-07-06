@@ -290,43 +290,5 @@ Hasła ogólne (orbity, technologie, finanse) są zdefiniowane w pliku `_slownik
 <!-- spolki:slownik:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Rocket Lab - Q1 2026 Earnings Release (07.05.2026) - https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-first-quarter-2026-financial-results
-- 🔵 Rocket Lab - Form 10-Q za Q1 2026 (SEC EDGAR, accession 0001819994-26-000028) - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819994&type=10-Q
-- 🔵 Rocket Lab - Q4 2025 Earnings Release / 10-K 2025 (26.02.2026) - https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-reports-fourth-quarter-and-full-year-2025-financial
-- 🔵 Rocket Lab - Q4 2025 Investor Update (prezentacja PDF) - https://investors.rocketlabcorp.com/static-files/be9441ad-c07f-49c2-ad50-531fd77180ee
-- 🔵 Rocket Lab - Advanced Silicon Solar Arrays announcement (26.02.2026) - https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-introduces-advanced-silicon-solar-arrays-power-space
-- 🔵 Rocket Lab - SDA Tracking Layer Tranche 3 (816 mln USD, 19.12.2025) - https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-awarded-816m-prime-contract-build-missile-defense
-- 🔵 Rocket Lab - ESCAPADE commissioning (26.02.2026) - https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-completes-spacecraft-commissioning-nasas-escapade
-- 🔵 Rocket Lab - Space Systems components (10-K) - https://investors.rocketlabcorp.com/static-files/68df97e3-5691-4ecb-b62e-60d8ce0bcddc
-- 🔵 Rocket Lab - silicon solar arrays product page - https://rocketlabcorp.com/space-systems/space-solar-power/
-- 🔵 Rocket Lab - Neutron / Electron product pages - https://rocketlabcorp.com/launch/
-- 🔵 Rocket Lab - Heimdall GEO (90 mln USD, 21.05.2026) - https://rocketlabcorp.com/updates/rocket-lab-awarded-90m-contract-to-build-geo-satellites-hosting-space-domain-awareness-payload-for-u-s-space-force/
-- 🔵 Rocket Lab - kwalifikacja ogniw solarnych (33,3% BOL, 08.03.2022) - https://rocketlabcorp.com/updates/rocket-lab-begins-qualification-of-highest-performing-space-solar-cell-technology/
-- 🔵 Rocket Lab - Solar Solutions product page (do 34%, 2026) - https://rocketlabcorp.com/space-systems/solar/
-- 🟠 Payload Space - SDA Tranche 3 Tracking Layer (22.12.2025) - https://payloadspace.com/sda-awards-3-5b-in-tranche-3-tracking-layer-contracts/
-- 🟠 PhotonCap - 26 Companies in the LEO Satellite Cycle (09.05.2026) - https://photoncap.net/p/investment-map-26-companies-in-the-leo-satellite-cycle
-- 🟠 AInvest - Strategic Position in 2026 Defense Satellite Launch Boom (11.01.2026) - https://www.ainvest.com/news/rocket-lab-strategic-position-2026-defense-satellite-launch-boom-2601/
-- 🟠 AInvest - 2025 Launch Record (udzial ~10,2%, 22.12.2025) - https://www.ainvest.com/news/rocket-lab-2025-launch-record-strategic-momentum-cementing-dominance-small-satellite-launch-market-2512/
-- 🟠 Kratos Defense - MACH-TB 2.0 (do 1,45 mld USD, 06.01.2025) - https://www.kratosdefense.com/newsroom/kratos-receives-1-45b-mach-tb-2-0-contract-award
-- 🟠 Airforce Technology - Anduril HASTE (08.05.2026) - https://www.airforce-technology.com/news/rocket-lab-anduril-contract/
-- 🟠 Govly - $30M HASTE Anduril (07.05.2026) - https://app.govly.com/public/signals/96254
-- 🟠 Satellite Today - OneWeb panele / Mynaric (12.03.2025) - https://www.satellitetoday.com/satshow-2025/2025/03/12/rocket-lab-to-acquire-mynaric-and-supply-power-systems-for-oneweb-extension/
-- 🟠 Orbital Radar - Rocket Lab launch provider profile (22.05.2026) - https://orbitalradar.com/satellites/operator/rocket-lab
-- 🟠 Space Nexus - satellite launch cost 2026 (18.02.2026) - https://spacenexus.us/learn/satellite-launch-cost
-- 🟠 Interesting Engineering - Neutron vs Falcon 9 (27.08.2024) - https://interestingengineering.com/innovation/rocket-lab-neutron-falcon-9-spacex
-- 🟠 The Tech Marketer - RKLB Earnings Q1 2026 (08.05.2026) - https://thetechmarketer.com/rocket-lab-rklb-earnings-q1-2026/
-- 🟠 Space Odyssey Hub - Launch Cost Comparison 2026 (15.12.2025) - https://spaceodysseyhub.com/articles/launch-cost-comparison-2025
-- 🟠 Dataintelo - Small Launch Vehicle Market Report - https://dataintelo.com/report/global-small-launch-vehicle-market
-- 🟠 ExoTerra - Fold-Out Solar Array brochure (proxy W/kg) - https://exoterracorp.com/wp-content/uploads/2020/08/NEWBrochureSolarArray_PPD1.pdf
-- 🟠 NASA NTRS - Transformational Solar Array Final Report (proxy SolAero IMM) - https://ntrs.nasa.gov/api/citations/20170010684/downloads/20170010684.pdf
-- 🟠 Satellite Today - spacecraft bus lineup - https://www.satellitetoday.com/finance/2024/02/28/rocket-lab-grows-revenue-16-in-2023-debuts-spacecraft-bus-lineup/
-- 🟠 CompositesWorld - ESCAPADE / Explorer - https://www.compositesworld.com/news/rocket-lab-built-twin-composites-intensive-spacecraft-begin-mars-journey
-- 🟠 Space Voyaging - Flatellite - https://www.spacevoyaging.com/news/2025/03/02/rocket-lab-unveils-flatellite-a-new-spacecraft-for-large-satellite-constellations/
-- 🟠 The Motley Fool - AST SpaceMobile vs Rocket Lab (maj 2026) - https://www.fool.com/coverage/better-buy/2026/05/26/ast-spacemobile-vs-rocket-lab-which-space-stock-is-a-better-buy-in-2026/
-- 🟠 AInvest - strategic position analysis - https://www.ainvest.com/news/rocket-lab-strategic-position-space-economy-leveraging-vertical-integration-innovation-long-term-growth-2512/
-- 🔴 TrendMatrix - RKLB note z cytatem z 10-K - https://trendmatrix.com/stocks/RKLB
-
-*Uwaga metodologiczna: dane segmentowe Q1 2026 pochodzą z 10-Q Q1 2026 (PIERWOTNE). Dane roczne i bilansowe częściowo z prezentacji inwestorskich i źródeł wtórnych (oznaczone 🟠). Ceny za kg/start nie są ujawniane przez spółkę (brak cennika IR) - podane wartości to szacunki wtórne (🟠 Orbital Radar / Space Nexus / Interesting Engineering / The Tech Marketer), traktować jako rząd wielkości, nie dane spółki. Udział rynkowy ~10,2% to szacunek analityczny (🟠), nie dane IR.*
 <!-- spolki:zrodla:end -->

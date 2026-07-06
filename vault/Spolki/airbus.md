@@ -117,15 +117,5 @@ Drugim ryzykiem jest restrukturyzacja i konsolidacja europejskiego sektora kosmi
 <!-- network:peers:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Airbus FY 2025 results (opublikowane 19 lutego 2026): https://www.airbus.com/en/newsroom/press-releases/2026-02-airbus-reports-full-year-fy-2025-results
-- 🟠 Satellite Today - Airbus Defence and Space revenue jumps 11 percent in 2025 (2026-02-19): https://www.satellitetoday.com/finance/2026/02/19/airbus-defence-and-space-revenue-jumps-11-in-2025/
-- 🟠 SpaceNexus - porównanie busów satelitarnych (Eurostar Neo): https://spacenexus.us/satellite-bus-comparison
-- 🟠 ReportMines - rynek Attitude Control in Satellite Communication (2025): https://www.reportmines.com/en/report/attitude-control-in-satellite-communication-market/company
-- 🔵 Airbus - kontrakt Sparkwing dla MDA Space (2024-09): https://www.airbus.com/en/newsroom/press-releases/2024-09-airbus-selected-mda-space-to-deliver-over-200-sparkwing-solar
-- 🟠 EHP - Our story / Deployable systems: https://www.ehp.be/ehp-story/ ; https://ehp.space/deployable-systems/
-- 🟠 Airbus DS Netherlands - Laser Communications: https://airbusdefenceandspacenetherlands.nl/products/laser-communications/
-- 🟠 Skyline S2 laser communication terminal for HAPS: https://airbusdefenceandspacenetherlands.nl/a-world-of-possibilities-introducing-the-skyline-s2-laser-communication-terminal-for-haps-platforms/
-- 🟠 Kratos Space - Airbus/Astroscale/Intelsat in-orbit servicing: https://www.kratosspace.com/constellations/articles/airbus-astroscale-intelsat-why-in-orbit-servicing-5-years-after-northrops-success-is-struggling
 <!-- spolki:zrodla:end -->

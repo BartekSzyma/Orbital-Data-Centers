@@ -32,10 +32,10 @@ skala_zrodel_agregat: "niebieska"
 > Grafiki z materiałów spółki / IR (prawa właściciela, użycie redakcyjne). Pełny rejestr: `Spolki/assets/_licencje.json`.
 
 ![](assets/ge-vernova-1-df9b575995514572baffa38b6ed615b6.png)
-*1 |  |  | Turbina gazowa **7HA** - flagowy produkt Heavy-Duty dla dużych kampusów DC; pokazuje konfigurację i dane techniczne (290-430 MW, do 50% H2-ready). Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*1 |  |  | Turbina gazowa **7HA** - flagowy produkt Heavy-Duty dla dużych kampusów DC; pokazuje konfigurację i dane techniczne (290-430 MW, do 50% H2-ready). Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 ![](assets/ge-vernova-2-927a11e63415762a5492348410967e0e.png)
-*2 |  |  | Turbina gazowa **9HA** - najwydajniejsza H-class, serce najwydajniejszej elektrowni CCGT na świecie. Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*2 |  |  | Turbina gazowa **9HA** - najwydajniejsza H-class, serce najwydajniejszej elektrowni CCGT na świecie. Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 <!-- spolki:grafiki:end -->
 
@@ -185,7 +185,6 @@ Lokalne pojęcia użyte w notatce:
 <!-- spolki:slownik:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
 ### Pierwotne (SEC / GE Vernova IR)
 - 🔵 GE Vernova 8-K Q1 2026 - earnings release (22.04.2026) - https://fortune.com/company-assets/15211/quartr/earnings-release-8-k-ebc20-2026-04-22-10-07-23.pdf

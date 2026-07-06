@@ -103,12 +103,5 @@ Trzecie ryzyko to konkurencja w usługach startowych. Spadający koszt kilograma
 <!-- network:peers:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Lockheed Martin, Annual Report 2024 (FY2024, dane finansowe i segmentowe): https://www.lockheedmartin.com/content/dam/lockheed-martin/eo/documents/annual-reports/lockheed-martin-annual-report-2024.pdf
-- 🔵 Lockheed Martin, Q1 2025 IR release (wyniki za I kw. 2025): https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-reports-first-quarter-2025-financial-results
-- 🔵 Lockheed Martin, LM 2100 Insert PDF (parametry busa): https://www.lockheedmartin.com/content/dam/lockheed-martin/space/documents/satellite/LM2100-Insert.pdf
-- 🔵 Lockheed Martin, Space Technology Trends feature (heritage, trendy): https://www.lockheedmartin.com/en-us/news/features/2026/space-technology-trends-shaping-the-future.html
-- 🟠 Aerospace Testing International, "Made in space" (serwisowanie i laczenie on-orbit): https://www.aerospacetestinginternational.com/features/made-in-space.html
-- 🔵 Lockheed Martin, Ground Data Systems (ogloszenie - systemy naziemne): https://www.lockheedmartinjobs.com/job/littleton/ground-data-software-engineer/694/94328147152
 <!-- spolki:zrodla:end -->

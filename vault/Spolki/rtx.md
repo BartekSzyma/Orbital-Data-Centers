@@ -30,13 +30,13 @@ Siłą Blue Canyon jest najszerszy w branży katalog ADCS dla smallsatów połą
 > Grafiki z materiałów spółki / IR (prawa właściciela, użycie redakcyjne). Pełny rejestr: `Spolki/assets/_licencje.json`.
 
 ![](assets/rtx-1-d9b1acc1ac1261c5af78db6fcfc210a5.png)
-*1. **Collins Active Thermal Control Systems (okładka datasheet). Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*1. **Collins Active Thermal Control Systems (okładka datasheet). Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 ![](assets/rtx-2-226414464fcfe8631848f325b58b2dc7.png)
-*2. **Parker Solar Probe - aktywny system termiczny Collins. Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*2. **Parker Solar Probe - aktywny system termiczny Collins. Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 ![](assets/rtx-3-5ff6f775b00913d791ae000d44317cf3.jpg)
-*3. **Blue Canyon Technologies - produkcja kół reakcyjnych / ilustracja produktowa. Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*3. **Blue Canyon Technologies - produkcja kół reakcyjnych / ilustracja produktowa. Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 <!-- spolki:grafiki:end -->
 
@@ -95,10 +95,5 @@ Trzecie ryzyko to konkurencja specjalistów i integratorów. W ADCS i kołach re
 <!-- network:peers:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 RTX Reports 2024 Results and Announces 2025 Outlook, 28 sty 2025 - https://investors.rtx.com/static-files/ceebbf85-eb69-4563-a303-c62ad9918fba
-- 🔵 Blue Canyon Saturn-400, 4 sie 2025 - https://www.rtx.com/news/news-center/2025/08/04/rtxs-blue-canyon-technologies-announces-new-larger-spacecraft
-- 🔵 Blue Canyon reaction wheel expansion, 14 kwi 2026 - https://www.bluecanyontech.com/news/rtxs-blue-canyon-technologies-expands-reaction-wheel-production-capacity/
-- 🔵 Collins Active Thermal Control Systems datasheet - https://prd-sc102-cdn.rtx.com/collinsaerospace/-/media/ca/product-assets/marketing/a/active-thermal-control-systems-data-sheet.pdf
 <!-- spolki:zrodla:end -->

@@ -69,14 +69,5 @@ Trzecim ryzykiem jest zależność od budżetu US DoD/SDA oraz ryzyko wykonawcze
 <!-- network:peers:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 L3Harris Q4 2024 Earnings Presentation (30 sty 2025): https://s205.q4cdn.com/565046976/files/doc_presentations/2025/Jan/30/L3Harris-4QCY24-Earnings-Presentation.pdf
-- 🔵 L3Harris Q3 2025 Earnings Call (30 paź 2025): https://s205.q4cdn.com/565046976/files/doc_financials/2025/q3/3QCY25-L3Harris-Technologies-Earnings-Call-UPDATED.pdf
-- 🟠 L3Harris & Comtech 5650C2/MP modem (2026): https://defence-industry.eu/l3harris-and-comtech-launch-first-embeddable-multi-orbit-tactical-satcom-modem-for-global-military-use/
-- 🟠 SDA Tranche 1 Tracking Layer contract (700 mln USD; 18 lip 2022): https://satnews.com/2022/07/18/space-development-agency-contracts-for-28-satellite-builds-to-implement-the-tranche-1-tracking-layer/
-- 🟠 SDA Tranche 2 Tracking Layer contract (919 mln USD; 17 sty 2024): https://www.satellitetoday.com/government-military/2024/01/17/sda-awards-l3harris-lockheed-martin-and-sierra-space-tranche-2-tracking-layer-contracts/
-- 🟠 L3Harris investment in Mynaric (2022): https://aviationweek.com/space/l3harris-invests-laser-communications-company-mynaric
-- 🟠 Optical ISL Market - competitor outlook (Tesat, Mynaric, Ball, L3Harris, Thales): https://dataintelo.com/report/optical-inter-satellite-link-module-market
-- 🟠 A3M modem contract (pułap 500 mln USD): https://militaryembedded.com/comms/communications/communications-for-u-s-space-force-the-subject-of-500-million-contract-with-l3harris
 <!-- spolki:zrodla:end -->

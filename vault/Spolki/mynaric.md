@@ -191,31 +191,5 @@ Proponowane nowe hasła do słownika globalnego: SDA OCT, StaRUG (oba specyficzn
 <!-- spolki:slownik:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Mynaric AG - Annual Report 2023 (PDF; finanse, segmenty, koncentracja, kontrakty, ryzyka) - https://mynaric.com/wp-content/uploads/2024/07/Mynaric_Annual_Report_2023_EN_FINAL.pdf
-- 🔵 Mynaric - 20-F 2023 (SEC, Last10K; pożyczki, bilans) - https://last10k.com/sec-filings/myna/0000950170-24-061880.htm
-- 🔵 Mynaric - FY2023 Preliminary Results & 2024 Outlook, transkrypt konferencji (20 czerwca 2024) - https://mynaric.com/wp-content/uploads/2024/06/2023-Preliminary-Unaudited-Results-Call-Transcript-FINAL.pdf
-- 🔵 Mynaric IR - guidance 2024 (czerwiec 2024) - https://mynaric.gcs-web.com/news-releases/news-release-details/mynaric-publishes-outlook-including-revenue-guidance-full-year
-- 🔵 Mynaric IR - obniżenie guidance i KPI (3 stycznia 2025; przychód 14,1 mln EUR, backlog 787 szt.) - https://mynaric.gcs-web.com/news-releases/news-release-details/mynaric-updates-guidance-2024-key-performance-indicators
-- 🔵 Rocket Lab - zamiar przejęcia Mynaric (11 marca 2025; ok. 75 mln USD + earnout) - https://rocketlabcorp.com/updates/rocket-lab-announces-intention-to-acquire-mynaric-leading-laser-communications-provider-in-latest-strategic-step-toward-becoming-an-end-to-end-space-company/
-- 🔵 Candlewood Partners - restrukturyzacja StaRUG (10 czerwca 2025; dług 105,5 mln USD anulowany, 50 mln EUR nowego finansowania) - https://candlewoodpartners.com/mynaric-ag-announcement/
-- 🔵 ESA CSC - kontrakt HydRON Element 3 (4 marca 2026) - https://connectivity.esa.int/archives/news/esas-flagship-optical-communications-project-awards-mynaric-with-contract-to-develop-technology-for-its-demonstration-system
-- 🔵 SatNow - specyfikacja CONDOR Mk3 (przepustowość, zasięg, apertura) - https://www.satnow.com/products/laser-communication-terminals/mynaric/155-1475-condor-mk3
-- 🔵 Mynaric product page - CONDOR / space oraz HAWK - https://mynaric.com/products/space/ ; https://mynaric.com/products/hawk/
-- 🟠 Satellite Today - opóźnienia produkcyjne i cięcie guidance (20 sierpnia 2024; gotówka 6,3 mln EUR) - https://www.satellitetoday.com/finance/2024/08/20/mynaric-reports-production-delays-slashes-financial-guidance/
-- 🟠 Quartr - podsumowanie Jefferies Virtual Space Summit (25 czerwca 2024; udział rynkowy, IP) - https://quartr.com/companies/mynaric-ag_15398
-- 🟠 Potomac Officers Club - kontrakt RTX/Raytheon (23 sierpnia 2023; 21 szt. CONDOR Mk3) - 🟠 wtórne, prasa branżowa
-- 🟠 Janes - inwestycja L3Harris w Mynaric (12 lipca 2022; 7,2% za ok. 11,2 mln EUR)
-- 🟠 MarketsandMarkets - Optical Satellite Communication Market (wielkość rynku, konkurenci) - https://www.marketsandmarkets.com/ResearchInsight/optical-satellite-communication-market.asp
-- 🟠 Grand Research Store / SkyQuest - rynek LCT i optycznej komunikacji satelitarnej (szacunki, 2024)
-- 🟠 SpaceDaily - DARPA Space-BACN Faza 2, specyfikacja CONDOR (4 kwietnia 2024)
-- 🟠 Investing.com - kontrakt Rocket Lab SDA Tranche 2 (20 czerwca 2024; ok. 15 mln USD)
-- 🔵 Rocket Lab - selekcja podwykonawców SDA (7 maja 2024; Mynaric jako dostawca terminali) - https://rocketlabcorp.com/updates/rocket-lab-selects-subcontractors-to-support-sda-satellite-constellation-development/
-- 🟠 Satellite Today - zamknięcie przejęcia Mynaric przez Rocket Lab (14 kwietnia 2026; ok. 155,3 mln USD) - https://www.satellitetoday.com/technology/2026/04/14/rocket-lab-closes-mynaric-acquisition-at-higher-price-than-originally-agreed/
-- 🟠 Kratos / Constellations - backlog terminali i upadek SpaceLink (2022; odpis ok. 1,5 mln EUR na linię MEO) - https://www.kratosspace.com/constellations/articles/mynaric-reports-348-laser-terminal-backlog-amid-demand-surge
-
-**Data odcięcia danych:** 16 czerwca 2026. Najnowsze publiczne dane finansowe samej spółki to guidance z 3 stycznia 2025; raport roczny 2024 nieopublikowany (NIE UJAWNIONE). Po restrukturyzacji StaRUG (wiążąca od 25 czerwca 2025, delisting Frankfurt 2 czerwca 2025 i Nasdaq w czerwcu 2025) Mynaric przestał publikować raporty jako MYNA/M0YN; późniejsze informacje pochodzą z komunikatów Rocket Lab, Candlewood i ESA, a nie z raportowania Mynaric. Przejęcie przez Rocket Lab zamknięto 14 kwietnia 2026 r.
-
-**Legenda wiarygodności:** 🔵 pierwotne (raport spółki / SEC / ESA / komunikat emitenta); 🟠 wtórne (prasa branżowa / analitycy / agregatory); 🔴 słabe (blogi) - w notatce nie wykorzystano źródeł słabych.
 <!-- spolki:zrodla:end -->

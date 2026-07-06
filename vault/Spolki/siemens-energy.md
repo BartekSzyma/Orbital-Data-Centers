@@ -222,28 +222,7 @@ Terminy techniczne tej notatki linkowane są do wspólnego [[_slownik|słownika 
 <!-- spolki:slownik:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Siemens Energy - Annual Report 2025 (audytowane sprawozdanie, segmenty s. 195, raport ryzyk s. 39-42) - https://assets.siemens-energy.com/dam/32b27e9a-af91-4915-8b51-b3af012d0d98/A-Siemens_Energy_Annual_Report_2025-pdf_Original%20file.pdf
-- 🔵 Siemens Energy - Earnings Release Q2 FY2026 (12 maja 2026, nieaudytowany; dane per segment, FCF, podniesiony guidance grupy i segmentów, Gamesa break-even) - https://assets.siemens-energy.com/dam/fb695b3d-e910-4f47-81b5-b4480034f6a1/Earnings-Release-Q2-FY26-EN-pdf_Original%20file.pdf
-- 🔵 Siemens Energy - list do akcjonariuszy Q2 FY2026 (22 maja 2026) - https://assets.siemens-energy.com/dam/352bf02e-bbc1-4061-b00d-b45200cd6b3b/2026-05-22-Shareholder-Letter-Q2-FY2026_EN-pdf_Original%20file.pdf
-- 🔵 Siemens Energy - Half-year Financial Report 2026 (HY2026; ratingi S&P BBB / Moody's Baa1, gotówka netto ~7,55 mld EUR, podniesiony guidance FY2026) - https://www.siemens-energy.com/global/en/home/investor-relations/publications.html
-- 🔵 Siemens Energy - SGT5-9000HL / HL-class Fact Sheet (sprawność >64%) - https://assets.siemens-energy.com/dam/6a81abd9-6c46-42c9-9034-b036013f322b/210923-HL-ClassFactSheet-05-pdf_Original%20file.pdf
-- 🔵 Siemens Energy - Keadby 2 (rekord Guinnessa CCGT 64,18%) - https://www.siemens-energy.com/global/en/home/references/keadby2-power-generation.html
-- 🟠 IEEFA - Global Gas Turbine Shortages (paź 2025; oligopol ~90%, 80 GW vs 30 GW) - https://ieefa.org/sites/default/files/2025-10/IEEFA%20Report_Global%20gas%20turbine%20shortages%20add%20to%20LNG%20challenges%20in%20Vietnam%20and%20the%20Philippines_October2025.pdf
-- 🟠 Zhongtai Securities via Futunn (6 lut 2026; udziały OEM 34/27/24%, ~25% zamówień DC) - https://news.futunn.com/en/post/68545413/zhongtai-securities-ai-drives-up-global-gas-turbine-demand-focus
-- 🟠 Fact.MR - Gas Turbine Market (25 maja 2026; ~17% udziału, 194 turbiny FY2025) - https://www.factmr.com/report/gas-turbine-market
-- 🟠 Data Center Dynamics - partnerstwo Eaton 500 MW (9 cze 2025) - https://www.datacenterdynamics.com/en/news/siemens-energy-eaton-partner-on-offgrid-natural-gas-power-plant-for-data-center-sector/
-- 🟠 IndexBox - turbiny dla Babcock & Wilcox / Applied Digital (9 sty 2026) - https://www.indexbox.io/blog/siemens-energy-to-supply-turbines-for-babcock-wilcox-data-center-power-project/
-- 🔵 Siemens Energy - press release „Siemens Energy is investing 1 billion USD and creating highly skilled jobs in the United States" (3 lut 2026; lokalizacje, >1500 etatów, switchgear Missisipi, restart turbin Charlotte) - https://www.siemens-energy.com/us/en/home/press-releases/siemens-energy-is-investing--1-billion-and-creating-highly-skill.html
-- 🟠 power-eng - „Siemens Energy to invest 1B in U.S. manufacturing" (3 lut 2026; lokalizacje, etaty) - https://www.power-eng.com/gas/turbines/siemens-energy-to-invest-1b-in-u-s-manufacturing-as-grid-gas-turbine-demand-rises/
-- 🟠 stocksfoundry / Bloomberg - „Siemens Energy Signals Capacity Sold Out Through 2028, Books 8 GW in Six Weeks" (gru 2025; 35->50 jednostek FY2027, ~25->30+ GW do 2030, restart Charlotte +6-8, wyprzedane do 2028, sloty 2029) - https://www.stocksfoundry.com/articles/siemens-energy-signals-capacity-sold-out-through-2028-books-8-gw-in-six-weeks-20251218
-- 🟠 E&E News by POLITICO - „Siemens Energy to spend 1B expanding US turbine and grid factories" (lut 2026) - https://www.eenews.net/articles/siemens-energy-to-spend-1b-expanding-us-turbine-and-grid-factories/
-- 🟠 ad-hoc-news / Bloomberg - „Siemens Energy CEO Warns Germany Is Falling Behind as AI Boom Fuels a Quarter of Gas Turbine Orders" (lut 2026; >25% portfela GS to DC) - https://www.ad-hoc-news.de/boerse/news/ueberblick/siemens-energy-ceo-warns-germany-is-falling-behind-as-ai-boom-fuels-a/69546987
-- 🟠 IndexBox/Bloomberg - inwestycja 1 mld USD w USA (3 lut 2026) - https://www.indexbox.io/blog/siemens-energy-invests-1-billion-in-us-manufacturing-for-gas-turbines-grid-tech/
-- 🔵 Siemens Energy - press release „Siemens Energy to supply Rolls-Royce with turbines for Small Modular Reactors" (28 lut 2025) - https://www.siemens-energy.com/global/en/home/press-releases.html
-- 🟠 Turbomachinery International - podsumowanie partnerstwa Rolls-Royce SMR (20 kwi 2026) - https://www.turbomachinerymag.com/view/siemens-energy-to-supply-steam-turbines-for-rolls-royce-smr-s-nuclear-power-plants
-- 🟠 Renewables Now - wpływ ceł USA (8 maja 2025) - https://renewablesnow.com/news/siemens-energy-expects-limited-financial-impact-from-us-tariffs-1274947/
 <!-- spolki:zrodla:end -->
 
 ## Notatki wlasne

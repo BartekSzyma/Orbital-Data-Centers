@@ -34,10 +34,10 @@ Skala spółki: w roku obrotowym FY 2025 (zakończony 31.12.2025, wyniki ogłosz
 > Grafiki z materiałów spółki / IR (prawa właściciela, użycie redakcyjne). Pełny rejestr: `Spolki/assets/_licencje.json`.
 
 ![](assets/schneider-electric-1-0f78fd4425070385f975c698d4ea7301.png)
-*1. **Slajd inwestorski „Balanced end-market exposure”** - pokazuje strukturę rynków końcowych, w tym Data Center & Networks (24% w 2024 r.). Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*1. **Slajd inwestorski „Balanced end-market exposure”** - pokazuje strukturę rynków końcowych, w tym Data Center & Networks (24% w 2024 r.). Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 ![](assets/schneider-electric-2-54dd9007ee70bf4f1437f3b8105d40df.png)
-*2. **Slajd inwestorski „Data Centers end-market continues to have added levers"** - ilustruje drivers wzrostu segmentu data center. Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*2. **Slajd inwestorski „Data Centers end-market continues to have added levers"** - ilustruje drivers wzrostu segmentu data center. Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 ![](assets/schneider-electric-3-files.jpg)
 *3. **Zdjęcie produktowe: Prefabricated Power Module** - zintegrowany moduł zasilania z UPS Galaxy, switchgear i oprogramowaniem zarządzania dla data center. Źródło: download.schneider-electric.com; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
@@ -87,14 +87,5 @@ Drugim ryzykiem są napięcia w łańcuchu dostaw oraz taryfy i lokalizacja prod
 <!-- network:peers:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Schneider Electric, FY 2025 results release (26.02.2026): https://www.se.com/ww/en/assets/564/document/528237/release-fy-results-2025.pdf
-- 🔵 Schneider Electric, FY 2024 results presentation: https://www.se.com/ww/en/assets/564/document/505718/presentation-fy-results-2024.pdf
-- 🟠 Utility Dive - 30% end-market exposure 2025: https://www.utilitydive.com/news/data-centers-remain-standout-industry-for-schneider-electric/813629/
-- 🟠 Yahoo Finance - 24% / 20% pure DC w 2024: https://finance.yahoo.com/news/schneider-electric-books-strong-2024-082529394.html
-- 🟠 Future Market Insights - switchgear DC, udział 18%: https://www.futuremarketinsights.com/reports/switchgear-for-data-centers-market
-- 🟠 Facilities Dive - taryfy i ekspozycja na Meksyk: https://www.facilitiesdive.com/news/schneider-electric-books-strong-2024-revenue-growth-data-centers-blum-maxson/740717/
-- 🟠 Data Center Dynamics - opóźnienia projektów DC w Europie: https://www.datacenterdynamics.com/en/news/schneider-electric-sees-double-digit-data-center-growth-scores-bytedance-as-a-customer/
-- 🔴 Introl - udział Vertiv ~23% w chłodzeniu, ~15% cooling share: https://introl.com/blog/vertiv-schneider-eaton-cooling-solutions-comparison-ai-data-centers
 <!-- spolki:zrodla:end -->

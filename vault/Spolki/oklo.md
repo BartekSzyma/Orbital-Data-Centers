@@ -213,23 +213,5 @@ Pojęcia specyficzne dla tej spółki (poza listą słownika tematycznego): Auro
 <!-- spolki:slownik:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Oklo Inc. - Form 10-Q Q1 2026 (złożony 12 maja 2026; finanse, płynność, segmenty, risk factors) - https://www.sec.gov/Archives/edgar/data/1849056/000162828026034095/oklo-20260331.htm
-- 🔵 Oklo Inc. - Form 10-K FY 2025 (złożony 17 marca 2026; business, umowy, ryzyka, subsequent events) - https://d18rn0p25nwr6d.cloudfront.net/CIK-0001849056/124c18b4-060a-48e8-89d9-a97e63a16f73.pdf
-- 🔵 Oklo Inc. - SEC EDGAR index FY 2025 - https://www.sec.gov/Archives/edgar/data/1849056/000162828025014490/0001628280-25-014490-index.htm
-- 🔵 Oklo Inc. - Investor Relations / wyniki kwartalne - https://oklo.com/investors/financials/quarterly-results/default.aspx
-- 🔵 Oklo Inc. - strona technologii i produktu Aurora (footprint, refueling, EBR-II heritage) - https://oklo.com/technology
-- 🟠 Introl / Jared Watkins - analiza pipeline SMR dla DC i porównanie z gazem - https://introl.com/blog
-- 🟠 MarketIntelo / Softwareseni - szacunki target LCOE Aurora - (raporty branżowe)
-- 🟠 PitchBook - proxy liczby patentów (41 dokumentów / 13 rodzin, marzec 2026) - https://pitchbook.com
-- 🟠 NuScale / TerraPower / X-energy / Kairos / GE Vernova / Constellation - dane konkurencyjne z IR i prasy branżowej (NEI Magazine, Utility Dive, World Nuclear Industry Status Report, Amazon/Google press)
-- 🟠 Prasa branżowa - Vertiv collaboration, Meta Ohio harmonogram faz, Equinix prepayment 25 mln USD
-- 🔵 Oklo Inc. - press release "Oklo, Meta Announce Agreement in Support of 1.2 GW Nuclear Energy Development in Southern Ohio" (9 stycznia 2026; binding prepayment, fazy 2030/2034, Pike County) - https://oklo.com/newsroom/news-details/2026/Oklo-Meta-Announce-Agreement-in-Support-of-1-2-GW-Nuclear-Energy-Development-in-Southern-Ohio/default.aspx
-- 🔵 Oklo Inc. - press release "Oklo Selected as Intended Awardee ... Eielson Air Force Base" (11 czerwca 2025; 5 MW, 30-letni PPA, NOITA) - https://oklo.com/newsroom/news-details/2025/Oklo-Selected-as-Intended-Awardee-to-Provide-Clean-Reliable-Power-to-Eielson-Air-Force-Base-in-Alaska/default.aspx
-- 🔵 Oklo Inc. - press release "Oklo Advances Licensing with Completion of NRC Readiness Assessment" (17 lipca 2025; Faza 1 COLA Aurora-INL) - https://oklo.com/newsroom/news-details/2025/Oklo-Advances-Licensing-with-Completion-of-NRC-Readiness-Assessment/default.aspx
-- 🟠 GAIN / INL - "Oklo's Combined License Application Accepted by NRC for Review" (pierwszy COL dla advanced fission przyjęty przez NRC) - https://gain.inl.gov/regulatory-update-oklos-combined-license-application-accepted-by-nrc-for-review/
-- 🟠 Air & Space Forces Magazine / World Nuclear News - Eielson 5 MW, harmonogram ~2030 (czerwiec 2025) - https://www.airandspaceforces.com/air-force-microreactor-eielson-alaska/
-- 🟠 Centrus Energy 8-K + Industrial Info / ANS - HALEU: JV dekonwersji Piketon z Oklo, 12 t/rok, DOE task order ~900 mln USD (styczeń-kwiecień 2026); cel DOE RPP krytyczność do 4 lipca 2026 - https://www.industrialinfo.com/news/article/oklo-centrus-energy-explore-advanced-nuclear-fuel-joint-venture--354645
-- 🟠 Thunder Said Energy / OilPrice - target capex ~3 000-4 000 USD/kW, ~70 mln USD dla 15 MWe, LCOE ~40-60 USD/MWh - https://thundersaidenergy.com/downloads/oklo-fast-reactor-technology/
 <!-- spolki:zrodla:end -->

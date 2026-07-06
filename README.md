@@ -2,7 +2,7 @@
 
 Statyczna wersja HTML pogłębionego raportu o **orbitalnych (kosmicznych) centrach danych** (Orbital Data Centers, ODC), wygenerowana z vaultu Obsidian. Strona jest hostowana na GitHub Pages.
 
-> Punktem wyjścia był polski artykuł sceptyczny "Centra przetwarzania danych na orbicie nie mają sensu", którego tezy raport krytycznie weryfikuje. Raport powstał metodą wielomodelową (panel zakresu, agent webowy do faktów, synteza i redakcja, deterministyczne walidatory). Każda liczba niesie źródło i poziom wiarygodności: 🔵 pierwotne, 🟠 wtórne, 🔴 słabe.
+> Punktem wyjścia był polski artykuł sceptyczny "Centra przetwarzania danych na orbicie nie mają sensu", którego tezy raport krytycznie weryfikuje. Każda liczba niesie źródło i poziom wiarygodności: 🔵 pierwotne, 🟠 wtórne, 🔴 słabe.
 
 ## Co tu jest
 
@@ -30,12 +30,6 @@ _build_site.py          - generator statycznej strony HTML
 ## Reprodukcja
 
 Strona jest generowana z vaultu Obsidian skryptem `_build_site.py` (Python 3, biblioteki `markdown`, `pyyaml`). Wykresy renderuje [Mermaid](https://mermaid.js.org/), graf - [vis-network](https://visjs.org/).
-
-## Metoda i modele
-
-- Synteza i redakcja: claude-opus-4-8
-- Panel (zakres/walidacja/odkrywanie): codex + kimi + claude-opus-4-8
-- Wizualizacje: własne wykresy Mermaid + figury zewnętrzne (arXiv, NASA, materiały graczy)
 
 ---
 

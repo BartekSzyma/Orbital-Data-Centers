@@ -32,13 +32,13 @@ skala_zrodel_agregat: "niebieska"
 > Grafiki z materiałów spółki / IR (prawa właściciela, użycie redakcyjne). Pełny rejestr: `Spolki/assets/_licencje.json`.
 
 ![](assets/mda-space-1-b69d9c7b13f3fcf74007e7afb8359aaf.jpg)
-*URL pliku (jpg/png). Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*URL pliku (jpg/png). Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 ![](assets/mda-space-2-6ec935edd761c97a742fd1a795d46f7c.jpg)
-*URL pliku (jpg). Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*URL pliku (jpg). Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 ![](assets/mda-space-3-970eb03dec212ff0304c5f4a9ade7997.png)
-*URL pliku (png). Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*URL pliku (png). Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 <!-- spolki:grafiki:end -->
 
@@ -213,40 +213,5 @@ Notatka korzysta z haseł globalnego słownika ([[_slownik]]). Najważniejsze w 
 <!-- spolki:slownik:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 MDA Space - wyniki Q1 2026 (7 maja 2026) - https://www.prnewswire.com/news-releases/mda-space-reports-first-quarter-2026-results-302764804.html
-- 🔵 MDA Space - wyniki Q4 i FY2025 (4 marca 2026) - https://www.prnewswire.com/news-releases/mda-space-reports-fourth-quarter-and-fiscal-2025-results-302703308.html
-- 🔵 MDA Space - raport roczny 2025 (segmenty, CAPEX, heritage) - https://mda-en.investorroom.com/image/MDA_Space_Ltd_Q4_2025_Annual_Report.pdf
-- 🔵 MDA Space - skonsolidowane sprawozdania finansowe 2025 / nota o koncentracji klientów (SEDAR+) - https://www.sedarplus.ca/csa-party/records/document.html?id=4e110998c6da1f1cffe8e65771ef5424a063dbdaf94d3b1582677ded72efd840
-- 🔵 MDA Space - prezentacja inwestorska Q1 2026 (maj 2026) - https://mda-en.investorroom.com/image/MDA_Space_Ltd-Q1_2026-Investor_Presentation.pdf
-- 🔵 MDA Space - Annual Information Form 2024 (ryzyka: fixed-price, single-source, taryfy, RADARSAT-2, vendor financing) - https://mda-en.investorroom.com/image/MDA+Space+Ltd+2024+Annual+Information+Form+%28Mar-7-2025%29+FINAL.pdf
-- 🔵 MDA Space - strona produktowa SKYMAKER - https://mda.space/skymaker
-- 🔵 MDA Space - dołączenie do Starlab Space (29 maja 2024) - https://mda.space/article/mda-space-joins-starlab-space-as-strategic-partner
-- 🔵 MDA Space - kontrakt SPIDER/OSAM-1 z Maxar (17 listopada 2020) - https://mda.space/article/mda-spider-nasa-technology-maxar
-- 🔵 MDA Space - MD&A 2025 (EchoStar, Globalstar, Canadarm3, SatixFy) - https://mda-en.investorroom.com/image/MDA_Space_Ltd_Q4_2025_MDA.pdf
-- 🔵 MDA Space - terminacja kontraktu EchoStar (8 września 2025) - https://finance.yahoo.com/news/mda-space-provides-echostar-contract-104400097.html
-- 🔵 MDA Space - market update Canadarm3 / alternatywne zastosowania (2 maja 2025) - https://mda-en.investorroom.com/2025-05-02-MDA-SPACE-PROVIDES-MARKET-UPDATE
-- 🔵 MDA Space - inauguracja hali w Montrealu (8 maja 2026) - https://mda-en.investorroom.com/2026-05-08-MDA-SPACE-INAUGURATES-HIGH-VOLUME-SATELLITE-MANUFACTURING-FACILITY-IN-MONTREAL
-- 🔵 MDA Space - przejęcie SatixFy (1 kwietnia 2025) - https://mda-en.investorroom.com/2025-04-01-MDA-SPACE-TO-ACQUIRE-SATIXFY-COMMUNICATIONS
-- 🔵 Canadian Space Agency - Canadarm3 (harmonogram, aktualizacja kwiecień 2026) - https://www.asc-csa.gc.ca/eng/canadarm3/about.asp
-- 🟠 Canadian Defence Review - Canadarm3 CAD 1 mld (27 czerwca 2024) - https://canadiandefencereview.com/mda-space-awarded-1b-contract-to-design-and-deliver-canadarm3-flight-system/
-- 🟠 Robotics & Automation News - alternatywne zastosowania Canadarm3 (15 maja 2025) - https://roboticsandautomationnews.com/2025/05/15/mda-space-sees-alternative-uses-for-canadarm3-if-nasas-gateway-is-canceled/90783/
-- 🟠 BetaKit - hala w Montrealu, do 400 satelitów rocznie (11 maja 2026) - https://betakit.com/mda-space-aims-to-deliver-up-to-400-satellites-per-year-after-montreal-facility-expansion/
-- 🟠 Satellite Today - przejęcie SatixFy (2 lipca 2025) - https://www.satellitetoday.com/finance/2025/07/02/mda-space-completes-satixfy-acquisition/
-- 🟠 Satellite Today - opóźnienia dostaw Globalstar/CHORUS, wyniki Q3 2025 (14 listopada 2025) - https://www.satellitetoday.com/finance/2025/11/14/mda-space-reports-supply-chain-delays-on-globalstar-and-chorus-posts-45-revenue-increase-in-q3/
-- 🟠 SpaceQ - premiera SKYMAKER, kontrakt Axiom (8 kwietnia 2024) - https://spaceq.ca/mda-space-unveils-skymaker/
-- 🟠 Space Explored - SKYMAKER, zespół Lunar Dawn / Lunar Terrain Vehicle (23 kwietnia 2025) - https://spaceexplored.com/2025/04/23/skymaker-canadas-next-step-in-space-robotics/
-- 🟠 Quartr - podsumowanie MDA / Jefferies Space Virtual Summit 2026 - https://quartr.com/companies/mda-space-ltd_11175
-- 🟠 Business Research Insights - rynek ISAM (in-space manufacturing, servicing, transportation; maj 2026) - https://www.businessresearchinsights.com/market-reports/in-space-manufacturing-servicing-and-transportation-market-125560
-- 🟠 Fortune Business Insights - rynek space robotics - https://www.fortunebusinessinsights.com/space-robotics-market-117323
-- 🟠 Precedence Research - rynek in-space manufacturing service (1 kwietnia 2026) - https://www.precedenceresearch.com/databook/in-space-manufacturing-service-market
-- 🟠 Dataintelo - rynek space robotics autonomy software (30 września 2025) - https://dataintelo.com/report/space-robotics-autonomy-software-market
-- 🔵 MDA Space - MDA CHORUS satellite-to-ship (28 maja 2024) - https://www.newswire.ca/news-releases/mda-space-announces-new-satellite-to-ship-services-will-be-added-to-mda-chorus-tm--895271614.html
-- 🔵 NASA - On-Orbit Satellite Servicing Study (maj 2011; Orbital Express) - https://www.nasa.gov/wp-content/uploads/2023/10/nasa-satellite-servicing-project-report-0511.pdf
-- 🟠 SatNews - Canadarm3 ~CAD 1 mld kontrakt CSA (30 czerwca 2024) - https://satnews.com/2024/06/30/mda-space-awarded-billion-contract-by-the-csa-for-next-phase-of-canadarm3-program/
-- 🟠 GeekWire - Starfish Space finansowanie i kontrakty - https://www.geekwire.com/2026/starfish-space-raises-more-than-100m-to-scale-up-its-satellite-servicing-missions/
-- 🟠 Electronics Weekly / Kratos - Astroscale ELSA-M i life-extension - https://www.electronicsweekly.com/news/astroscale-completes-cdr-for-elsa-m-in-orbit-debris-removal-mission-2025-06/
-- 🟠 MarketIntelo - Northrop Grumman SpaceLogistics, True Anomaly, rynek ISAM - https://marketintelo.com/report/in-space-satellite-servicing-and-life-extension-market
-- 🟠 MarketIntelo - rynek orbitalnych centrów danych (proxy, brak bezpośredniej ekspozycji MDA) - https://marketintelo.com/report/space-based-orbital-data-center-market/amp
 <!-- spolki:zrodla:end -->

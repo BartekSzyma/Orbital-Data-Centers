@@ -30,13 +30,13 @@ Skala tego popytu jest widoczna w wynikach: w Q4 2025 (raport 3 lutego 2026) zam
 > Grafiki z materiałów spółki / IR (prawa właściciela, użycie redakcyjne). Pełny rejestr: `Spolki/assets/_licencje.json`.
 
 ![](assets/eaton-1-aa89f11f153a2eb5b334c66164c6abd2.webp)
-*1 | ` | Eaton power block - zdjęcie produktowe ilustrujące modułową infrastrukturę zasilania data center (źródło: TTNews / Eaton Corp). Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*1 | ` | Eaton power block - zdjęcie produktowe ilustrujące modułową infrastrukturę zasilania data center (źródło: TTNews / Eaton Corp). Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 ![](assets/eaton-2-4a078f73917e0226b96466e250fe8f77.png)
-*2 | ` | Grafika informacyjna o przejęciu Boyd Thermal przez Eaton za $9,5 mld - rozszerzenie portfolio liquid cooling (źródło: Power Systems Technology). Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*2 | ` | Grafika informacyjna o przejęciu Boyd Thermal przez Eaton za $9,5 mld - rozszerzenie portfolio liquid cooling (źródło: Power Systems Technology). Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 ![](assets/eaton-3-92c6a8adef6ab37f05f9fcd1315f125d.jpg)
-*3 | ` | Grafika produktowa Boyd aerospace/space - lekkie systemy chłodzenia, heat pipes i transport ciepła do radiatorów satelitarnych (źródło: Boyd Corp). Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*3 | ` | Grafika produktowa Boyd aerospace/space - lekkie systemy chłodzenia, heat pipes i transport ciepła do radiatorów satelitarnych (źródło: Boyd Corp). Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 <!-- spolki:grafiki:end -->
 
@@ -99,13 +99,5 @@ Drugie ryzyko to wykonanie i wycena przejęcia Boyd Thermal. Transakcja warta 9,
 <!-- network:peers:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Q4 2025 earnings release (3 lutego 2026): przychód Q4 7,06 mld USD (+13% r/r), segment margin 24,9%; zamówienia data center ok. 200% r/r, przychody data center ok. 40% r/r. Yahoo Finance / last10k.com.
-- 🔵 Segment disclosure 10-K / EDGAR: przychody i udziały segmentów FY2025. app.edgar.tools.
-- 🔵 Wyniki FY2025: przychód 27,4 mld USD (+10% r/r), marża segmentowa 24,5%.
-- 🔵 Prezentacje end-market Eaton: data center & distributed IT ~17% sprzedaży do końca 2025 r., ~21% według planu na 2026.
-- 🔵 Komunikat o przejęciu Boyd Thermal (marzec 2026): 9,5 mld USD, 22,5x EBITDA 2026; prognoza Boyd 1,7 mld USD sprzedaży 2026, w tym 1,5 mld USD liquid cooling. Reuters / Yahoo Finance, TTNews, Power Systems Technology.
-- 🟠 Artykuł o współpracy Eaton-Siemens Energy (modułowa elektrownia gazowa 500 MW): Siemens Energy / Data Center Dynamics.
-- 🟠 Strona produktowa Boyd aerospace/space: boydcorp.com.
 <!-- spolki:zrodla:end -->

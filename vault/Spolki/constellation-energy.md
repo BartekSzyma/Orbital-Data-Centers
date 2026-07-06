@@ -211,25 +211,5 @@ Oś jądrowa: CEG (22 GW jądra) wyprzedza Vistrę (6,4 GW) i Talen (2,5 GW Susq
 <!-- spolki:slownik:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Constellation Energy - komunikat o zamknięciu przejęcia Calpine (7.01.2026): https://www.constellationenergy.com/newsroom.html
-- 🔵 Constellation Energy - wyniki FY2025 (przychody, segmenty, RNF, PTC, capacity factor): https://investors.constellationenergy.com/
-- 🔵 Constellation Energy - wyniki Q1 2026 (przychody, EPS, bilans, Freestone, Pastoria, Pin Oak Creek, kolejka PJM): https://investors.constellationenergy.com/
-- 🔵 Constellation Energy - 10-Q na 30.06.2025 (RPO): https://investors.constellationenergy.com/
-- 🔵 Constellation Energy - call wynikowy Q1 2026 (guidance 11-12 USD, cel +20% EPS 2026-2029, FCF, produkcja jądrowa/gazowa, buyback, plan restartu Crane 2027): https://www.fool.com/earnings/call-transcripts/2026/05/11/constellation-ceg-q1-2026-earnings-transcript/
-- 🔵 Constellation Energy - komunikat o sprzedaży 4,4 GW gazu do LS Power za 5 mld USD (FERC/DOJ, 03.2026): https://www.constellationenergy.com/news/2026/03/constellation-announces-agreement-to-sell-pjm-generation-assets-to-ls-power-as-part-of-ferc-us-doj-resolution-of-calpine-transaction.html
-- 🔵 Constellation Energy - komunikat o zamknięciu przejęcia Calpine (55 GW, 10% czystej energii USA, 2,5 mln klientów, 7.01.2026): https://www.constellationenergy.com/news/2026/01/constellation-completes-calpine-transaction-powering-americas-clean-energy-future.html
-- 🟠 ANS / Nuclear Newswire - restart Crane 2027 i transfer praw przyłączeniowych Eddystone -> Crane (FERC waiver zatwierdzony do 06.2026): https://www.ans.org/news/2026-04-03/article-7905/constellation-seeks-ferc-help-with-crane-restart/
-- 🟠 FERC / Utility Dive - PJM Reliability Backstop Procurement 14,9 GW i aukcja rezerwowa wrzesień 2026: https://www.utilitydive.com/news/pjm-backstop-capacity-procurement-data-centers-ferc/817286/
-- 🟠 PowerMag / Power Engineering - dywestycja 4,4 GW do LS Power, pozostałe aktywa DOJ (Gregory, Jack Fusco): https://www.powermag.com/constellation-to-sell-4-4-gw-of-pjm-gas-power-assets-to-ls-power-for-5b-in-regulatory-divestiture/
-- 🟠 TIKR - konsensus Adjusted EBITDA Q1 2026 (~2,0 mld USD): https://www.tikr.com/blog/constellation-energy-q1-2026-earnings-revenue-doubles-on-calpine-eps-guidance-affirmed
-- 🔵 Constellation Energy - 10-K FY2025 / SEC EDGAR (RPO 1 047 mln USD na 31.12.2025, GAAP EPS 7,40 USD, bilans sprzed Calpine: aktywa 57 249 mln USD, kapitał własny 14 517 mln USD, dług dł. 7 250 mln USD; CIK 0001868275, złożony 24.02.2026): https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001868275&type=10-K
-- 🔵 Constellation Energy - 10-Q Q1 2026 / SEC EDGAR (RPO 12 034 mln USD i goodwill 11 527 mln USD na 31.03.2026, zysk netto Q1 1 590 mln USD, bilans po Calpine; CIK 0001868275, złożony 11.05.2026): https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001868275&type=10-Q
-- 🔵 Constellation Energy + Microsoft - PPA Crane / Three Mile Island Unit 1 (09.2024): https://www.constellationenergy.com/newsroom.html
-- 🔵 Constellation Energy + Meta - PPA Clinton (2025): https://www.constellationenergy.com/newsroom.html
-- 🔵 Constellation Energy / DOE - gwarancja pożyczki dla Crane: https://www.constellationenergy.com/newsroom.html
-- 🟠 Prasa branżowa - sprawa FERC/PJM ws. ko-lokacji (Amazon/Talen, show-cause order 20.02.2025, FERC Co-Location Order 18.12.2025): źródła wtórne 2024-2025
-- 🟠 Prasa branżowa / raporty zarządu - dane konkurentów (Vistra, Talen, NextEra, NRG, Duke)
-- 🟠 EIA - struktura importu uranu do USA (2023): https://www.eia.gov/
 <!-- spolki:zrodla:end -->

@@ -76,15 +76,5 @@ Drugie ryzyko to regulacje eksportowe, ITAR i geopolityka. Elektronika space-gra
 <!-- network:peers:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 AMD Q4 & FY2025 Earnings Release, 3 lutego 2026: https://ir.amd.com/news-events/press-releases/detail/1276/amd-reports-fourth-quarter-and-full-year-2025-financial-results
-- 🔵 AMD Space Solutions: https://www.amd.com/en/solutions/aerospace-and-defense/space.html
-- 🔵 Kintex UltraScale XQR product page: https://www.amd.com/en/products/adaptive-socs-and-fpgas/fpga/kintex-ultrascale-xqr.html
-- 🔵 Versal Space-grade: https://www.amd.com/en/products/adaptive-socs-and-fpgas/versal/space-grade.html
-- 🟠 Market Report Analytics, styczeń 2026 (rynek rad-hard FPGA): https://www.marketreportanalytics.com/reports/radiation-hardened-fpga-384971
-- 🟠 Dataintelo, czerwiec 2025 (space-qualified FPGA 28 nm): https://dataintelo.com/report/space-qualified-fpga-28-nm-market
-- 🟠 arxiv, 2024 (dominacja dwóch producentów high-density space FPGA): https://arxiv.org/html/2409.12253v1
-- 🟠 pmarketresearch.com, luty 2026 (FPGA for space market): https://pmarketresearch.com/it/fpga-for-space-market/
-- 🔴 SemiconductorX (sektor space/military): https://semiconductorx.com/sector-space-military.html
 <!-- spolki:zrodla:end -->

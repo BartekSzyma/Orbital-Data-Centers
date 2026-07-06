@@ -104,13 +104,5 @@ Drugie ryzyko to regulacje eksportowe i koncentracja geopolityczna. Zaawansowane
 <!-- network:peers:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-1. 🔵 NVIDIA Q4 & FY2026 earnings (25.02.2026): http://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026
-2. 🔵 NVIDIA 2026 Annual Review (segmenty Compute & Networking / Graphics): https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf
-3. 🔵 NVIDIA Space Computing (16.03.2026): http://nvidianews.nvidia.com/news/space-computing
-4. 🟠 Kepler Communications - wdrożenie 40 Jetson Orin na 10 satelitach (16.03.2026): https://kepler.space/kepler-deploys-first-space-based-scalable-cloud-infrastructure-powered-by-nvidia/
-5. 🟠 AMD Space (rad-hard / rad-tolerant FPGAs): https://www.amd.com/en/solutions/aerospace-and-defense/space.html
-6. 🟠 Space-based edge computing - HPE / Intel (Emergen Research): https://www.emergenresearch.com/industry-report/space-based-edge-computing-market
-7. 🔵 NVIDIA Q1 FY2026 - wpływ ograniczeń eksportowych H20: https://nvidianews.nvidia.com/_gallery/download_pdf/6837703d3d63320fddb3a9ee/
 <!-- spolki:zrodla:end -->

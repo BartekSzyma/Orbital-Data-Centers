@@ -210,41 +210,5 @@ Lokalne skróty użyte w notatce:
 <!-- spolki:slownik:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Astroscale Holdings Inc. - relacje inwestorskie (IR) - https://www.astroscale.com/ir
-- 🔵 Astroscale - FY2025 Full Year Results Presentation (czerwiec 2025)
-- 🔵 Astroscale - FY2025 Consolidated Financial Results (IFRS)
-- 🔵 Astroscale - FY2026 Q3 Presentation (marzec 2026)
-- 🔵 Astroscale - FY2026 Q3 Consolidated Financial Results (IFRS)
-- 🔵 Astroscale - Consolidated Financial Results for the Fiscal Year Ended April 30, 2026 (Under IFRS), 12 czerwca 2026 - https://contents.xj-storage.jp/xcontents/AS82438/23c92133/eeed/4e08/824c/e411281ba05e/140120260612569716.pdf
-- 🔵 Astroscale - FY2026 Full-year Financial Results Presentation, 12 czerwca 2026 - https://contents.xj-storage.jp/xcontents/AS82438/01af4f94/97ff/44c6/92e2/4171fefbcd48/20260612182821671s.pdf
-- 🔵 EDINET - dane finansowe Astroscale FY2026 (raport roczny) - https://edinetdb.com/company/E39661
-- 🔵 Astroscale - press releases: ADRAS-J2 (sierpień 2024), ELSA-M Phase 4 (lipiec 2024), COSMIC (wrzesień 2024), ISSA-J1 (grudzień 2024 / wrzesień 2025), REFLEX-J (wrzesień 2025), APS-R (kwiecień 2025), JMoD (luty 2025 - Responsive Space System; grudzień 2025 - gripping mechanism)
-- 🔵 Astroscale - ELSA-M / Isar Aerospace launch (16 marca 2026) - https://www.astroscale.com/en/news/astroscale-selects-isar-aerospace-to-launch-elsa-m-in-orbit-demonstration
-- 🔵 Astroscale - ADRAS-J2 / JAXA CRD2 Phase II (20 sierpnia 2024) - https://astroscale.com/astroscale-japan-secures-contract-for-phase-ii-of-jaxas-commercial-removal-of-debris-demonstration-program/
-- 🔵 Astroscale - APS-R / USSF refueling (9 kwietnia 2025) - https://www.astroscale.com/en/news/astroscale-u-s-to-lead-the-first-ever-refueling-of-a-united-states-space-force-asset
-- 🔵 Astroscale - JMoD Responsive Space System (27 lutego 2025) - https://www.astroscale.com/en/news/astroscale-japan-secures-contract-with-japanese-ministry-of-defense-to-develop-a-responsive-space-system-demonstration-satellite-prototype
-- 🔵 Astroscale - JMoD gripping mechanism (5 stycznia 2026) - https://www.astroscale.com/en/news/astroscale-japan-awarded-ministry-of-defense-contract-to-develop-gripping
-- 🔵 ClearSpace / ESA - kontrakt ClearSpace-1 - https://clearspace.today/news/clearspace-sa-signs-service-contract-with-esa-to-carry-out-the-first-mission-to-remove-space-debris-in-orbit-in-2025
-- 🔵 Starfish Space - Series B >USD 100 mln (7 kwietnia 2026) - https://www.starfishspace.com/press-release/starfish-space-raises-over-100-million-series-b/
-- 🔵 JAXA - program CRD2 - https://www.kenkai.jaxa.jp/eng/crd2/
-- 🔵 JAXA / Astroscale - koncepcja tankowania J-SPARC (grudzień 2022)
-- 🟠 Yahoo Finance - dane TSE:186A, kapitalizacja, cele analityków (czerwiec 2026)
-- 🟠 Quartr - podsumowanie Astroscale Q3 FY2026 (marzec 2026)
-- 🟠 Simply Wall St - profil i wycena TSE:186A (czerwiec 2026)
-- 🟠 Future Market Insights - On-orbit Satellite Servicing Market Report 2025-2035
-- 🟠 Precedence Research - On-Orbit Satellite Servicing Market Size 2026-2035
-- 🟠 MarketIntelo - Satellite Life-Extension Service Market 2025-2034
-- 🟠 MarketIntelo - Space Debris Removal & In-Orbit Servicing Market 2026-2034 - https://marketintelo.com/report/space-debris-removal-in-orbit-servicing-market
-- 🟠 MarketIntelo - In-Space Satellite Servicing and Life Extension Market 2026-2034 - https://marketintelo.com/report/in-space-satellite-servicing-and-life-extension-market
-- 🟠 ResearchIntelo - In-Orbit Satellite Servicing and Space Debris Removal Market (czerwiec 2026) - https://researchintelo.com/report/in-orbit-satellite-servicing-and-space-debris-removal-market
-- 🟠 Precedence Research - On-Orbit Satellite Servicing Market - https://www.precedenceresearch.com/on-orbit-satellite-servicing-market
-- 🟠 Future Market Insights - On-Orbit Satellite Servicing Market - https://www.futuremarketinsights.com/reports/on-orbit-satellite-servicing-market
-- 🟠 360iResearch - On-Orbit Satellite Servicing Market - https://www.360iresearch.com/library/intelligence/on-orbit-satellite-servicing
-- 🟠 Dataintelo - In-Orbit Satellite Servicing Market 2025-2034
-- 🟠 MarketsandMarkets - On-Orbit Satellite Servicing Market 2023-2030
-- 🟠 SpaceIntelReport / Kratos Space - analiza ELSA-M, ADRAS-J2, LEXI-P (sierpień/wrzesień 2024)
-- 🟠 Satellite Today - szczegóły refuelera APS-R (styczeń 2024 / kwiecień 2025)
-- 🟠 SpaceNews / Space and Defense - misja inspekcyjna ISSA-J1 (2026)
 <!-- spolki:zrodla:end -->

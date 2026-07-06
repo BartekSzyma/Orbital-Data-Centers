@@ -87,16 +87,5 @@ Trzecie ryzyko to konkurencja COTS/rad-tolerant w LEO oraz ryzyko integracyjne B
 <!-- network:peers:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-Notatka opiera się głównie na źródłach pierwotnych (🔵 raporty IR/finansowe BAE), uzupełnionych pojedynczymi danymi rynkowymi wtórnymi (🟠). Agregat wiarygodności: niebieski.
-
-- 🔵 BAE Systems - Preliminary Results Announcement 2025 (FY2025, 18.02.2026): https://www.investegate.co.uk/announcement/rns/bae-systems--ba./preliminary-results-announcement-2025-/9435221
-- 🔵 BAE Systems - Annual Report 2024 (PDF): https://investors.baesystems.com/dam/jcr:f57706a5-0a28-441a-8829-0e0c213436c1/BAE-Systems-Annual-Report-2024.2025-04-29-16-28-37.pdf
-- 🔵 BAE Systems - strona produktowa elektroniki rad-hard: https://www.baesystems.com/en/product/radiation-hardened-electronics
-- 🟠 BAE Systems - H1 2025 results (Directorstalk): https://www.directorstalkinterviews.com/bae-systems-upgrades-2025-outlook-after-strong-h1-performance/4121209942
-- 🟠 BAE Systems / Ball Aerospace lasercom heritage (Defense Update / Boeing TSAT, 2007): https://defense-update.com/20070822_tsat.html
-- 🟠 Satsearch - laser communications terminals (maj 2025): https://blog.satsearch.co/2025-05-01-15-laser-communications-systems-for-inter-satellite-links-isls-in-leo-that-you-can-buy-in-may-2025
-- 🟠 Mordor Intelligence - radiation-hardened electronics market: https://www.mordorintelligence.com/industry-reports/radiation-hardened-electronics-market
-- 🟠 SemiconductorX - rad-hard vs rad-tolerant supply chain: https://semiconductorx.com/sector-space-military.html
 <!-- spolki:zrodla:end -->

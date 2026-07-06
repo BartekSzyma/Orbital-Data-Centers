@@ -207,36 +207,5 @@ Jednostka ceny capacity w aukcjach PJM to USD/MW-dzień (cena za 1 MW zakontrakt
 <!-- spolki:slownik:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Talen Energy - FY2024 earnings release (przychody, EBITDA, generacja) - https://ir.talenenergy.com/node/8356/pdf
-- 🔵 Talen Energy - 8-K Q3 2025 (przychody, EBITDA, FCF, liquidity) - https://ir.talenenergy.com/static-files/11bfe1be-2926-4f21-b4a3-ab5854094b89
-- 🔵 Talen Energy - 10-Q Q3 2025 (segmenty Note 18, Future Performance Obligations Note 3, akwizycje Note 17) - https://ir.talenenergy.com/static-files/826c1e66-b882-48e8-acda-84b8033ab2ac
-- 🔵 Talen Energy - 8-K/10-Q Q1 2025 (gotówka, dług, leverage, RMR) - https://ir.talenenergy.com/node/8561/html
-- 🔵 Talen Energy - "Powering Data" (Susquehanna 2,5 GW, 90%, licencje, PTC, model BTM/FTM) - https://www.talenenergy.com/powering-data/
-- 🔵 Talen Energy - sprzedaż kampusu Cumulus Data (960 MW, 650 mln USD) - https://ir.talenenergy.com/news-releases/news-release-details/talen-energy-announces-sale-zero-carbon-data-center-campus
-- 🔵 Talen Energy - wyniki aukcji PJM BRA 2026/2027 - https://talenenergy.gcs-web.com/news-releases/news-release-details/talen-energy-reports-pjm-auction-results-20262027-planning-year
-- 🔵 Talen Energy - wyniki aukcji PJM BRA 2025/2026 - https://ir.talenenergy.com/node/7766/pdf
-- 🔵 Talen Energy - wyniki aukcji PJM BRA 2027/2028 - https://ir.talenenergy.com/node/9016/pdf
-- 🟠 Utility Dive - AWS PPA 1 920 MW, ~18 mld USD, koszt jądra <24 USD/MWh, FERC cost-shift - https://www.utilitydive.com/news/talen-amazon-aws-susquehanna-nuclear-data-centert/750440/
-- 🟠 Data Center Dynamics - ko-lokacja a regulacje (BTM/FTM, FERC) - https://www.datacenterdynamics.com/en/analysis/colocation-meets-regulation/
-- 🟠 Davis Graham - federalne ramy regulacyjne dla zasilania DC - https://davisgraham.com/news-events/from-rejection-to-national-rulemaking-the-federal-regulatory-framework-for-data-center-power-is-taking-shape/
-- 🟠 USeluminix - przegląd flot i strategii DC (Vistra, NRG, Constellation, PSEG) - https://www.useluminix.com/reports/market-research/vistra-company-overview-power-generation-fleet-ai-data-center-strategy-and-market-position-2026/source/4
-- 🟠 Yahoo Finance - capacity factor floty Constellation - https://finance.yahoo.com/news/talen-energy-corp-tln-q4-050500441.html
-- 🟠 POWER Magazine - umowy Meta (Vistra/Oklo/TerraPower) - https://www.powermag.com/meta-locks-in-up-to-6-6-gw-of-nuclear-power-through-deals-with-vistra-oklo-and-terrapower/
-- 🟠 ANS - NextEra/Google restart Duane Arnold - https://www.ans.org/news/2025-10-28/article-7501/nextera-and-google-ink-a-deal-to-restart-duane-arnold/
-- 🔵 Talen Energy - FY2025 / Q4 2025 earnings release (przychody 2 581 mln USD, Adj. EBITDA 1 035 mln USD, Adj. FCF 524 mln USD, generacja 39,9 TWh, liquidity 2,1 mld USD; 26 lutego 2026) - https://www.globenewswire.com/news-release/2026/02/26/3246096/0/en/Talen-Energy-Reports-Fourth-Quarter-and-Full-Year-2025-Results.html
-- 🔵 Talen Energy - Q1 2026 earnings release (przychody 1 129 mln USD, Adj. EBITDA 473 mln USD, Adj. FCF 350 mln USD, generacja 15,6 TWh, capacity factor 55,1%, guidance FY2026; 5 maja 2026) - https://ir.talenenergy.com/news-releases/news-release-details/talen-energy-reports-fourth-quarter-and-full-year-2025-results
-- 🟠 StockTitan - Talen Q1 2026 wyniki i guidance; emisja 4 mld USD senior notes (6,125% 2031 + 6,375% 2033), net leverage 3,1x; zamknięcie Cornerstone 15 czerwca 2026 - https://www.stocktitan.net/news/TLN/talen-energy-reports-first-quarter-2026-results-reaffirms-2026-ifiux9jegmsw.html
-- 🟠 StockTitan - zamknięcie akwizycji Cornerstone (15 czerwca 2026; 3,45 mld USD, 2,55 mld gotówki + 2 399 998 akcji, 2 451 MW, flota pro forma ~15,6 GW) - https://www.stocktitan.net/sec-filings/TLN/8-k-talen-energy-corp-reports-material-event-7291c9964680.html
-- 🟠 Utility Dive - akwizycja Cornerstone (2 451 MW gazu w PJM, 3,45 mld USD; 16 stycznia 2026) - https://www.utilitydive.com/news/talen-in-deal-to-buy-26-gw-of-gas-plants-in-pjm-for-35b/809826/
-- 🟠 POWER Magazine - AWS PPA ~18 mld USD, implikowana cena ~68,90 USD/MWh, all-in cost ~27 USD/MWh (2025) - https://www.powermag.com/talen-amazon-launch-18b-nuclear-ppa-a-grid-connected-ipp-model-for-the-data-center-era/
-- 🟠 EnkiAI - 17-letni AWS PPA, implikowana cena ~68,90 USD/MWh - https://enkiai.com/nuclear/aws-data-center-talen-energy/
-- 🟠 Data Center Frontier - status apelacji FERC Talen (Fifth Circuit, 28 stycznia 2025) - https://www.datacenterfrontier.com/energy/article/55264293/talen-energy-continues-behind-the-meter-power-fight-for-aws-data-center-campus
-- 🟠 ANS / Nuclear Newswire - odrzucenie ISA Talen-Amazon przez FERC (1 listopada 2024) - https://www.ans.org/news/article-6534/ferc-rejects-interconnection-deal-for-talenamazon-data-centers/
-- 🟠 Utility Dive - zlecenie FERC dla PJM ws. ko-lokacji dużych obciążeń (18 grudnia 2025) - https://www.utilitydive.com/news/ferc-pjm-colocation-data-center/808368/
-- 🟠 Akerman LLP - FERC nakazuje PJM nowe zasady dla ko-lokacji i BTM (grudzień 2025) - https://www.akerman.com/en/perspectives/ferc-directs-pjm-to-establish-new-rules-and-guidelines-for-co-located-load-and-behind-the-meter-generation.html
-- 🟠 FERC - Interconnection of Large Loads (ANOPR, docket RM26-4) - https://www.ferc.gov/rm26-4
-- 🟠 World Nuclear News - LOI X-energy/Talen ws. SMR Xe-100 (marzec 2026) i intencja uprate'ów Susquehanna - https://www.world-nuclear-news.org/articles/x-energy-talen-to-assess-deployment-of-multiple-smr-plants
-- 🟠 NucNet - X-energy i Talen oceniają projekty SMR w PJM (3 stycznia 2026 / marzec 2026) - https://www.nucnet.org/news/x-energy-and-talen-to-explore-smr-projects-in-us-power-market-3-1-2026
 <!-- spolki:zrodla:end -->

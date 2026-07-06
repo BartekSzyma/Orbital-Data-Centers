@@ -82,15 +82,5 @@ Konkurencja układa się wzdłuż kilku osi:
 <!-- network:peers:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Microchip - 8-K / earnings release Q4 & FY2026 (przychody, segmenty): https://last10k.com/sec-filings/mchp
-- 🔵 Microchip 10-Q Q1 FY2026 - Segment Information (struktura segmentów i linii produktowych): https://www.companiesmarketcap.com/aud/microchip-technology/sec-reports-10q/0000827054-25-000133/
-- 🔵 Microchip RTG4 product page (RTG4, QML Class V, TID): https://www.microchip.com/en-us/products/fpgas-and-plds/radiation-tolerant-fpgas/rtg4-radiation-tolerant-fpgas
-- 🔵 SatNews / Microchip - SST38LF6401RT SuperFlash: https://satnews.com/2020/12/15/microchip-fabs-a-new-radiation-tolerant-super-flash-memory-device-for-space-missions/
-- 🟠 EENews Europe - MIC69303RT (COTS rad-tolerant LDO dla LEO): https://www.eenewseurope.com/en/microchip-launches-its-first-cots-rad-tolerant-power-management-chip-for-leo-designs/
-- 🟠 Yahoo Finance / Morgan Stanley (udział A&D ~18%, maj 2026): https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-raises-price-targets-214700120.html
-- 🟠 Simply Wall St / Microchip FY2025 (spadek przychodu -42,3%): https://finance.yahoo.com/news/microchip-technology-full-2025-earnings-113830516.html
-- 🔵 Microchip 10-K FY2026 (zależność od foundry, montaż/test): https://www.companiesmarketcap.com/inr/microchip-technology/sec-reports-10k/0000827054-26-000016/
-- 🟠 Intelmarketresearch - Radiation Tolerant Memory (rynek pamięci RT, konkurenci): https://www.intelmarketresearch.com/radiation-tolerant-memory-market-25606
 <!-- spolki:zrodla:end -->

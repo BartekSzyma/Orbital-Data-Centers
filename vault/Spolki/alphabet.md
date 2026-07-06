@@ -77,9 +77,5 @@ Drugie ryzyko jest technologiczno-konkurencyjne i dotyczy samego Suncatchera. Sa
 <!-- network:peers:end -->
 
 <!-- spolki:zrodla:start -->
-## Zródła
 
-- 🔵 Alphabet Q4 i FY2025 Earnings Release (4 lut 2026) - https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf
-- 🟠 Google Research Blog - Project Suncatcher (4 lis 2025) - https://blog.google/technology/research/google-project-suncatcher/
-- 🟠 Szacunki udziałów rynku cloud (Synergy Research Group, Canalys, Statista), Q2/Q4 2025
 <!-- spolki:zrodla:end -->

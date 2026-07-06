@@ -30,10 +30,10 @@ Ekspozycja Planet na orbitalne compute jest zatem kompetencyjna, a nie produktow
 > Grafiki z materiałów spółki / IR (prawa właściciela, użycie redakcyjne). Pełny rejestr: `Spolki/assets/_licencje.json`.
 
 ![](assets/planet-labs-1-f1c6941fcb974c464f69ec320930e383.jpg)
-*![Pelican-2 first light wide](. Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*![Pelican-2 first light wide](. Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 ![](assets/planet-labs-2-2bbf17532eff92c42a6237505d4c0405.jpg)
-*![Pelican AI Insights](. Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*![Pelican AI Insights](. Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 <!-- spolki:grafiki:end -->
 
@@ -72,16 +72,5 @@ Drugie ryzyko jest technologiczno-konkurencyjne. Onboard edge computing jest na 
 <!-- network:peers:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Planet Q1 FY2026 earnings release (przychód FY2025 244,4 mln USD; Q1 FY2026 66,3 mln USD): https://s29.q4cdn.com/903184914/files/doc_earnings/2026/q1/earnings-result/PL-Q1-26-Press-Release.pdf
-- 🔵 Planet IR - Quarterly Results: https://investors.planet.com/financials/quarterly-results/default.aspx
-- 🟠 eoportal - Planet Pelican (specyfikacja, bateria ~650 Wh, moc ~600 W, Jetson Orin): https://www.eoportal.org/satellite-missions/planet-pelican
-- 🟠 Planet - Pelican Constellation (onboard NVIDIA Jetson, AI Insights): https://www.planet.com/constellations/pelican/
-- 🟠 AeroMorning - Planet Successfully Runs AI in Space (test onboard AI, 7 kwietnia 2026): https://aeromorning.com/en/planet-successfully-runs-ai-in-space/
-- 🟠 SpaceCapital - constellation scale (200+ satelitów, 650+ wystrzelonych, ~25 TB/dzień): https://www.spacecapital.com/blogs/planet-labs-the-operating-system-anchoring-a-prosperous-world
-- 🟠 OrbitalRadar - Planet Labs (48 stacji naziemnych, downlink ~10 Gbps): https://orbitalradar.com/satellites/operator/planet-labs
-- 🟠 Future Market Insights - Commercial Satellite Imaging Market (konkurencja): https://www.futuremarketinsights.com/reports/commercial-satellite-imaging-market
-- 🟠 Investing.com - FY2025 revenue (transkrypt earnings call): https://www.investing.com/news/transcripts/earnings-call-transcript-planet-labs-pbc-misses-q1-2025-forecasts-stock-falls-93CH-3940858
-- 🟠 Edge Computing in Space Market Report (DataIntelo): https://dataintelo.com/report/edge-computing-in-space-market
 <!-- spolki:zrodla:end -->

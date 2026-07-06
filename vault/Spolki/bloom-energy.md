@@ -214,37 +214,5 @@ Terminy techniczne linkowane są do wspólnego pliku [[_slownik]] (m.in. [[_slow
 <!-- spolki:slownik:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Bloom Energy - wyniki Q4/FY2025 (finanse, backlog, bilans, related party, koncentracja) - https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-with-Record-Full-Year-Revenues/default.aspx
-- 🔵 Bloom Energy - 10-K FY2024 (SEC; segmentacja, ryzyka, konkurencja) - https://d18rn0p25nwr6d.cloudfront.net/CIK-0001664703/b060a4f0-2303-4788-8817-067896a02ba0.pdf
-- 🔵 Bloom Energy - 10-K FY2025 (SEC; patenty 380/183/252/416, koncentracja klientów 43/13/12%, 2 214 FTE, geografia) - https://stocklight.com/stocks/us/nyse-be/bloom-energy/annual-reports/nyse-be-2026-10K-26612479.pdf
-- 🔵 Bloom Energy - Q1 2026 earnings release (przychód 751,1 mln USD, podniesiony guidance FY2026) - https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-Reports-Record-First-Quarter-2026-Results-and-Raises-Full-Year-2026-Guidance/default.aspx
-- 🔵 Bloom Energy - Q3 2025 earnings release (kwartalne wyniki, related party, baza wdrożeń) - https://s29.q4cdn.com/452919417/files/doc_financials/2025/q3/Q3-2025-Earnings-release.pdf
-- 🔵 Bloom Energy - 10-Q Q3 2025 (SEC; related party Note 12: Brookfield Fund JVs 288,0 mln USD, SK ecoplant deconsolidation) - https://d18rn0p25nwr6d.cloudfront.net/CIK-0001664703/2dc27c1c-0f1c-4c37-8457-70756234addd.html
-- 🔵 Bloom Energy - 10-Q Q1 2026 (SEC; related party 373,3 mln USD, equity in loss Fund JVs) - https://d18rn0p25nwr6d.cloudfront.net/CIK-0001664703/6a88d214-0384-42d2-aa96-64a09b8b1d02.pdf
-- 🔵 Bloom Energy / Oracle - rozszerzona umowa do 2,8 GW (1,2 GW contracted and deploying, warrant) - https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-and-Oracle-Expand-Strategic-Partnership-to-Deploy-up-to-2-8-GW-to-Accelerate-AI-Infrastructure-Build-Out/default.aspx
-- 🔵 Bloom Energy / Equinix - rozszerzenie >100 MW w 19 IBX (start 1 MW pilot 2015) - https://www.bloomenergy.com/news/bloom-energy-expands-data-center-power-agreement-with-equinix-surpassing-100mw/
-- 🔵 Bloom Energy / Brookfield - partnerstwo 5 mld USD (komunikat Bloom) - https://www.bloomenergy.com/news/brookfield-and-bloom-energy-announce-5-billion-strategic-ai-infrastructure-partnership/
-- 🔵 Nebius / Bloom Energy - Master Fuel Cell Capacity Agreement 328 MW (do 2,6 mld USD service fees wg 6-K Nebius) - https://nebius.com/newsroom/nebius-and-bloom-energy-partner-to-power-ai-infrastructure-build-out
-- 🔵 Bloom Energy Server 6.5 datasheet (emisje CO2/NOx/SOx/CO/VOC, sprawność, hałas) - https://www.bloomenergy.com/wp-content/uploads/bloom-energy-server-datasheet-feb-2026.pdf
-- 🔵 Bloom Energy - How Bloom Reduces Emissions technical note (biogaz/wodór carbon neutral) - https://www.bloomenergy.com/resource/how-bloom-reduces-emissions-technical-note/
-- 🟠 Motley Fool - Bloom Energy Q1 2026 earnings call transcript (Project Jupiter 2,45 GW, service attach 100%, backlog DC poza Oracle) - https://www.fool.com/earnings/call-transcripts/2026/04/28/bloom-energy-be-q1-2026-earnings-transcript/
-- 🟠 QYResearch / Intel Market Research - globalny rynek SOFC, top 3 ~87-88% udziału - dane wtórne (płatny raport)
-- 🔵 Bloom Energy + AEP (1 GW framework, 100 MW initial) - https://www.bloomenergy.com/news/bloom-energy-announces-gigawatt-fuel-cell-procurement-agreement-with-aep-to-power-ai-data-centers/
-- 🔵 Bloom Energy - strona produktowa Energy Server (technologia SOFC, baza wdrożeń) - https://www.bloomenergy.com/resource/bloom-energy-server/
-- 🔵 Bloom Energy - strona dla data center (90 dni, 99,999%, 20-500 MW) - https://www.bloomenergy.com/industries/data-center-power/
-- 🔵 Bloom Energy - Investor Presentation luty 2026 (capacity 2 GW, partnerstwa) - https://s29.q4cdn.com/452919417/files/doc_presentations/2026/Feb/08/Investor-Presentation-February-2026.pdf
-- 🔵 Bloom Energy - 2025 Impact Report (historia, patenty, footprint) - https://www.bloomenergy.com/wp-content/uploads/2025-bloom-energy-impact-report.pdf
-- 🟠 Brookfield partnership (5 mld USD) - Dow Jones via Morningstar - https://www.morningstar.com/news/dow-jones/202510133633/bloom-energy-brookfield-asset-management-form-5-billion-ai-infrastructure-partnership-update
-- 🟠 Oracle 2,8 GW / 1,2 GW - Bloom IR via Futu - https://news.futunn.com/en/post/71437062/oracle-has-reached-a-power-purchase-agreement-with-bloom-energy
-- 🟠 Data Center Dynamics - Equinix, CoreWeave, Amazon, ponad 400 MW DC - https://www.datacenterdynamics.com/en/news/bloom-energy-reports-record-q2-amidst-surging-data-center-interest/
-- 🟠 Utility Dive - capacity 2 GW, 15-20% mniej paliwa - https://www.utilitydive.com/news/bloom-energy-says-its-on-track-for-2-gw-annual-production-capacity/804291/
-- 🟠 Global Market Insights - udział ~18% prime power stationary fuel cells - https://www.gminsights.com/industry-analysis/prime-power-stationary-fuel-cell-market
-- 🟠 Mordor Intelligence - ~60% North American DC fuel cell shipments - https://www.mordorintelligence.com/industry-reports/fuel-cell-market-industry
-- 🟠 Future Market Insights - 20-24% udział Bloom w DC fuel cells - https://www.futuremarketinsights.com/reports/fuel-cell-for-data-center-market
-- 🟠 FuelCell Energy FY2025 results (konkurent) - https://www.renewable-energy-industry.com/news/world/article-7159-fuelcell-focuses-on-data-center-market-fuel-cell-specialist-increases-revenue-by-41-percent-in-2025-gross-loss-reduced
-- 🟠 BESS / AI data center guide (capex, konkurencja) - https://howtostoreelectricity.com/ai-data-centre-bess/
-- 🟠 GreyB - portfel patentowy Bloom - https://insights.greyb.com/bloom-energy-patents/
-- 🟠 Xueqiu - CCTC separator plates (proxy single-source, nieoficjalne) - https://xueqiu.com/8639077578/379296748
 <!-- spolki:zrodla:end -->

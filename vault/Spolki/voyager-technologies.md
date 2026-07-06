@@ -34,13 +34,13 @@ Voyager wnosi też kompetencje czysto orbitalno-operacyjne z przejętych spółe
 > Grafiki z materiałów spółki / IR (prawa właściciela, użycie redakcyjne). Pełny rejestr: `Spolki/assets/_licencje.json`.
 
 ![](assets/voyager-technologies-1-eae513bb5ab2fe1b8958e09386c84d7c.jpg)
-*1. **Space Edge™ na ISS - ilustracja produktu. Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*1. **Space Edge™ na ISS - ilustracja produktu. Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 ![](assets/voyager-technologies-2-ee334127a6fb9e2af529e4fb458740bf.jpg)
-*2. **Bishop Airlock - overview / ilustracja główna. Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*2. **Bishop Airlock - overview / ilustracja główna. Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 ![](assets/voyager-technologies-3-4bdffc5ba89ebdb819bfeae41d6da5cc.png)
-*3. **Bishop Airlock - schemat satellite deployment. Źródło: kimi-web-img.moonshot.cn; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
+*3. **Bishop Airlock - schemat satellite deployment. Źródło: materiały spółki / IR; licencja: materiały spółki / IR - prawa właściciela, użycie redakcyjne.*
 
 <!-- spolki:grafiki:end -->
 
@@ -234,39 +234,5 @@ Lokalne hasła specyficzne dla Voyager:
 <!-- spolki:slownik:end -->
 
 <!-- spolki:zrodla:start -->
-## Zrodla
 
-- 🔵 Voyager Technologies - wyniki Q4 i FY 2025 (przychody, segmenty, backlog, marże, FCF) - https://investors.voyagertechnologies.com/news/news-details/2026/Voyager-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-Enters-2026-with-Record-Backlog-Increases-2026-Revenue-Guidance/default.aspx
-- 🔵 Voyager Technologies - wyniki Q1 2026 (przychody, strata, backlog, płynność, guidance, nowa struktura segmentów) - https://voyagertechnologies.com/press-releases/voyager-reports-first-quarter-2026-financial-results-reports-1q-record-backlog-increases-2026-revenue-guidance/
-- 🔵 Voyager Technologies - earnings release Q1 2026 (PDF; segmenty, FCF, book-to-bill) - https://s206.q4cdn.com/740209347/files/doc_financials/2026/q1/2026-Q1-Earnings-Release-Exhibit-99-1-1.pdf
-- 🔵 Voyager Technologies - earnings presentation Q1 2026 (PDF; NASA CLD, CapEx, IRAD, guidance) - https://s206.q4cdn.com/740209347/files/doc_financials/2026/q1/VOYG-Q1-2026-Earnings-Presentation.pdf
-- 🔵 Starlab Space - inwestycja Janus Henderson (20 lis 2025) - https://starlab-space.com/press-releases/starlab-secures-strategic-investment-from-janus-henderson/
-- 🔵 Voyager Technologies - Mitsubishi Corporation jako klient Starlab (12 sty 2026) - https://voyagertechnologies.com/press-releases/mitsubishi-corporation-joins-starlab-as-major-space-station-customer/
-- 🔵 Voyager Technologies - komunikat o zamknięciu IPO (akcje, cena, wpływy netto) - https://investors.voyagertechnologies.com/news/news-details/2025/Voyager-Announces-Closing-of-Initial-Public-Offering/default.aspx
-- 🔵 Voyager Technologies - emisja obligacji zamiennych 435 mln USD (listopad 2025) - https://investors.voyagertechnologies.com/news/news-details/2025/Voyager-Technologies-Inc--Prices-Upsized-435-0-Million-Convertible-Senior-Notes-Offering/default.aspx
-- 🔵 Voyager Technologies - 10-K FY 2025 (10 mar 2026; Business, Risk Factors, bilans) - https://s206.q4cdn.com/740209347/files/doc_financials/2025/q4/Voyager-Technologies-FY-25-10K_Final.pdf
-- 🔵 Voyager Technologies - 10-Q Q3 2025 (dług, credit facility) - https://s206.q4cdn.com/740209347/files/doc_financials/2025/q3/2025-Q3-Voyager-10-Q-Financials_Final.pdf
-- 🔵 Voyager Technologies - 10-Q Q2 2025 (przejęcie LEOcloud) - https://s206.q4cdn.com/740209347/files/doc_financials/2025/q2/2025-Q2-Voyager-10-Q-Financials_Final.pdf
-- 🔵 Voyager - press release Space Edge na ISS (15 wrz 2025; 30× downlink) - https://voyagertechnologies.com/press-releases/voyager-launches-first-multi-cloud-region-in-space-to-transform-real-time-data-processing/
-- 🔵 Voyager + Red Hat - Space Edge / RHEL (11 maj 2026) - https://voyagertechnologies.com/press-releases/voyager-and-red-hat-propel-red-hat-enterprise-linux-into-orbit-with-space-edge-micro-datacenters/
-- 🔵 Voyager - Bishop Airlock (strona produktu) - https://voyagertechnologies.com/space-solutions/bishop-airlock/
-- 🔵 Voyager - Vantage (GNC, star trackery, ceny) - https://voyagertechnologies.com/vantage/
-- 🔵 Voyager - przejęcie ExoTerra (paź 2025; Halo, heritage SDA) - https://investors.voyagertechnologies.com/news/news-details/2025/Voyager-Acquires-ExoTerra-Bolstering-American-Propulsion-Capabilities/default.aspx
-- 🟠 Washington Technology - strategia IPO, Starlab, koncentracja klientów (19 maj 2025) - https://www.washingtontechnology.com/companies/2025/05/voyager-further-illuminates-space-strategy-in-ipo-filing/405426/
-- 🟠 MarketBeat - earnings call Q4 2025 (segment Adjusted EBITDA) - https://www.marketbeat.com/earnings/reports/2026-3-9-voyager-technologies-incde-stock/
-- 🟠 Yahoo Finance - szósty patent Bishop/Starlab (13 lut 2026) - https://finance.yahoo.com/news/voyager-technologies-patent-nasa-deal-200817196.html
-- 🟠 Factories in Space - LEOcloud, Altius, partnerstwa - https://www.factoriesinspace.com/leocloud
-- 🟠 Fortune Business Insights - rynek space-based data center (maj 2026) - https://www.fortunebusinessinsights.com/space-based-data-center-market-115870
-- 🟠 Dataintelo - rynek orbital data center / edge computing in space, top 5 graczy (wrz 2025) - https://dataintelo.com/report/orbital-data-center-market
-- 🟠 Introl - wyścig orbitalnych centrów danych 2026 (konkurenci, funding) - https://introl.com/blog/orbital-data-centers-space-computing-race-2026
-- 🟠 Compworth - profil Axiom Space (revenue, funding, wycena) - https://compworth.com/company/axiom-space
-- 🟠 The Register - Space Edge / RHEL, brak ujawnionej specyfikacji sprzętu (12 maj 2026) - https://www.theregister.com/off-prem/2026/05/12/red-hat-gives-rhel-101-the-boot-into-orbit/5238373
-- 🟠 TipRanks - podsumowanie callu wynikowego Q1 2026 (NASA next phase) (8 maj 2026) - https://www.tipranks.com/news/company-announcements/voyager-technologies-signals-growth-over-profits-in-2026
-- 🟠 Morningstar - debiut IPO VOYG, wycena pierwszego dnia (12 cze 2025) - https://www.morningstar.com/stocks/voyagers-big-ipo-pop-shows-appeal-defense-tech-stocks
-- 🟠 Reuters/Yahoo Finance - wycena ~3,8 mld USD w dniu debiutu (11 cze 2025) - https://finance.yahoo.com/news/voyager-technologies-valued-3-8-172135913.html
-- 🟠 Renaissance Capital - wycena IPO VOYG (10 cze 2025) - https://www.renaissancecapital.com/IPO-Center/News/111474/Space-and-defense-company-Voyager-Technologies-prices-upsized-IPO-at-$31-ab
-- 🟠 stockanalysis.com - kapitalizacja VOYG (14 maj 2026) - https://stockanalysis.com/stocks/voyg/market-cap/
-- 🟠 Yahoo Finance - Key Statistics VOYG (market cap, EV) - https://finance.yahoo.com/quote/VOYG/key-statistics/
-- 🟠 NASA State-of-the-Art Small Spacecraft Technology 2025 (Altius DogTag/MagTag) - https://ntrs.nasa.gov/api/citations/20250000142/downloads/SOA%202025_Final.pdf
-- 🔴 multiples.vc - szacunek wartości akwizycji LEOcloud (niepotwierdzony przez spółkę) - https://multiples.vc/public-comps/voyager-technologies-valuation-multiples
 <!-- spolki:zrodla:end -->
